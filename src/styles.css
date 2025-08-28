@@ -1,7 +1,13 @@
 :root {
-    --background-color: #293133;
-    --font-color-primary: #8A00C4;
+    --background-color: #fff;
+    --font-color-primary: #000;
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 
 body {
     background-color: var(--background-color);
