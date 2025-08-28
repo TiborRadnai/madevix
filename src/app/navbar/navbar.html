@@ -1,1 +1,22 @@
-<p>navbar works!</p>
+  <div class="menu-bar">
+    <a href="/" class="logo-link">
+      <img src="assets/images/nexoraLogoMini.png" alt="NEXORA Logo" class="logo-image" />
+    </a>
+    <button class="hamburger" *ngIf="!isMenuOpen" (click)="toggleMenu()">☰</button>
+  </div>
+
+  <div class="menu-container" [class.show]="isMenuOpen">
+    <div class="logo">
+      <h1>NEXORA</h1>
+      <p class="slogan">Webentwicklung in einer neuen Dimension</p>
+    </div>
+
+    <button class="close-menu" (click)="toggleMenu()">✕</button>
+
+    <ul class="nav flex-column">
+      <li class="nav-item"><a class="nav-link" href="#">Webseitenerstellung</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Preise für die Webseitenerstellung</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Referenzen</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Kontaktaufnahme</a></li>
+    </ul>
+  </div>
