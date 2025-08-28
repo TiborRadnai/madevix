@@ -1,0 +1,68 @@
+/* .introduction {
+  position: relative;
+  /* height: 100svh; - TESZTELÉS ALATT A STYLES.CSS-ben
+  background-image: url("bg-introduction.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+} */
+.introduction {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.intro-content {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  max-width: 1200px;
+  width: 100%;
+  align-items: center;
+}
+
+.intro-text {
+  flex: 1;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+.intro-text h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 1rem;
+}
+
+.intro-text p {
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  line-height: 1.6;
+  color: #444;
+}
+
+.intro-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-image img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 768px) {
+  .intro-content {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .intro-image img {
+    width: 80%;
+  }
+}
