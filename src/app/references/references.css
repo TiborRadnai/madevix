@@ -1,0 +1,124 @@
+.references-section {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.references-carousel {
+  position: relative;
+  overflow: hidden;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.references-title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  text-align: center;
+  margin: 5rem;
+  font-weight: 700;
+  color: var(--hover-color);
+  letter-spacing: 1px;
+}
+
+.references-track {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 100%;
+}
+
+.references-slide {
+  min-width: 100%;
+  padding: 2rem;
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.references-slide:hover {
+  transform: scale(1.02);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.35);
+}
+
+.references-slide img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.references-slide:hover img {
+  transform: scale(1.01);
+}
+
+.references-caption {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: var(--font-color-primary);
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 0.5px;
+}
+
+.references-nav {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  font-size: 2.5rem;
+  font-weight: 200;
+  background: transparent;
+  border: none;
+  padding: 1rem 1rem;
+  cursor: pointer;
+  z-index: 1;
+  transition: font-size 0.3s ease, color 0.3s ease;
+}
+
+.references-nav:hover {
+  color: var(--hover-color);
+  transform: translateY(-50%) scale(1.1);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.references-nav.prev {
+  left: 1px;
+}
+
+.references-nav.next {
+  right: 1px;
+}
+
+.references-indicator {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.references-dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 6px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.references-dot.active {
+  background-color: #333;
+}
+
+@media (max-width: 768px) {
+  .references-title {
+    font-size: 2rem;
+  }
+
+  .references-slide {
+    padding: 1rem;
+  }
+
+  .references-caption {
+    font-size: 0.9rem;
+  }
+}

@@ -1,68 +1,72 @@
-/* .introduction {
-  position: relative;
-  /* height: 100svh; - TESZTELÉS ALATT A STYLES.CSS-ben
-  background-image: url("bg-introduction.jpg");
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-} */
-.introduction {
+.intro-section {
+  display: flex;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-}
-
-.intro-content {
-  display: flex;
-  flex-direction: row;
-  gap: 4rem;
-  max-width: 1200px;
   width: 100%;
-  align-items: center;
+  overflow: hidden;
 }
 
 .intro-text {
-  flex: 1;
+  flex: .8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem 6rem;
+  background: linear-gradient(135deg, #efeeff 0%, #dbe9ff 100%);
   font-family: 'Roboto', sans-serif;
   color: #333;
 }
 
 .intro-text h2 {
-  font-size: clamp(2rem, 4vw, 3rem);
-  margin-bottom: 1rem;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: var(--hover-color);
 }
 
 .intro-text p {
-  font-size: clamp(1rem, 1.5vw, 1.2rem);
-  line-height: 1.6;
+  font-size: 1.2rem;
+  line-height: 1.8;
   color: #444;
+  text-align: justify;
 }
 
 .intro-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  flex: 0.8;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .intro-image img {
-  max-width: 100%;
-  height: auto;
-  border: 1px solid #000;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-@media (max-width: 768px) {
-  .intro-content {
+@media (max-width: 1130px) {
+  .intro-section {
     flex-direction: column;
-    gap: 2rem;
-    text-align: center;
+    height: auto;
+  }
+
+  .intro-text {
+    padding: 2rem;
+  }
+
+  .intro-text h2 {
+    font-size: 2rem;
+  }
+
+  .intro-text p {
+    font-size: 1rem;
+  }
+
+  .intro-image {
+    height: auto;
   }
 
   .intro-image img {
-    width: 80%;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
   }
 }
+
