@@ -1,0 +1,27 @@
+<section class="references-section">
+  <h2 class="references-title">Ein Blick auf unsere Arbeit</h2>
+
+  <div class="references-carousel">
+    <button class="references-nav prev" (click)="prevSlide()">&#10094;</button>
+
+    <div class="references-track" [style.transform]="transformStyle">
+      <div class="references-slide" *ngFor="let item of references">
+        <img [src]="item.image" [alt]="item.caption" />
+        <p class="references-caption">{{ item.caption }}</p>
+      </div>
+    </div>
+
+    <button class="references-nav next" (click)="nextSlide()">&#10095;</button>
+  </div>
+
+  <div class="references-indicator">
+    <span 
+      class="references-dot" 
+      *ngFor="let item of references; let i = index" 
+      [class.active]="i === currentIndex">
+    </span>
+  </div>
+</section>
+
+
+
