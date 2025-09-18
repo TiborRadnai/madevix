@@ -1,0 +1,24 @@
+<section class="process-section">
+  <h2 class="process-title">A weboldalkészítés lépései</h2>
+
+  <div class="process-card">
+    <div class="process-columns">
+      <div class="process-column" *ngFor="let column of [0, 1]">
+        <div class="process-item" *ngFor="let step of steps.slice(column * (steps.length / 2), (column + 1) * (steps.length / 2))">
+          <div class="step-header">
+            <i class="step-icon" [class]="step.icon"></i>
+            <h3 class="step-title">{{ step.title }}</h3>
+          </div>
+          <p class="step-description">{{ step.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+

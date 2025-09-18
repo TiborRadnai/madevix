@@ -10,8 +10,11 @@ import { CommonModule } from '@angular/common';
 })
 export class References {
   references = [
-    { image: '/assets/images/bg-image1.jpg', caption: 'www.beispielseite1.de' },
-    { image: '/assets/images/bg-choose-nexora.jpg', caption: 'www.beispielseite2.de' },
+    { image: '/assets/images/references/mymadeira.webp', caption: 'www.mymadeira.hu' },
+    { image: '/assets/images/references/hairflair.webp', caption: 'www.hairflair.de' },
+    { image: '/assets/images/references/nimbusx.webp', caption: 'www.nimbus-x.com' },
+    { image: '/assets/images/references/portuplay.webp', caption: 'www.portuplay.hu' },
+    { image: '/assets/images/references/woodman.webp', caption: 'www.woodman.com' },
     // ...
   ];
 
