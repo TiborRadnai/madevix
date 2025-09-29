@@ -1,0 +1,153 @@
+.addon-section {
+  padding: 6rem 2rem;
+  background-color: #eef2f5;
+  color: #333;
+}
+
+.addon-title,
+.addon-intro {
+  text-align: center;
+}
+
+.addon-title {
+  font-size: 3.8rem;
+  font-weight: 500;
+  color: var(--hover-color);
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.addon-title::after {
+  content: "";
+  display: block;
+  width: 600px;
+  height: 4px;
+  margin: 0.5rem auto 0;
+  background-color: var(--hover-color);
+  border-radius: 2px;
+}
+
+.addon-intro {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto 4rem;
+  color: #555;
+}
+
+.addon-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding: 2rem 2rem 4rem;
+  justify-content: center;
+}
+
+.addon-card {
+  flex: 0 0 auto;
+  width: 320px;
+  min-height: 420px;
+  padding: 2.5rem;
+  border-radius: 16px;
+  border: 2px solid #00e0ff; 
+  box-shadow:
+    0 0 8px rgba(0, 224, 255, 0.6),
+    0 0 16px rgba(0, 224, 255, 0.4),
+    0 0 24px rgba(0, 224, 255, 0.2);
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+  scroll-snap-align: start;
+}
+
+
+.addon-card:hover {
+  transform: scale(1.06);
+  box-shadow:
+    0 0 12px rgba(0, 224, 255, 0.8),
+    0 0 24px rgba(0, 224, 255, 0.6),
+    0 0 36px rgba(0, 224, 255, 0.4);
+}
+
+.addon-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--blue-font-color);
+}
+
+.addon-card p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.addon-card i {
+  font-size: 2rem;
+  color: var(--hover-color);
+}
+
+.addon-icon {
+  width: 80px;
+  height: 80px;
+  margin-top: 50px;
+  color: var(--hover-color);
+  transition: transform 0.3s ease, color 0.3s ease, filter 0.3s ease;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.addon-card:hover .addon-icon {
+  transform: scale(1.15) rotate(-1deg);
+  color: var(--blue-font-color);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+  animation: pulse 0.6s ease-in-out;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.12); }
+  100% { transform: scale(1); }
+}
+
+@media (max-width: 1023px) {
+  .addon-grid {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    gap: 1.5rem;
+  }
+
+  .addon-card {
+    width: 280px;
+    min-height: auto;
+    padding: 2rem;
+  }
+
+  .addon-icon {
+    width: 64px;
+    height: 64px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .addon-title {
+    font-size: 2.4rem;
+  }
+
+  .addon-title::after {
+    width: 200px;
+    height: 3px;
+  }
+
+  .addon-intro {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+}

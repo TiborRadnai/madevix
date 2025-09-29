@@ -1,0 +1,45 @@
+.header {
+  position: relative;
+  /* height: 100svh; - TESZTELÉS ALATT A STYLES.CSS-ben*/ 
+  background-image: url("bg-image1.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 5; /* alacsonyabb, mint a menü, de a háttér fölött */
+  padding: 1rem;
+}
+
+.hero-text h1 {
+  font-size: clamp(2.5rem, 6vw + 2.5rem, 10rem); /* rugalmas, de hatalmas */
+  color: var(--font-color-secondary);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* enyhe elsötétítés */
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 1.2;
+}
+
+.hero-text h3 {
+    color: var(--font-color-secondary);
+    font-size: clamp(.8rem, 2vw + 1rem, 3rem); /* rugalmas, de hatalmas */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* enyhe elsötétítés */
+    letter-spacing: 0.05em;
+    line-height: 1.2;
+}
+
+.hero-text::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}

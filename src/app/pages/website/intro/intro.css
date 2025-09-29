@@ -1,0 +1,132 @@
+.intro-section {
+  position: relative;
+  height: 100svh;
+  overflow: hidden;
+  background-color: black;
+  z-index: 0;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  animation: fadeInVideo 2s ease-in forwards;
+  animation-delay: 0.5s;
+  z-index: -2;
+}
+
+@keyframes fadeInVideo {
+  to {
+    opacity: 1;
+  }
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  z-index: -1;
+}
+
+.intro-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+  color: var(--font-color-secondary);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  padding: 3rem;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  opacity: 0;
+  animation: fadeInUp 1.5s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.typewriter {
+  font-size: clamp(2.5rem, 6vw, 6rem);
+  font-family: "Roboto", sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid var(--hover-color);
+  animation: blink 0.7s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.cta-button {
+  margin-top: 1.5rem;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  background-color: var(--hover-color);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.tech-strip {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  z-index: 1;
+  padding-top: 10px;
+}
+
+.tech-strip-inner {
+  display: flex;
+  width: max-content;
+  animation: scrollLogos 40s linear infinite;
+}
+
+.logo-row {
+  display: flex;
+  gap: 3rem;
+}
+
+.tech-strip img {
+  height: 60px;
+  padding: 0 20px;
+  flex-shrink: 0;
+  opacity: 0.9;
+  transition: transform 0.3s ease;
+}
+
+.tech-strip img:hover {
+  transform: scale(1.1);
+}
+
+@keyframes scrollLogos {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+

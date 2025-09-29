@@ -1,0 +1,21 @@
+  <div class="menu-bar">
+    <a href="/" class="logo-link">
+      <img src="assets/images/nexoraLogoMini.png" alt="NEXORA Logo" class="logo-image" />
+    </a>
+    <button class="hamburger" *ngIf="!isMenuOpen" (click)="toggleMenu()">☰</button>
+  </div>
+
+  <div class="menu-container" [class.show]="isMenuOpen">
+    <div class="logo">
+      <h1>NEXORA</h1>
+      <p class="slogan">Webfejlesztés új dimenzióban</p>
+    </div>
+
+    <button class="close-menu" (click)="toggleMenu()">✕</button>
+    <ul class="nav flex-column">
+      <li class="nav-item"><a class="nav-link" routerLink="/website" (click)="toggleMenu()">Weboldalkészítés</a></li>
+      <li class="nav-item"><a class="nav-link" routerLink="/pricing" (click)="toggleMenu()">Áraink</a></li>
+      <li class="nav-item"><a class="nav-link" routerLink="/portfolio" (click)="toggleMenu()">Referenciák</a></li>
+      <li class="nav-item"><a class="nav-link" routerLink="/contact" (click)="toggleMenu()">Kapcsolatfelvétel</a></li>
+    </ul>
+  </div>

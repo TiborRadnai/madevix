@@ -1,0 +1,46 @@
+<section class="references-section">
+  <h2 class="references-title">Egy pillantás a munkáinkra</h2>
+  <div class="references-carousel">
+    <div 
+      class="references-track" 
+      [ngClass]="{ 'no-transition': disableTransition }" 
+      [style.transform]="transformStyle"
+      (transitionend)="onTransitionEnd()">
+          <div class="references-slide" *ngFor="let item of references">
+            <div class="mockup-frame">
+              <div class="mockup-topbar"></div>
+              <div class="mockup-screen">
+                <div class="iframe-wrapper">
+                  <iframe [src]="item.url" frameborder="0"></iframe>
+                </div>
+              </div>
+              <div class="mockup-bottom"></div>
+            </div>
+            <p class="references-caption">
+              <ng-container *ngIf="item.type === 'live'; else plainText">
+              <a [href]="item.url" target="_blank" rel="noopener noreferrer" class="caption-link">
+                {{ item.caption }} ↗
+              </a>
+              </ng-container>
+              <ng-template #plainText>
+                {{ item.caption }}
+              </ng-template>
+              <span class="reference-badge" [ngClass]="item.type">
+                {{ item.type === 'live' ? 'Élő oldal' : 'Demo projekt' }}
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="references-nav-wrapper">
+          <button class="references-nav prev" (click)="prevSlide()">&#10094;</button>
+          <button class="references-nav next" (click)="nextSlide()">&#10095;</button>
+        </div>
+        <div class="references-indicator">
+          <span 
+            class="references-dot" 
+            *ngFor="let item of referencesRaw; let i = index" 
+            [class.active]="getActiveDotIndex() === i">
+          </span>
+        </div>
+  </div>
+</section>

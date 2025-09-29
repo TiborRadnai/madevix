@@ -1,0 +1,89 @@
+<section class="order-section">
+  <h2 class="order-title">Megrendelés</h2>
+  <p class="order-intro">Töltsd ki az alábbi űrlapot, és hamarosan felvesszük veled a kapcsolatot!</p>
+
+  <form class="order-form" id="orderForm" (ngSubmit)="onSubmit(form)" #form="ngForm">
+    <label for="name">Név *</label>
+    <input type="text" id="name" name="name" required [(ngModel)]="formData.name" />
+
+    <label for="location">Cím (ország, város) *</label>
+    <input type="text" id="location" name="location" required [(ngModel)]="formData.location" />
+
+    <label for="phone">Telefonszám</label>
+    <input type="tel" id="phone" name="phone" [(ngModel)]="formData.phone" />
+
+    <label for="email">Email cím *</label>
+    <input type="email" id="email" name="email" required [(ngModel)]="formData.email" />
+
+    <label for="tone">Hangvétel</label>
+    <select id="tone" name="tone" [(ngModel)]="formData.tone">
+      <option value="">Válassz...</option>
+      <option value="tegezés">Tegeződés</option>
+      <option value="magázás">Magázódás</option>
+    </select>
+
+    <label for="language">Weboldal nyelve *</label>
+    <select id="language" name="language" required [(ngModel)]="formData.language">
+      <option value="">Válassz...</option>
+      <option value="magyar">Magyar</option>
+      <option value="angol">Angol</option>
+      <option value="német">Német</option>
+      <option value="egyéb">Egyéb</option>
+    </select>
+
+    <label for="type">Új weboldal vagy felújítás? *</label>
+    <select id="type" name="type" required [(ngModel)]="formData.type">
+      <option value="">Válassz...</option>
+      <option value="új">Új weboldalt szeretnék</option>
+      <option value="felújítás">Meglévőt szeretnék felújíttatni</option>
+    </select>
+
+    <label for="siteType">Milyen típusú weboldalt szeretnél? *</label>
+    <select id="siteType" name="siteType" required [(ngModel)]="formData.siteType">
+      <option value="">Válassz...</option>
+      <option value="onepage">Onepage</option>
+      <option value="multi">Több oldalas</option>
+      <option value="ceges">Céges</option>
+      <option value="magán">Magánjellegű</option>
+      <option value="blog">Blog</option>
+      <option value="portfólió">Portfólió</option>
+      <option value="landing">Landing page</option>
+    </select>
+
+    <label for="urgency">Milyen gyorsan kellene? *</label>
+    <select id="urgency" name="urgency" required [(ngModel)]="formData.urgency">
+      <option value="">Válassz...</option>
+      <option value="2 hét">2 héten belül</option>
+      <option value="1 hónap">1 hónapon belül</option>
+      <option value="később">1 hónapon túl</option>
+    </select>
+
+    <label for="priceTier">Melyik árkategóriát választottad? *</label>
+    <select id="priceTier" name="priceTier" required [(ngModel)]="formData.priceTier">
+      <option value="">Válassz...</option>
+      <option value="alap">Alap</option>
+      <option value="közepes">Közepes</option>
+      <option value="prémium">Prémium</option>
+    </select>
+
+    <label for="details">Részletek</label>
+    <textarea id="details" name="details" rows="8" placeholder="Írd le részletesen, mire van szükséged..." [(ngModel)]="formData.details"></textarea>
+
+    <button type="submit">Megrendelem</button>
+  </form>
+
+  <div class="order-info">
+    <h3>Mi történik ezután?</h3>
+    <p>Miután elküldted az űrlapot, nem kapsz automatikus árajánlatot, és nem indul el semmilyen fizetési folyamat. Ez nem egy webshop, hanem egy induló párbeszéd.</p>
+    <p>Minden projekt egyedi, ezért először áttekintem az igényeidet, és ha látom, hogy valóban tudunk együtt dolgozni, akkor válaszolok személyesen. Ez lehet egy rövid email, vagy egy egyeztetés, ahol pontosítjuk a részleteket.</p>
+    <p>A célom nem az, hogy bármit eladjunk — hanem hogy valami olyat építsünk, ami méltó hozzád és a márkádhoz. Ha úgy érzed, hogy ez a megközelítés neked való, akkor örömmel veszem az üzeneted.</p>
+  </div>
+
+  <div class="popup" *ngIf="showPopup">
+    <div class="popup-content">
+      <button class="close-btn" (click)="closePopup()">×</button>
+      <h2>Igényét megkaptuk!</h2>
+      <p>Hamarosan felvesszük Önnel a kapcsolatot.</p>
+    </div>
+  </div>
+</section>
