@@ -2,11 +2,17 @@
 
 :root {
   --background-color: #efeeff;
+  --secondary-background-color: #cdf5ff;
   --hover-color: #1F51FF;
   --font-color-primary: #222;
   --font-color-secondary: #f0f8ff;
   --icon-color: #00ffff;
   --blue-font-color: #00ccff;
+  --neon-blue: #00e0ff;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 html, body {
@@ -23,3 +29,4 @@ body {
 section {
     height: 100svh;
 }
+

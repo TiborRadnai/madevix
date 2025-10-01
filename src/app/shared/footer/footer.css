@@ -1,0 +1,94 @@
+.site-footer {
+  background-color: #111;
+  color: #ccc;
+  padding: 4rem 2rem;
+  font-size: 0.95rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-brand h3 {
+  color: var(--hover-color);
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-nav a {
+  display: block;
+  color: #ccc;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: var(--hover-color);
+}
+
+.footer-contact i {
+  margin-right: 0.5rem;
+  color: var(--hover-color);
+}
+
+.email-link {
+  color: #eee;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.email-link:hover {
+  color: var(--hover-color);
+}
+
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-right: 1rem;
+  color: #ccc;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: var(--hover-color);
+}
+
+.social-icons i {
+  font-size: 1.2rem;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-nav a {
+    margin: 0.3rem 0;
+  }
+
+  .social-icons a {
+    display: inline-block;
+    margin: 0.5rem;
+  }
+}

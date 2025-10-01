@@ -1,0 +1,57 @@
+.direct-contact {
+  padding: 2rem 1rem;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 3rem auto;
+  box-shadow: 0 4px 16px var(--font-color-primary);
+  text-align: center;
+}
+.direct-contact h2 {
+    margin-bottom: 1.2rem;
+    color: var(--hover-color);
+    text-decoration: underline;
+}
+
+.contact-item {
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.contact-item svg {
+  color: #007bff;
+  font-size: 1.3rem;
+  margin-right: 1rem;
+}
+
+.direct-contact a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.direct-contact a:hover {
+  color: var(--hover-color);
+  transform: translateY(-1px);
+}
+
+.direct-contact a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.direct-contact a:hover::after {
+  transform: scaleX(1);
+}

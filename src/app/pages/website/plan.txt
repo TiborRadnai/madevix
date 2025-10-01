@@ -1,0 +1,48 @@
+🧠 UX szempontból: mit akar az ügyfél, amikor ide kattint?
+
+Nagyon jól látod: nem kérdésként kell megszólítani, hanem megerősíteni a döntését. Az ügyfél már érdeklődik, tehát a bevezető inkább így hangozhat:
+
+    „A weboldalad nem csak jelenlét — ez az első benyomásod. Mi segítünk, hogy emlékezetes legyen.”
+
+Vagy:
+
+    „Készen állsz a digitális szintlépésre? Mi már igen.”
+
+✅ Tartalmi szekciók, ahogy javasoltad — és ez nagyon jó struktúra:
+1. Bevezetés
+
+    Rövid, magabiztos szöveg
+
+    CTA: „Nézd meg, hogyan dolgozunk”
+
+2. Folyamatok
+
+    Konzultáció → Tervezés → Fejlesztés → Tesztelés → Átadás
+
+    Lehet timeline vagy ikonblokk
+
+3. Technológiák és eszközök
+
+    Angular, Node.js, Firebase, Figma, GitHub, stb.
+
+    Modern, megbízható stack
+
+4. Extrák és bővítmények
+
+    SEO, Analytics, Chatbot, Blog, Webshop, stb.
+
+    Külön választható modulok
+
+5. Ötletek, inspiráció
+
+    Linkek Envato-ra, ThemeForest-re
+
+    Képek, sablonok, moodboardok
+
+    CTA: „Tetszik valamelyik? Jelezd nekünk!”
+
+6. Megrendelés indítása
+
+    Űrlap vagy gomb: „Kérj ajánlatot”
+
+    Kapcsolódás a contact oldalhoz

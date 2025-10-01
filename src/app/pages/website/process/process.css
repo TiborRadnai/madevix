@@ -1,0 +1,161 @@
+.process-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 2rem;
+  position: relative;
+  overflow-y: auto;
+  background-color: var(--font-color-secondary);
+  color: var(--font-color-primary);
+}
+
+
+.process-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: url('/assets/images/backgrounds/bg-process.jpg');  */
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  z-index: -1;
+}
+
+.process-title {
+  font-size: 3.8rem;
+  font-weight: 500;
+  text-align: center;
+  margin: 2rem 0;
+  color: var(--hover-color);
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.process-title::after {
+  content: "";
+  display: block;
+  width: 600px;
+  height: 4px;
+  margin: 0.5rem auto 0;
+  background-color: var(--hover-color);
+  border-radius: 2px;
+}
+
+.process-card {
+  width: 100%;
+  max-width: 1200px;
+  height: calc(100vh - 10rem); /* vagy 90vh, ha jobban illik */
+  overflow-y: auto;
+  padding: 3rem;
+  border-radius: 24px;
+  border: 2px solid #00e0ff; /* neonkék */
+  box-shadow:
+    0 0 8px rgba(0, 224, 255, 0.6),
+    0 0 16px rgba(0, 224, 255, 0.4),
+    0 0 24px rgba(0, 224, 255, 0.2);
+  color: #eee;
+  background-image: url('./bg-process.webp'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(20, 20, 20, 0.85);
+  background-blend-mode: overlay;
+  backdrop-filter: blur(4px);
+}
+
+.process-card::-webkit-scrollbar {
+  width: 6px;
+}
+.process-card::-webkit-scrollbar-thumb {
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 3px;
+}
+
+.process-columns {
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.process-column {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.process-item {
+  text-align: left;
+}
+
+.step-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.step-icon {
+  font-size: 1.8rem;
+  color: var(--icon-color);
+  flex-shrink: 0;
+  width: 2rem;
+  text-align: center;
+}
+
+.step-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--blue-font-color);
+}
+
+.step-description {
+  font-size: 1.1rem;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .process-columns {
+    flex-direction: column;
+  }
+
+  .process-column {
+    flex: 1 1 100%;
+  }
+
+  .step-title {
+    font-size: 1.3rem;
+  }
+
+  .step-description {
+    font-size: 1rem;
+  }
+
+  .process-card {
+    height: calc(100vh - 6rem);
+    padding: 2rem;
+  }
+
+  .process-title {
+    font-size: 2rem;
+    margin-bottom: 2rem !important;  
+  }
+
+  .process-title::after {
+    width: 120px;
+    height: 3px;
+  }  
+}
+
+@media (max-width: 960px) {
+    .process-section {
+    height: auto;
+  }
+}

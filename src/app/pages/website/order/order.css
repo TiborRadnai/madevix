@@ -1,0 +1,228 @@
+.order-section {
+  position: relative;
+  padding: 6rem 2rem 8rem;
+  background-color: #f5f7fa;
+  color: var(--font-color-primary);
+  text-align: center;
+  min-height: auto !important;
+  height: auto !important;
+  overflow: visible !important;
+}
+
+.order-title {
+  font-size: 3.8rem;
+  font-weight: 500;
+  text-align: center;
+  margin: 2rem 0;
+  color: var(--hover-color);
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.order-title::after {
+  content: "";
+  display: block;
+  width: 600px;
+  height: 4px;
+  margin: 0.5rem auto 0;
+  background-color: var(--hover-color);
+  border-radius: 2px;
+}
+
+.order-intro {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  color: #666;
+}
+
+.order-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto 4rem;
+  text-align: left;
+}
+
+.order-form label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.order-form input,
+.order-form textarea,
+.order-form select {
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #333;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.order-form select:focus,
+.order-form input:focus,
+.order-form textarea:focus {
+  border-color: var(--hover-color);
+  box-shadow: 0 0 0 3px rgba(0, 224, 255, 0.2);
+  outline: none;
+}
+
+.order-form textarea {
+  min-height: 200px;
+  resize: vertical;
+}
+
+.order-form button {
+  grid-column: span 2;
+  padding: 1rem 2rem;
+  background-color: var(--hover-color);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.order-form button:hover {
+  background-color: var(--blue-font-color);
+}
+
+/* Egyedi többválasztós lenyíló */
+.multi-select-wrapper {
+  grid-column: span 2;
+}
+
+.multi-select-wrapper label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.multi-select {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  color: #333;
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.multi-select:focus {
+  border-color: var(--hover-color);
+  box-shadow: 0 0 0 3px rgba(0, 224, 255, 0.2);
+  outline: none;
+}
+
+.multi-select .placeholder {
+  color: #999;
+}
+
+.multi-select .options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 6px 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: none;
+  z-index: 10;
+  padding: 1rem;
+}
+
+.multi-select.open .options {
+  display: block;
+}
+
+.multi-select .options label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.order-info {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Mobil optimalizálás */
+@media (max-width: 768px) {
+  .order-form {
+    grid-template-columns: 1fr;
+  }
+
+  .order-title {
+    font-size: 2.4rem;
+  }
+
+  .order-title::after {
+    width: 200px;
+    height: 3px;
+  }
+
+  .order-form button {
+    grid-column: span 1;
+  }
+
+  .multi-select-wrapper {
+    grid-column: span 1;
+  }
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 50, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup-content {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 50, 0.5);
+  width: 90%;
+  max-width: 400px;
+  backdrop-filter: blur(12px);
+}
+
+.close-btn {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+}

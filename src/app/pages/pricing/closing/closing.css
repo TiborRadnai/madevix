@@ -1,0 +1,20 @@
+.closing-section {
+  min-height: auto;
+  height: auto;    
+  padding: 3rem 2rem;
+  background: #fff;
+  text-align: center;
+}
+
+.closing-text {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .closing-section {
+    padding: 2rem 1rem;
+  }
+}
+
