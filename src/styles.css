@@ -8,7 +8,9 @@
   --font-color-secondary: #f0f8ff;
   --icon-color: #00ffff;
   --blue-font-color: #00ccff;
+  --neon-blue: #00e0ff;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -27,3 +29,4 @@ body {
 section {
     height: 100svh;
 }
+

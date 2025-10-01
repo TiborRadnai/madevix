@@ -1,4 +1,3 @@
-// app.config.ts
 import {
   ApplicationConfig,
   provideZoneChangeDetection,

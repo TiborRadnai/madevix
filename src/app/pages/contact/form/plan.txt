@@ -1,0 +1,35 @@
+✅ 1. Rövid, emberi bevezető
+
+Ne csak „Írj nekünk” — legyen benne személyesség:
+
+    „Van egy ötleted, amit megvalósítanál? Egy weboldal, ami méltó lenne hozzád? Írj bátran — válaszolunk, nem sablonban.”
+
+Ez az első sor máris oldja a távolságot.
+✅ 2. Kapcsolati űrlap (letisztult, UX-barát)
+
+Mezők:
+
+    Név
+
+    E-mail
+
+    Telefonszám (opcionális)
+
+    Üzenet
+
+    Cél (pl. weboldal készítés, konzultáció, árajánlat)
+
+    GDPR checkbox: „Elfogadom az adatkezelési tájékoztatót”
+
+UX finomságok:
+
+    Floating label vagy glassmorphism mezők
+
+    Animált validáció (pl. piros keret + tooltip)
+
+    Küldés után: animált „Köszönjük, hamarosan válaszolunk!”
+
+✅ 3. Direkt elérhetőség
+
+Ha van e-mail vagy telefon:
+html

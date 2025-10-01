@@ -1,6 +1,6 @@
 .header {
   position: relative;
-  background-image: url("/assets/images/backgrounds/sections-bg.jpg");
+  background-image: url("./sections-bg.webp");
   background-size: cover;
   background-position: center;
   overflow: hidden;

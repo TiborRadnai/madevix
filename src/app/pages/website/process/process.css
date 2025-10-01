@@ -58,7 +58,7 @@
     0 0 16px rgba(0, 224, 255, 0.4),
     0 0 24px rgba(0, 224, 255, 0.2);
   color: #eee;
-  background-image: url('/assets/images/backgrounds/bg-process.jpg'); 
+  background-image: url('./bg-process.webp'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
