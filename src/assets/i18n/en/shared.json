@@ -1,0 +1,11 @@
+{
+  "navbar": {
+    "slogan": "Web development in a new dimension",
+    "menu": {
+      "website": "Website creation",
+      "pricing": "Pricing",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    }
+  }
+}

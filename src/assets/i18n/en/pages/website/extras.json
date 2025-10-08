@@ -1,0 +1,28 @@
+{
+  "addons": {
+    "title": "Extras and extensions",
+    "intro": "These features are optional, but if you want a truly effective, interactive, and SEO-friendly website, it’s worth including them.",
+    "items": {
+      "seo": {
+        "title": "SEO optimization",
+        "description": "Better ranking on Google, technical and content fine-tuning."
+      },
+      "analytics": {
+        "title": "Google Analytics",
+        "description": "Real-time stats, visitor behavior, conversions."
+      },
+      "blog": {
+        "title": "Blog module",
+        "description": "Updatable content, SEO-friendly structure, returning visitors."
+      },
+      "chat": {
+        "title": "Chatbox",
+        "description": "Instant contact, support, AI or live responses."
+      },
+      "ai": {
+        "title": "AI integration (Copilot)",
+        "description": "Smart content generation, automated replies, UX refinement."
+      }
+    }
+  }
+}

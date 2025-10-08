@@ -1,7 +1,7 @@
 .cta-section {
   min-height: auto;
   height: auto;    
-  background: #e8f2fd;
+  background: #b8daff;
   padding: 6rem 2rem;
   text-align: center;
 }
@@ -32,6 +32,7 @@
   border-radius: 8px;
   cursor: pointer;
   transition: background 0.3s ease;
+  text-decoration: none;
 }
 
 .cta-primary {

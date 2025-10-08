@@ -1,71 +1,74 @@
-<app-header></app-header>
+<shared-header
+  [title]="'portfolio.header.title' | translate"
+  [subtitle]="'portfolio.header.subtitle' | translate"
+></shared-header>
 
 <div class="portfolio-wrapper">
-  <h2 class="portfolio-title">Referenciák</h2>
+  <h2 class="portfolio-title">{{ 'portfolio.title' | translate }}</h2>
 
   <div class="portfolio-item alt">
     <img src="assets/images/references/mymadeira.webp" alt="Projekt 1">
     <div class="portfolio-content">
-      <h3>myMadeira</h3>
-      <h4>Madeira – Az örök tavasz szigete </h4>
-      <p>Ez az oldal egy vizuálisan gazdag utazási portál, amely Madeira szigetét mutatja be túrázóknak, felfedezőknek és természetrajongóknak. Látványos slider képek, galéria, túrainformációk és helyi tippek segítik az utazót, miközben a dizájn letisztult és érzelmileg vonzó.</p>
-      <p>Ideális példa arra, hogyan lehet egy desztinációt élménnyé formálni</p>
-      <a href="https://www.mymadeira.hu" target="_blank">Megtekintés</a>
+      <h3>{{ 'portfolio.items.mymadeira.title' | translate }}</h3>
+      <h4>{{ 'portfolio.items.mymadeira.subtitle' | translate }}</h4>
+      <p>{{ 'portfolio.items.mymadeira.description1' | translate }}</p>
+      <p>{{ 'portfolio.items.mymadeira.description2' | translate }}</p>
+      <a href="https://www.mymadeira.hu" target="_blank">{{ 'portfolio.items.mymadeira.link' | translate }}</a>
     </div>
   </div>
 
   <div class="portfolio-item">
     <img src="assets/images/references/alakformalas.webp" alt="Projekt 2">
     <div class="portfolio-content">
-      <h3>Alakformálás Pilisvörösvár</h3>
-      <h4>Testformálás, ahogy még nem láttad </h4>
-      <p>Kiss-Horn Veronika személyes történetéből induló oldal, amely a cellulitmasszázs, maderoterápia és HIEMT kezelések világát mutatja be. Az oldal edukatív, bizalmat építő és hiteles — a szolgáltatások részletesen bemutatva, képekkel és technológiai leírásokkal.</p>
-      <p>Példa arra, hogyan lehet egyéni történetből bizalmi márkát építeni</p>
-      <a href="https://alakformalaspilisvorosvar.hu/" target="_blank">Megtekintés</a>
+      <h3>{{ 'portfolio.items.alakformalas.title' | translate }}</h3>
+      <h4>{{ 'portfolio.items.alakformalas.subtitle' | translate }}</h4>
+      <p>{{ 'portfolio.items.alakformalas.description1' | translate }}</p>
+      <p>{{ 'portfolio.items.alakformalas.description2' | translate }}</p>
+      <a href="https://alakformalaspilisvorosvar.hu/" target="_blank">{{ 'portfolio.items.alakformalas.link' | translate }}</a>
     </div>
   </div>
 
   <div class="portfolio-item">
     <img src="assets/images/references/hairflair.webp" alt="Projekt 2">
     <div class="portfolio-content">
-      <h3>HairFlair (demo)</h3>
-      <h4>Emma Saradeth – Friseurkunst mit Herz</h4>
-      <p>Egy német nyelvű bemutatóoldal, amely egy barátságos, modern fodrászszalon hangulatát közvetíti. A szolgáltatások (vágás, színezés, hajápolás) professzionális képekkel és precíz leírásokkal jelennek meg. A dizájn meleg, otthonos, mégis elegáns.</p>
-      <p>Tökéletes példa egy személyes márkaépítésre a szépségiparban</p>
-      <a href="https://tibchiripp.hu/hairflair/" target="_blank">Megtekintés</a>
+      <h3>{{ 'portfolio.items.hairflair.title' | translate }}</h3>
+      <h4>{{ 'portfolio.items.hairflair.subtitle' | translate }}</h4>
+      <p>{{ 'portfolio.items.hairflair.description1' | translate }}</p>
+      <p>{{ 'portfolio.items.hairflair.description2' | translate }}</p>
+      <a href="https://tibchiripp.hu/hairflair/" target="_blank">{{ 'portfolio.items.hairflair.link' | translate }}</a>
     </div>
   </div>
   
   <div class="portfolio-item">
     <img src="assets/images/references/nimbusx.webp" alt="Projekt 2">
     <div class="portfolio-content">
-      <h3>Nimbus-X (demo)</h3>
-      <h4>Légi túrák Madeirán – NIMBUS-X </h4>
-      <p>Ez az oldal egy exkluzív légitúra szolgáltatást mutat be, ahol Madeira szigete madártávlatból tárul elénk. A vizuális storytelling, a repülési útvonalak, a foglalási rendszer és a flotta bemutatása mind prémium élményt sugall.</p>
-      <p>Ez nem csak utazás — ez élménydizájn a levegőben</p>
-      <a href="https://tibchiripp.hu/nimbusx/" target="_blank">Megtekintés</a>
+      <h3>{{ 'portfolio.items.nimbusx.title' | translate }}</h3>
+      <h4>{{ 'portfolio.items.nimbusx.subtitle' | translate }}</h4>
+      <p>{{ 'portfolio.items.nimbusx.description1' | translate }}</p>
+      <p>{{ 'portfolio.items.nimbusx.description2' | translate }}</p>
+      <a href="https://tibchiripp.hu/nimbusx/" target="_blank">{{ 'portfolio.items.nimbusx.link' | translate }}</a>
     </div>
   </div>
   
   <div class="portfolio-item">
     <img src="assets/images/references/woodman.webp" alt="Projekt 2">
     <div class="portfolio-content">
-      <h3>Woodman (demo)</h3>
-      <h4>Woodman – Letisztult, mégis rejtélyes </h4>
-      <p>Az oldal jelenleg minimális tartalommal bír, de a név és a struktúra alapján egy prémium faipari vagy designmárka előképének tűnik.</p>
-      <p>Alap, amiből vizuális identitást lehet építeni</p>
-      <a href="https://tibchiripp.hu/woodman/" target="_blank">Megtekintés</a>
+      <h3>{{ 'portfolio.items.woodman.title' | translate }}</h3>
+      <h4>{{ 'portfolio.items.woodman.subtitle' | translate }}</h4>
+      <p>{{ 'portfolio.items.woodman.description1' | translate }}</p>
+      <p>{{ 'portfolio.items.woodman.description2' | translate }}</p>
+      <a href="https://tibchiripp.hu/woodman/" target="_blank">{{ 'portfolio.items.woodman.link' | translate }}</a>
     </div>
   </div>
   
   <div class="portfolio-item">
     <img src="assets/images/references/portuplay.webp" alt="Projekt 2">
     <div class="portfolio-content">
-      <h3>Portuplay (demo)</h3>
-      <h4>Játszva tanulj portugálul – PortuPlay</h4>
-      <p>Egy civil kezdeményezés, amely játékos nyelvtanulást kínál portugálul. Memóriajátékok, dalfordítások, szókincsfejlesztés mind vizuálisan támogatva. A dizájn fiatalos, lendületes, és edukatív.</p>
-      <p>Ez az oldal tanulás és játék tökéletes fúziója</p>
-      <a href="https://tibchiripp.hu/PortuPlay/" target="_blank">Megtekintés</a>
+      <h3>{{ 'portfolio.items.portuplay.title' | translate }}</h3>
+      <h4>{{ 'portfolio.items.portuplay.subtitle' | translate }}</h4>
+      <p>{{ 'portfolio.items.portuplay.description1' | translate }}</p>
+      <p>{{ 'portfolio.items.portuplay.description2' | translate }}</p>
+      <a href="https://tibchiripp.hu/PortuPlay/" target="_blank">{{ 'portfolio.items.portuplay.link' | translate }}</a>
     </div>
   </div>   
 </div>

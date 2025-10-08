@@ -1,89 +1,89 @@
-<section class="order-section">
-  <h2 class="order-title">Megrendelés</h2>
-  <p class="order-intro">Töltsd ki az alábbi űrlapot, és hamarosan felvesszük veled a kapcsolatot!</p>
+<section class="order-section" id="order">
+  <h2 class="order-title">{{ 'orderForm.title' | translate }}</h2>
+  <p class="order-intro">{{ 'orderForm.intro' | translate }}</p>
 
   <form class="order-form" id="orderForm" (ngSubmit)="onSubmit(form)" #form="ngForm">
-    <label for="name">Név *</label>
-    <input type="text" id="name" name="name" required [(ngModel)]="formData.name" />
+    <label for="name">{{ 'orderForm.fields.name.label' | translate }}</label>
+    <input type="text" id="name" name="name" required [(ngModel)]="formData.name" placeholder="{{ 'orderForm.fields.name.placeholder' | translate }}" />
 
-    <label for="location">Cím (ország, város) *</label>
-    <input type="text" id="location" name="location" required [(ngModel)]="formData.location" />
+    <label for="location">{{ 'orderForm.fields.location.label' | translate }}</label>
+    <input type="text" id="location" name="location" required [(ngModel)]="formData.location" placeholder="{{ 'orderForm.fields.location.placeholder' | translate }}" />
 
-    <label for="phone">Telefonszám</label>
-    <input type="tel" id="phone" name="phone" [(ngModel)]="formData.phone" />
+    <label for="phone">{{ 'orderForm.fields.phone.label' | translate }}</label>
+    <input type="tel" id="phone" name="phone" [(ngModel)]="formData.phone" placeholder="{{ 'orderForm.fields.phone.placeholder' | translate }}" />
 
-    <label for="email">Email cím *</label>
-    <input type="email" id="email" name="email" required [(ngModel)]="formData.email" />
+    <label for="email">{{ 'orderForm.fields.email.label' | translate }}</label>
+    <input type="email" id="email" name="email" required [(ngModel)]="formData.email" placeholder="{{ 'orderForm.fields.email.placeholder' | translate }}" />
 
-    <label for="tone">Hangvétel</label>
+    <label for="tone">{{ 'orderForm.fields.tone.label' | translate }}</label>
     <select id="tone" name="tone" [(ngModel)]="formData.tone">
-      <option value="">Válassz...</option>
-      <option value="tegezés">Tegeződés</option>
-      <option value="magázás">Magázódás</option>
+      <option value="">{{ 'orderForm.fields.tone.options.default' | translate }}</option>
+      <option value="informal">{{ 'orderForm.fields.tone.options.informal' | translate }}</option>
+      <option value="formal">{{ 'orderForm.fields.tone.options.formal' | translate }}</option>
     </select>
 
-    <label for="language">Weboldal nyelve *</label>
+    <label for="language">{{ 'orderForm.fields.language.label' | translate }}</label>
     <select id="language" name="language" required [(ngModel)]="formData.language">
-      <option value="">Válassz...</option>
-      <option value="magyar">Magyar</option>
-      <option value="angol">Angol</option>
-      <option value="német">Német</option>
-      <option value="egyéb">Egyéb</option>
+      <option value="">{{ 'orderForm.fields.language.options.default' | translate }}</option>
+      <option value="hungarian">{{ 'orderForm.fields.language.options.hungarian' | translate }}</option>
+      <option value="english">{{ 'orderForm.fields.language.options.english' | translate }}</option>
+      <option value="german">{{ 'orderForm.fields.language.options.german' | translate }}</option>
+      <option value="other">{{ 'orderForm.fields.language.options.other' | translate }}</option>
     </select>
 
-    <label for="type">Új weboldal vagy felújítás? *</label>
-    <select id="type" name="type" required [(ngModel)]="formData.type">
-      <option value="">Válassz...</option>
-      <option value="új">Új weboldalt szeretnék</option>
-      <option value="felújítás">Meglévőt szeretnék felújíttatni</option>
+    <label for="projectType">{{ 'orderForm.fields.projectType.label' | translate }}</label>
+    <select id="projectType" name="projectType" required [(ngModel)]="formData.projectType">
+      <option value="">{{ 'orderForm.fields.projectType.options.default' | translate }}</option>
+      <option value="new">{{ 'orderForm.fields.projectType.options.new' | translate }}</option>
+      <option value="redesign">{{ 'orderForm.fields.projectType.options.redesign' | translate }}</option>
     </select>
 
-    <label for="siteType">Milyen típusú weboldalt szeretnél? *</label>
+    <label for="siteType">{{ 'orderForm.fields.siteType.label' | translate }}</label>
     <select id="siteType" name="siteType" required [(ngModel)]="formData.siteType">
-      <option value="">Válassz...</option>
-      <option value="onepage">Onepage</option>
-      <option value="multi">Több oldalas</option>
-      <option value="ceges">Céges</option>
-      <option value="magán">Magánjellegű</option>
-      <option value="blog">Blog</option>
-      <option value="portfólió">Portfólió</option>
-      <option value="landing">Landing page</option>
+      <option value="">{{ 'orderForm.fields.siteType.options.default' | translate }}</option>
+      <option value="onepage">{{ 'orderForm.fields.siteType.options.onepage' | translate }}</option>
+      <option value="multipage">{{ 'orderForm.fields.siteType.options.multipage' | translate }}</option>
+      <option value="business">{{ 'orderForm.fields.siteType.options.business' | translate }}</option>
+      <option value="personal">{{ 'orderForm.fields.siteType.options.personal' | translate }}</option>
+      <option value="blog">{{ 'orderForm.fields.siteType.options.blog' | translate }}</option>
+      <option value="portfolio">{{ 'orderForm.fields.siteType.options.portfolio' | translate }}</option>
+      <option value="landing">{{ 'orderForm.fields.siteType.options.landing' | translate }}</option>
     </select>
 
-    <label for="urgency">Milyen gyorsan kellene? *</label>
+    <label for="urgency">{{ 'orderForm.fields.urgency.label' | translate }}</label>
     <select id="urgency" name="urgency" required [(ngModel)]="formData.urgency">
-      <option value="">Válassz...</option>
-      <option value="2 hét">2 héten belül</option>
-      <option value="1 hónap">1 hónapon belül</option>
-      <option value="később">1 hónapon túl</option>
+      <option value="">{{ 'orderForm.fields.urgency.options.default' | translate }}</option>
+      <option value="2weeks">{{ 'orderForm.fields.urgency.options.2weeks' | translate }}</option>
+      <option value="1month">{{ 'orderForm.fields.urgency.options.1month' | translate }}</option>
+      <option value="later">{{ 'orderForm.fields.urgency.options.later' | translate }}</option>
     </select>
 
-    <label for="priceTier">Melyik árkategóriát választottad? *</label>
-    <select id="priceTier" name="priceTier" required [(ngModel)]="formData.priceTier">
-      <option value="">Válassz...</option>
-      <option value="alap">Alap</option>
-      <option value="közepes">Közepes</option>
-      <option value="prémium">Prémium</option>
+    <label for="budget">{{ 'orderForm.fields.budget.label' | translate }}</label>
+    <select id="budget" name="budget" required [(ngModel)]="formData.budget">
+      <option value="">{{ 'orderForm.fields.budget.options.default' | translate }}</option>
+      <option value="launch">{{ 'orderForm.fields.budget.options.launch' | translate }}</option>
+      <option value="elevate">{{ 'orderForm.fields.budget.options.elevate' | translate }}</option>
+      <option value="ascend">{{ 'orderForm.fields.budget.options.ascend' | translate }}</option>
     </select>
 
-    <label for="details">Részletek</label>
-    <textarea id="details" name="details" rows="8" placeholder="Írd le részletesen, mire van szükséged..." [(ngModel)]="formData.details"></textarea>
+    <label for="details">{{ 'orderForm.fields.details.label' | translate }}</label>
+    <textarea id="details" name="details" rows="8" [(ngModel)]="formData.details" placeholder="{{ 'orderForm.fields.details.placeholder' | translate }}"></textarea>
 
-    <button type="submit">Megrendelem</button>
+    <button type="submit">{{ 'orderForm.submit' | translate }}</button>
   </form>
 
   <div class="order-info">
-    <h3>Mi történik ezután?</h3>
-    <p>Miután elküldted az űrlapot, nem kapsz automatikus árajánlatot, és nem indul el semmilyen fizetési folyamat. Ez nem egy webshop, hanem egy induló párbeszéd.</p>
-    <p>Minden projekt egyedi, ezért először áttekintem az igényeidet, és ha látom, hogy valóban tudunk együtt dolgozni, akkor válaszolok személyesen. Ez lehet egy rövid email, vagy egy egyeztetés, ahol pontosítjuk a részleteket.</p>
-    <p>A célom nem az, hogy bármit eladjunk — hanem hogy valami olyat építsünk, ami méltó hozzád és a márkádhoz. Ha úgy érzed, hogy ez a megközelítés neked való, akkor örömmel veszem az üzeneted.</p>
+    <h3>{{ 'orderForm.info.title' | translate }}</h3>
+    <p>{{ 'orderForm.info.paragraph1' | translate }}</p>
+    <p>{{ 'orderForm.info.paragraph2' | translate }}</p>
+    <p>{{ 'orderForm.info.paragraph3' | translate }}</p>
   </div>
 
   <div class="popup" *ngIf="showPopup">
     <div class="popup-content">
-      <button class="close-btn" (click)="closePopup()">×</button>
-      <h2>Igényét megkaptuk!</h2>
-      <p>Hamarosan felvesszük Önnel a kapcsolatot.</p>
+      <button class="close-btn" (click)="closePopup()">{{ 'orderForm.popup.close' | translate }}</button>
+      <h2>{{ 'orderForm.popup.title' | translate }}</h2>
+      <p>{{ 'orderForm.popup.message' | translate }}</p>
     </div>
   </div>
 </section>

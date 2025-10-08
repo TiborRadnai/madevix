@@ -1,0 +1,28 @@
+{
+  "tech": {
+    "title": "Technologies and tools",
+    "intro": "Nexora is powered by a modern, reliable tech stack. We use tools that are not only fast and stable, but also deliver a premium visual experience.",
+    "cards": {
+      "frontend": {
+        "title": "Frontend",
+        "description": "Component-based, responsive interfaces with modern UI frameworks."
+      },
+      "ui": {
+        "title": "Style and UI",
+        "description": "Quickly customizable, visually consistent interfaces."
+      },
+      "backend": {
+        "title": "Backend and data",
+        "description": "Scalable server-side logic and real-time data handling."
+      },
+      "design": {
+        "title": "Design and development",
+        "description": "Pixel-perfect UI design and dev environments we love to use."
+      },
+      "collab": {
+        "title": "Versioning and collaboration",
+        "description": "Secure development, teamwork, and full control over every line."
+      }
+    }
+  }
+}

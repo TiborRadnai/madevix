@@ -2,33 +2,32 @@
   <div class="footer-content">
     <div class="footer-brand">
       <h3>Nexora</h3>
-      <p>Webfejlesztés új dimenzióban</p>
-    </div>
+      <p>{{ 'footer.slogan' | translate }}</p>    </div>
     <nav class="footer-nav">
-      <a href="/">Főoldal</a>
-      <a href="/website">Weboldalkészítés</a>
-      <a href="/pricing">Áraink</a>
-      <a href="/portfolio">Referenciák</a>
-      <a href="/contact">Kapcsolat</a>
+      <a routerLink="/" role="link">{{ 'footer.nav.home' | translate }}</a>
+      <a routerLink="/website" role="link">{{ 'footer.nav.website' | translate }}</a>
+      <a routerLink="/pricing" role="link">{{ 'footer.nav.pricing' | translate }}</a>
+      <a routerLink="/portfolio" role="link">{{ 'footer.nav.portfolio' | translate }}</a>
+      <a routerLink="/contact" role="link">{{ 'footer.nav.contact' | translate }}</a>
     </nav>
     <div class="footer-contact">
         <p>
             <i class="fas fa-envelope"></i>
-            <a href="mailto:info@nexora.hu" class="email-link">info@nexora.hu</a>
+            <a href="mailto:info@nexora.hu" class="email-link">{{ 'footer.contact.email' | translate }}</a>
         </p>
 
         <div class="social-icons">
-        <a href="https://linkedin.com" target="_blank" rel="noopener">
-            <i class="fab fa-linkedin"></i> LinkedIn
+            <a href="https://linkedin.com" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin"></i> {{ 'footer.contact.linkedin' | translate }}
         </a>
-        <a href="https://github.com" target="_blank" rel="noopener">
-            <i class="fab fa-github"></i> GitHub
+            <a href="https://github.com" target="_blank" rel="noopener">
+            <i class="fab fa-github"></i> {{ 'footer.contact.github' | translate }}
         </a>
         </div>
     </div>
   </div>
   <div class="footer-bottom">
-    <p>&copy; 2025 Nexora. Minden jog fenntartva.</p>
+    <p>{{ 'footer.bottom' | translate }}</p>
   </div>
 </footer>
 

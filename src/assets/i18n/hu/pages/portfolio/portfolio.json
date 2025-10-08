@@ -1,0 +1,53 @@
+{
+  "portfolio": {
+    "header": {
+      "title": "REFERENCIÁK",
+      "subtitle": "Tekintsd meg munkáinkat!"
+    },
+    "title": "Referenciák",
+    "items": {
+      "mymadeira": {
+        "title": "myMadeira",
+        "subtitle": "Madeira – Az örök tavasz szigete",
+        "description1": "Ez az oldal egy vizuálisan gazdag utazási portál, amely Madeira szigetét mutatja be túrázóknak, felfedezőknek és természetrajongóknak. Látványos slider képek, galéria, túrainformációk és helyi tippek segítik az utazót, miközben a dizájn letisztult és érzelmileg vonzó.",
+        "description2": "Ideális példa arra, hogyan lehet egy desztinációt élménnyé formálni",
+        "link": "Megtekintés"
+      },
+      "alakformalas": {
+        "title": "Alakformálás Pilisvörösvár",
+        "subtitle": "Testformálás, ahogy még nem láttad",
+        "description1": "Kiss-Horn Veronika személyes történetéből induló oldal, amely a cellulitmasszázs, maderoterápia és HIEMT kezelések világát mutatja be. Az oldal edukatív, bizalmat építő és hiteles — a szolgáltatások részletesen bemutatva, képekkel és technológiai leírásokkal.",
+        "description2": "Példa arra, hogyan lehet egyéni történetből bizalmi márkát építeni",
+        "link": "Megtekintés"
+      },
+      "hairflair": {
+        "title": "HairFlair (demo)",
+        "subtitle": "Emma Saradeth – Friseurkunst mit Herz",
+        "description1": "Egy német nyelvű bemutatóoldal, amely egy barátságos, modern fodrászszalon hangulatát közvetíti. A szolgáltatások (vágás, színezés, hajápolás) professzionális képekkel és precíz leírásokkal jelennek meg. A dizájn meleg, otthonos, mégis elegáns.",
+        "description2": "Tökéletes példa egy személyes márkaépítésre a szépségiparban",
+        "link": "Megtekintés"
+      },
+      "nimbusx": {
+        "title": "Nimbus-X (demo)",
+        "subtitle": "Légi túrák Madeirán – NIMBUS-X",
+        "description1": "Ez az oldal egy exkluzív légitúra szolgáltatást mutat be, ahol Madeira szigete madártávlatból tárul elénk. A vizuális storytelling, a repülési útvonalak, a foglalási rendszer és a flotta bemutatása mind prémium élményt sugall.",
+        "description2": "Ez nem csak utazás — ez élménydizájn a levegőben",
+        "link": "Megtekintés"
+      },
+      "woodman": {
+        "title": "Woodman (demo)",
+        "subtitle": "Woodman – Letisztult, mégis rejtélyes",
+        "description1": "Az oldal jelenleg minimális tartalommal bír, de a név és a struktúra alapján egy prémium faipari vagy designmárka előképének tűnik.",
+        "description2": "Alap, amiből vizuális identitást lehet építeni",
+        "link": "Megtekintés"
+      },
+      "portuplay": {
+        "title": "Portuplay (demo)",
+        "subtitle": "Játszva tanulj portugálul – PortuPlay",
+        "description1": "Egy civil kezdeményezés, amely játékos nyelvtanulást kínál portugálul. Memóriajátékok, dalfordítások, szókincsfejlesztés mind vizuálisan támogatva. A dizájn fiatalos, lendületes, és edukatív.",
+        "description2": "Ez az oldal tanulás és játék tökéletes fúziója",
+        "link": "Megtekintés"
+      }
+    }
+  }
+}

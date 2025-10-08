@@ -1,0 +1,31 @@
+{
+  "choose": {  
+  "title": "Miért válaszd a Nexorát?",
+  "cards": {
+    "pricing": {
+      "title": "Rugalmas árképzés",
+      "description": "Webfejlesztés egyedi igényekre szabva – átlátható árakkal, rejtett költségek nélkül."
+    },
+    "start": {
+      "title": "Egyszerű indulás",
+      "description": "Weboldal megrendelése online – űrlapon vagy e-mailben, bárhonnan, bármikor."
+    },
+    "tech": {
+      "title": "Modern technológia",
+      "description": "Angular, TypeScript, moduláris CSS – gyors, biztonságos és skálázható megoldások."
+    },
+    "design": {
+      "title": "Professzionális megjelenés",
+      "description": "Dizájn, képszerkesztés, videós tartalmak – egységes arculat, egy kézben."
+    },
+    "analytics": {
+      "title": "Mérhető eredmények",
+      "description": "Google Analytics integrációval segítünk nyomon követni, mi működik – és mi nem."
+    },
+    "ai": {
+      "title": "AI-támogatott tervezés",
+      "description": "Mesterséges intelligenciával segítünk gyorsabban és okosabban dönteni – már az első lépésektől."
+    }
+  }
+}
+}

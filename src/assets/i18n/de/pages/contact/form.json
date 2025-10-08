@@ -1,0 +1,44 @@
+{
+  "contactForm": {
+    "intro": {
+      "title": "Schreib uns!",
+      "line1": "Hast du eine Idee, die du umsetzen möchtest?",
+      "line2": "Eine Website, die wirklich zu dir passt?",
+      "line3": "Schreib uns gerne – wir antworten persönlich."
+    },
+    "formTitle": "Kontaktformular",
+    "fields": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Gib deinen Namen ein"
+      },
+      "email": {
+        "label": "E-Mail",
+        "placeholder": "Gib deine E-Mail-Adresse ein"
+      },
+      "phone": {
+        "label": "Telefonnummer (optional)",
+        "placeholder": "Optional"
+      },
+      "message": {
+        "label": "Nachricht",
+        "placeholder": "Wie können wir helfen?"
+      },
+      "gdpr": {
+        "label": "Ich akzeptiere die Datenschutzerklärung.",
+        "link": "Datenschutzerklärung"
+      }
+     },
+    "submit": "Nachricht senden",
+    "popup": {
+      "title": "Danke für deine Nachricht!",
+      "message": "Deine Nachricht ist eingegangen. Wir melden uns persönlich und sehen, wie wir helfen können.",
+      "close": "×"
+    },
+    "errors": {
+      "invalid": "Bitte fülle alle Pflichtfelder aus!",
+      "sendError": "Beim Senden ist ein Fehler aufgetreten.",
+      "responseError": "Fehler: "
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "inspirations": {
+    "title": "Inspirationen",
+    "intro": "Wenn dir die Ideen fehlen, sieh dir diese Beispiele an — sie helfen dir beim Einstieg!",
+    "cards": {
+      "envato": "Professionelle Vorlagen (Envato)",
+      "dribbble": "Webdesign-Trends (Dribbble)",
+      "webflow": "Beliebte Webflow-Beispiele",
+      "minimal": "Minimalistisches Webdesign"
+    }
+  }
+}

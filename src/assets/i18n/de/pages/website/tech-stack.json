@@ -1,0 +1,28 @@
+{
+  "tech": {
+    "title": "Technologien und Tools",
+    "intro": "Hinter Nexora steht ein modernes, zuverlässiges Technologie-Setup. Wir nutzen Tools, die nicht nur schnell und stabil sind, sondern auch visuell ein Premium-Erlebnis bieten.",
+    "cards": {
+      "frontend": {
+        "title": "Frontend",
+        "description": "Komponentenbasierte, responsive Oberflächen mit modernen UI-Frameworks."
+      },
+      "ui": {
+        "title": "Stil und UI",
+        "description": "Schnell anpassbare, visuell einheitliche Interfaces."
+      },
+      "backend": {
+        "title": "Backend und Daten",
+        "description": "Skalierbare Serverlogik und Echtzeit-Datenverarbeitung."
+      },
+      "design": {
+        "title": "Design und Entwicklung",
+        "description": "Pixelgenaues UI-Design und Entwicklungsumgebungen, die wir lieben."
+      },
+      "collab": {
+        "title": "Versionierung und Zusammenarbeit",
+        "description": "Sicheres Coden, Teamwork und volle Kontrolle über jeden Code-Zeile."
+      }
+    }
+  }
+}

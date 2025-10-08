@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FadeOnScrollDirective } from './fade-on-scroll.directive';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-services',
   standalone: true,
-  imports: [CommonModule, FadeOnScrollDirective],
+  imports: [CommonModule, FadeOnScrollDirective, TranslateModule],
   templateUrl: './services.html',
   styleUrl: './services.css'
 })
@@ -13,57 +14,58 @@ export class Services {
   services = [
     {
       icon: 'fa-solid fa-laptop-code',
-      title: 'Egyedi weboldal fejlesztés',
-      description: 'Modern, gyors és reszponzív weboldalak — egyedi fejlesztéssel vagy sablonos megoldással, ahogy neked a legjobb. A technológiát mindig az igényeidhez igazítjuk.',
+      title: 'services.items.web.title',
+      description: 'services.items.web.description',
       image: 'assets/images/services/webDevelopment.webp'
     },
     {
       icon: 'fa-solid fa-mobile-screen-button',
-      title: 'Mobiloptimalizálás',
-      description: 'Minden eszközön jól működő, letisztult felhasználói élmény — telefonon, tableten, laptopon.',
+      title: 'services.items.mobile.title',
+      description: 'services.items.mobile.description',
       image: 'assets/images/services/responsivity.webp'
     },
     {
       icon: 'fa-solid fa-chart-line',
-      title: 'Teljesítménymérés',
-      description: 'Látogatók, viselkedés, keresések — mérjük, elemezzük, és segítünk javítani az oldal teljesítményét.',
+      title: 'services.items.analytics.title',
+      description: 'services.items.analytics.description',
       image: 'assets/images/services/searchEngineOptimalisation.webp'
     },
     {
       icon: 'fa-solid fa-image',
-      title: 'Képszerkesztés és prémium tartalom',
-      description: 'Minőségi képek, sablonok és grafikai elemek — igény szerint szerkesztve, hogy az oldalad vizuálisan is meggyőző legyen.',
+      title: 'services.items.design.title',
+      description: 'services.items.design.description',
       image: 'assets/images/services/photoEditing.webp'
     },
     {
       icon: 'fa-solid fa-globe',
-      title: 'Domain és tárhely ügyintézés',
-      description: 'Nem kell bajlódnod vele — mindent elintézünk helyetted, a technikai részletektől a beállításokig.',
+      title: 'services.items.domain.title',
+      description: 'services.items.domain.description',
       image: 'assets/images/services/domainRegistration.webp'
     },
     {
       icon: 'fa-solid fa-share-nodes',
-      title: 'Social media integráció',
-      description: 'Facebook, Instagram, LinkedIn — gombok, megosztás, követés, minden egy helyen.',
+      title: 'services.items.social.title',
+      description: 'services.items.social.description',
       image: 'assets/images/services/socialMedia.webp'
     },
     {
       icon: 'fa-solid fa-magnifying-glass',
-      title: 'Alap SEO beállítások',
-      description: 'Technikai keresőoptimalizálás, hogy megtaláljanak a Google-ben — már az induláskor.',
+      title: 'services.items.seo.title',
+      description: 'services.items.seo.description',
       image: 'assets/images/services/seo.webp'
     },
     {
       icon: 'fa-solid fa-comments',
-      title: 'Konzultáció & tanácsadás',
-      description: 'Segítünk kitalálni, hogyan legyen a weboldalad hatékony, szép és célratörő.',
+      title: 'services.items.consulting.title',
+      description: 'services.items.consulting.description',
       image: 'assets/images/services/consulting.webp'
     },
     {
       icon: 'fa-solid fa-shield-halved',
-      title: 'Biztonsági beállítások',
-      description: 'HTTPS, adatvédelem, GDPR-kompatibilitás — minden, ami a biztonságodhoz és a nyugalomhoz kell.',
+      title: 'services.items.security.title',
+      description: 'services.items.security.description',
       image: 'assets/images/services/cyberSecurity.webp'
     }
   ];
 }
+

@@ -1,0 +1,28 @@
+{
+  "addons": {
+    "title": "Extrák és bővítmények",
+    "intro": "Ezek a funkciók nem kötelezőek, de ha igazán hatékony, interaktív és keresőbarát weboldalt szeretnél, érdemes beépíteni őket.",
+    "items": {
+      "seo": {
+        "title": "SEO optimalizálás",
+        "description": "Jobb helyezés a Google-ben, technikai és tartalmi finomhangolás."
+      },
+      "analytics": {
+        "title": "Google Analytics",
+        "description": "Valós idejű statisztikák, látogatói viselkedés, konverziók."
+      },
+      "blog": {
+        "title": "Blogmodul",
+        "description": "Frissíthető tartalom, SEO-barát struktúra, visszatérő látogatók."
+      },
+      "chat": {
+        "title": "Chatbox",
+        "description": "Azonnali kapcsolat, ügyféltámogatás, AI vagy élő válaszadás."
+      },
+      "ai": {
+        "title": "AI integráció (Copilot)",
+        "description": "Intelligens tartalomgenerálás, automatizált válaszok, UX finomítás."
+      }
+    }
+  }
+}

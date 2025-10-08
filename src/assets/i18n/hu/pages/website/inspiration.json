@@ -1,0 +1,12 @@
+{
+  "inspirations": {
+    "title": "Inspirációk",
+    "intro": "Ha nincs ötleted, nézd meg ezeket a példákat — segítenek elindulni!",
+    "cards": {
+      "envato": "Profi sablonok (Envato)",
+      "dribbble": "Webdesign trendek (Dribbble)",
+      "webflow": "Népszerű Webflow példák",
+      "minimal": "Minimalista webdesign"
+    }
+  }
+}

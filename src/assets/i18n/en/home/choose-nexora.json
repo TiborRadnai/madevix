@@ -1,0 +1,31 @@
+{
+  "choose": {     
+  "title": "Why choose Nexora?",
+  "cards": {
+    "pricing": {
+      "title": "Flexible pricing",
+      "description": "Web development tailored to your needs — with transparent rates and no hidden fees."
+    },
+    "start": {
+      "title": "Easy start",
+      "description": "Order your website online — via form or email, anytime, anywhere."
+    },
+    "tech": {
+      "title": "Modern technology",
+      "description": "Angular, TypeScript, modular CSS — fast, secure, and scalable solutions."
+    },
+    "design": {
+      "title": "Professional appearance",
+      "description": "Design, image editing, video content — a unified brand, all in one hand."
+    },
+    "analytics": {
+      "title": "Measurable results",
+      "description": "With Google Analytics integration, we help you track what works — and what doesn’t."
+    },
+    "ai": {
+      "title": "AI-powered planning",
+      "description": "We use artificial intelligence to help you decide faster and smarter — from the very first step."
+    }
+  }
+}
+}

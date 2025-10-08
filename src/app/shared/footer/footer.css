@@ -26,6 +26,7 @@
   margin-bottom: 0.5rem;
   text-decoration: none;
   transition: color 0.3s ease;
+  cursor: pointer; 
 }
 
 .footer-nav a:hover {

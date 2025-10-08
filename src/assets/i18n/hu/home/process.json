@@ -1,0 +1,31 @@
+{
+  "process": {  
+  "title": "A weboldalkészítés lépései",
+  "steps": {
+    "1": {
+      "title": "1. Elképzelés és inspiráció",
+      "description": "Megosztod velünk, milyen weboldalt szeretnél. Segítünk tisztázni a célokat, és akár egy ingyenes tervezetet is küldünk, hogy lásd, mire számíthatsz."
+    },
+    "2": {
+      "title": "2. Tervezés és struktúra",
+      "description": "Közösen kialakítjuk az oldal felépítését, funkcióit és vizuális stílusát. Ha szeretnéd, böngészhetsz inspirációs példák között is."
+    },
+    "3": {
+      "title": "3. Árajánlat és időkeret",
+      "description": "A tervezet alapján kapsz egy átlátható ajánlatot. Meghatározzuk a projekt időtávját, és ha minden rendben, indulhat a munka."
+    },
+    "4": {
+      "title": "4. Fejlesztés és visszajelzés",
+      "description": "Lépésről lépésre építjük fel az oldalt. Közben folyamatosan egyeztetünk, hogy minden úgy alakuljon, ahogy elképzelted."
+    },
+    "5": {
+      "title": "5. Tesztelés és átadás",
+      "description": "Mielőtt átadjuk az oldalt, alaposan leteszteljük: sebesség, biztonság, megjelenés — minden a helyére kerül."
+    },
+    "6": {
+      "title": "6. Fizetés és domain",
+      "description": "Ha minden rendben, jön a fizetés, és megkapod a kész weboldalt a saját domaineden."
+    }
+  }
+}
+}

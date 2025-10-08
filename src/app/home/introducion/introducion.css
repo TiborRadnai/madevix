@@ -43,6 +43,15 @@
   object-fit: cover;
 }
 
+@media (max-width: 1400px) {
+    .intro-section {
+    height: auto;
+  }
+    .intro-image {
+    height: auto;
+  }
+}
+
 @media (max-width: 1130px) {
   .intro-section {
     flex-direction: column;

@@ -1,0 +1,11 @@
+{
+  "navbar": {
+    "slogan": "Webentwicklung in neuer Dimension",
+    "menu": {
+      "website": "Webseitenerstellung",
+      "pricing": "Preise",
+      "portfolio": "Referenzen",
+      "contact": "Kontaktaufnahme"
+    }
+  }
+}

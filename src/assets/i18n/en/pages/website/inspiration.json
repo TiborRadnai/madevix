@@ -1,0 +1,12 @@
+{
+  "inspirations": {
+    "title": "Inspirations",
+    "intro": "If you’re out of ideas, check out these examples — they’ll help you get started!",
+    "cards": {
+      "envato": "Professional templates (Envato)",
+      "dribbble": "Web design trends (Dribbble)",
+      "webflow": "Popular Webflow examples",
+      "minimal": "Minimalist web design"
+    }
+  }
+}

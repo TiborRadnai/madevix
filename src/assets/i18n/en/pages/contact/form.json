@@ -1,0 +1,44 @@
+{
+  "contactForm": {
+    "intro": {
+      "title": "Write to us!",
+      "line1": "Do you have an idea you’d like to realize?",
+      "line2": "A website that would truly reflect you?",
+      "line3": "Feel free to write — we’ll respond."
+    },
+    "formTitle": "Contact form",
+    "fields": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Enter your name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter your email"
+      },
+      "phone": {
+        "label": "Phone number (optional)",
+        "placeholder": "Optional"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Tell us how we can help..."
+      },
+      "gdpr": {
+        "label": "I accept the privacy policy.",
+        "link": "Privacy Policy"
+      }
+    },
+    "submit": "Send message",
+    "popup": {
+      "title": "Thank you for reaching out!",
+      "message": "Your message has been received. We’ll respond personally and see how we can help.",
+      "close": "×"
+    },
+    "errors": {
+      "invalid": "Please fill out all required fields!",
+      "sendError": "An error occurred while sending.",
+      "responseError": "Error: "
+    }
+  }
+}

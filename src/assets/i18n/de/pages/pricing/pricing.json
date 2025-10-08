@@ -1,0 +1,92 @@
+{
+  "pricing": {
+    "header": {
+      "title": "PREISE",
+      "subtitle": "Was kostet eine Website bei uns?"
+    },
+    "title": "Paketangebote",
+    "subtitle": "Drei Stufen, drei Erlebnisse – wähle, was zu dir passt!",
+    "note": {
+      "label": "Hinweis:",
+      "text": "Die angegebenen Preise gelten für Basispakete. Bei individuellen Anforderungen erstellen wir ein maßgeschneidertes Angebot."
+    },
+    "cta": "Angebot anfordern",
+    "packages": {
+      "launch": {
+        "title": "Launch",
+        "tagline": "Das Schwung-Paket",
+        "price": "450 €",
+        "features": {
+          "feature1": "Individuelles, responsives Design",
+          "feature2": "Kontaktformular + E-Mail-Versand",
+          "feature3": "DSGVO-konforme Datenverarbeitung",
+          "feature4": "5 lizenzierte Stockfotos",
+          "feature5": "Basis-SEO (Meta, Alt, Titel)",
+          "feature6": "Live-Schaltung auf Domain",
+          "feature7": "Lizenzierte Komponenten",
+          "feature8": "Technischer Support für 2 Wochen"
+        },
+        "tooltips": {
+          "feature1": "Die Website sieht auf allen Geräten perfekt aus: Mobil, Tablet, Laptop.",
+          "feature2": "Interessenten können dich direkt kontaktieren, die Nachricht kommt per E-Mail.",
+          "feature3": "Die Datenverarbeitung entspricht den EU-Datenschutzrichtlinien – sicher und rechtskonform.",
+          "feature4": "Hochwertige, lizenzierte Bilder, die das Design visuell aufwerten.",
+          "feature5": "Technisch und inhaltlich optimiert für bessere Google-Rankings.",
+          "feature6": "Wir veröffentlichen die fertige Website auf deiner Domain – voll funktionsfähig.",
+          "feature7": "Alle Module sind lizenziert, aktualisierbar und sicher.",
+          "feature8": "Auch nach dem Launch stehe ich zur Verfügung: Fehlerbehebung, Beratung, Feinschliff."
+        }
+      },
+      "elevate": {
+        "title": "Elevate",
+        "tagline": "Das Wachstums-Paket",
+        "price": "850 €",
+        "features": {
+          "feature1": "3–5 Unterseiten",
+          "feature2": "Animierte Elemente, interaktives UX",
+          "feature3": "Anfrageformular + Zusatzfelder",
+          "feature4": "10 lizenzierte Stockfotos",
+          "feature5": "Google-Optimierung",
+          "feature6": "Webanalyse-Integration",
+          "feature7": "Lizenzierte Komponenten",
+          "feature8": "Technischer Support für 1 Monat"
+        },
+        "tooltips": {
+          "feature1": "Mehrere Seiten wie Startseite, Leistungen, Kontakt, Über uns, Blog.",
+          "feature2": "Interaktive Effekte: Hover, Scroll-Animationen, visuelle Dynamik.",
+          "feature3": "Detailliertes Formular mit Projektart, Deadline etc.",
+          "feature4": "Hochwertige, lizenzierte Bilder, die das Design visuell aufwerten.",
+          "feature5": "Technisch auf Google abgestimmt: schnelle Ladezeiten, strukturierte Daten, mobilfreundlich.",
+          "feature6": "Besucherstatistiken, Verhaltensanalyse, Google Analytics Integration.",
+          "feature7": "Alle Module sind lizenziert, aktualisierbar und sicher.",
+          "feature8": "Auch nach dem Launch stehe ich zur Verfügung: Fehlerbehebung, Beratung, Feinschliff."
+        }
+      },
+      "ascend": {
+        "title": "Ascend",
+        "tagline": "Das Markenaufbau-Paket",
+        "price": "1.500 €",
+        "features": {
+          "feature1": "5+ Unterseiten",
+          "feature2": "Premium-UX (Glassmorphism, Animationen)",
+          "feature3": "Mehrsprachige Unterstützung",
+          "feature4": "Admin-Bereich (Basis)",
+          "feature5": "20 lizenzierte Stockfotos",
+          "feature6": "Webshop-Integration (bald verfügbar)",
+          "feature7": "Lizenzierte Komponenten",
+          "feature8": "Technischer Support für 3 Monate"
+        },
+        "tooltips": {
+          "feature1": "Komplexere Struktur: mehrere Inhaltsseiten, Sektionen, Landingpages, Blog oder Portfolio.",
+          "feature2": "Modernes visuelles Erlebnis: transparente Ebenen, sanfte Bewegungen, hochwertige Interaktionen, die Vertrauen schaffen.",
+          "feature3": "Die Website ist in mehreren Sprachen verfügbar – mit Sprachwahl und lokalisierten Inhalten.",
+          "feature4": "Einfaches Interface zur Verwaltung und Aktualisierung eigener Inhalte.",
+          "feature5": "Erweiterter Bildbestand für ein professionelles Erscheinungsbild – alle Bilder sind lizenziert und hochwertig.",
+          "feature6": "Produkte, Warenkorb, Bestellung – alles, was ein Online-Shop braucht.",
+          "feature7": "Alle Module sind lizenziert, aktualisierbar und sicher – z. B. Formularverwaltung, Animationsbibliotheken, Sprachumschalter.",
+          "feature8": "Auch nach dem Launch stehe ich zur Verfügung: Fehlerbehebung, Beratung, Feinschliff, neue Funktionen."
+        }
+      }
+    }
+  }
+}

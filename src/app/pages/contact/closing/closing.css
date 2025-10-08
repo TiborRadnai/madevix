@@ -40,3 +40,11 @@
 .closing-button:hover {
   background: var(--blue-font-color);  
 }
+
+@media (max-width: 768px) {
+    .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem !important;  
+  }
+
+}

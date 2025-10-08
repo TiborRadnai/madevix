@@ -1,0 +1,18 @@
+{
+  "footer": {
+    "slogan": "Web development in a new dimension",
+    "nav": {
+      "home": "Home",
+      "website": "Website creation",
+      "pricing": "Pricing",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    },
+    "contact": {
+      "email": "info@nexora.hu",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    },
+    "bottom": "© 2025 Nexora. All rights reserved."
+  }
+}

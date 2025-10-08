@@ -1,9 +1,10 @@
 <section class="cta-section">
-  <h3 class="cta-title">Készen állsz, hogy elinduljunk?</h3>
-  <p class="cta-subtitle">Válassz csomagot, vagy kérj egyedi ajánlatot — együtt megvalósítjuk, amit elképzeltél.</p>
+  <h3 class="cta-title">{{ 'cta.title' | translate }}</h3>
+  <p class="cta-subtitle">{{ 'cta.subtitle' | translate }}</p>
   <div class="cta-buttons">
-    <button class="cta-primary">Ajánlatot kérek</button>
-    <button class="cta-secondary">Kapcsolatfelvétel</button>
+    <a [routerLink]="['/website']" fragment="order" class="cta-primary">{{ 'cta.primary' | translate }}</a>
+    <a [routerLink]="['/contact']" fragment="form" class="cta-secondary">{{ 'cta.secondary' | translate }}</a>
   </div>
 </section>
+
 

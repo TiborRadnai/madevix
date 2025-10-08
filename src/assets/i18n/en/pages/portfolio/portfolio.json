@@ -1,0 +1,53 @@
+{
+  "portfolio": {
+    "header": {
+      "title": "PORTFOLIO",
+      "subtitle": "Take a look at our work!"
+    },
+    "title": "Portfolio",
+    "items": {
+      "mymadeira": {
+        "title": "myMadeira",
+        "subtitle": "Madeira – The island of eternal spring",
+        "description1": "A visually rich travel portal showcasing Madeira for hikers, explorers, and nature lovers. Stunning sliders, galleries, hiking info, and local tips guide the visitor, while the design remains clean and emotionally engaging.",
+        "description2": "A perfect example of turning a destination into an experience",
+        "link": "View project"
+      },
+      "alakformalas": {
+        "title": "Body Shaping Pilisvörösvár",
+        "subtitle": "Body shaping like you’ve never seen",
+        "description1": "A site born from the personal story of Veronika Kiss-Horn, presenting cellulite massage, maderotherapy, and HIEMT treatments. Educational, trust-building, and authentic — services are clearly explained with visuals and technical details.",
+        "description2": "An example of turning a personal story into a trusted brand",
+        "link": "View project"
+      },
+      "hairflair": {
+        "title": "HairFlair (demo)",
+        "subtitle": "Emma Saradeth – Hair artistry with heart",
+        "description1": "A German-language demo site that conveys the vibe of a friendly, modern hair salon. Services (cutting, coloring, care) are presented with professional images and precise descriptions. The design is warm, welcoming, yet elegant.",
+        "description2": "A great example of personal branding in the beauty industry",
+        "link": "View project"
+      },
+      "nimbusx": {
+        "title": "Nimbus-X (demo)",
+        "subtitle": "Aerial tours in Madeira – NIMBUS-X",
+        "description1": "This site presents an exclusive aerial tour service, offering bird’s-eye views of Madeira. Visual storytelling, flight routes, booking system, and fleet presentation all suggest a premium experience.",
+        "description2": "This isn’t just travel — it’s airborne experience design",
+        "link": "View project"
+      },
+      "woodman": {
+        "title": "Woodman (demo)",
+        "subtitle": "Woodman – Minimal yet mysterious",
+        "description1": "Currently minimal in content, but the name and structure suggest a premium woodworking or design brand in the making.",
+        "description2": "A foundation from which visual identity can grow",
+        "link": "View project"
+      },
+      "portuplay": {
+        "title": "Portuplay (demo)",
+        "subtitle": "Learn Portuguese through play – PortuPlay",
+        "description1": "A grassroots initiative offering playful Portuguese language learning. Memory games, song translations, and vocabulary building — all visually supported. The design is youthful, energetic, and educational.",
+        "description2": "A perfect fusion of learning and play",
+        "link": "View project"
+      }
+    }
+  }
+}

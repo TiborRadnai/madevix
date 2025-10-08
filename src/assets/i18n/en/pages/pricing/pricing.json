@@ -1,0 +1,92 @@
+{
+  "pricing": {
+    "header": {
+      "title": "PRICING",
+      "subtitle": "How much does a website cost with us?"
+    },
+    "title": "Package offers",
+    "subtitle": "Three levels, three experiences — choose what fits you best!",
+    "note": {
+      "label": "Note:",
+      "text": "Prices shown refer to base packages. For custom needs, we’ll provide a tailored quote."
+    },
+    "cta": "Request a quote",
+    "packages": {
+      "launch": {
+        "title": "Launch",
+        "tagline": "The momentum package",
+        "price": "450 €",
+        "features": {
+          "feature1": "Custom, responsive design",
+          "feature2": "Contact form + email delivery",
+          "feature3": "GDPR-compliant data handling",
+          "feature4": "5 licensed stock photos",
+          "feature5": "Basic SEO (meta, alt, titles)",
+          "feature6": "Live deployment to domain",
+          "feature7": "Licensed components",
+          "feature8": "Technical support for 2 weeks"
+        },
+        "tooltips": {
+          "feature1": "Your site looks perfect on all devices: mobile, tablet, laptop.",
+          "feature2": "Visitors can reach you instantly, and messages arrive via email.",
+          "feature3": "Data handling complies with EU privacy regulations — secure and legal.",
+          "feature4": "High-quality, licensed images that elevate your site visually.",
+          "feature5": "Your site is optimized technically and content-wise for better Google ranking.",
+          "feature6": "We publish your site on your domain — fully functional.",
+          "feature7": "All modules are licensed, updatable, and secure.",
+          "feature8": "You’ll still have support after launch: bug fixes, advice, refinements."
+        }
+      },
+      "elevate": {
+        "title": "Elevate",
+        "tagline": "The growth package",
+        "price": "850 €",
+        "features": {
+          "feature1": "3–5 subpages",
+          "feature2": "Animated elements, interactive UX",
+          "feature3": "Quote request form + extra fields",
+          "feature4": "10 licensed stock photos",
+          "feature5": "Google optimization",
+          "feature6": "Web analytics integration",
+          "feature7": "Licensed components",
+          "feature8": "Technical support for 1 month"
+        },
+        "tooltips": {
+          "feature1": "Multiple pages like homepage, services, contact, about, blog.",
+          "feature2": "Interactive visuals: hover effects, scroll-triggered animations.",
+          "feature3": "Detailed form where users can specify project type, deadline, etc.",
+          "feature4": "High-quality, licensed images that elevate your site visually.",
+          "feature5": "Meets Google’s technical standards: fast loading, structured data, mobile-friendly.",
+          "feature6": "Visitor stats, behavior tracking, Google Analytics integration.",
+          "feature7": "All modules are licensed, updatable, and secure.",
+          "feature8": "You’ll still have support after launch: bug fixes, advice, refinements."
+        }
+      },
+      "ascend": {
+        "title": "Ascend",
+        "tagline": "The brand-building package",
+        "price": "1,500 €",
+        "features": {
+          "feature1": "5+ subpages",
+          "feature2": "Premium UX (glassmorphism, animations)",
+          "feature3": "Multilingual support",
+          "feature4": "Admin panel (basic)",
+          "feature5": "20 licensed stock photos",
+          "feature6": "Webshop integration (coming soon)",
+          "feature7": "Licensed components",
+          "feature8": "Technical support for 3 months"
+        },
+        "tooltips": {
+          "feature1": "More complex structure: multiple content pages, sections, landing pages, blog or portfolio.",
+          "feature2": "Modern visual experience: translucent layers, smooth motion, premium interactions that build trust.",
+          "feature3": "Your site is available in multiple languages with a language switcher and localized content.",
+          "feature4": "Simple interface to manage and update your own content.",
+          "feature5": "Expanded image set for a more professional look — all images are licensed and high-quality.",
+          "feature6": "Products, cart, checkout — everything needed for an online store.",
+          "feature7": "All modules are licensed, updatable, and secure — like form handlers, animation libraries, language switchers.",
+          "feature8": "You’ll still have support after launch: bug fixes, advice, refinements, even new features."
+        }
+      }
+    }
+  }
+}
