@@ -1,12 +1,14 @@
 .process-section {
-  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 2rem;
   position: relative;
-  overflow: hidden;
-  z-index: 0;
+  overflow-y: auto;
   background-color: var(--font-color-secondary);
   color: var(--font-color-primary);
-  height: 100svh;
-  align-items: center;
 }
 
 .process-section::before {
@@ -20,16 +22,17 @@
   background-size: cover;
   background-position: center;
   filter: blur(8px);
-  z-index: -1;
+  z-index: 1;
 }
 
 .process-title {
   font-size: 3.8rem;
   font-weight: 500;
   text-align: center;
-  margin: 5rem !important;
+  margin: 1rem 0 2rem 0 !important;
   color: var(--hover-color);
   text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  z-index: 10;
 }
 
 .process-title::after {
@@ -40,25 +43,42 @@
   margin: 0.5rem auto 0;
   background-color: var(--hover-color);
   border-radius: 2px;
+  z-index: 10;
 }
 
 .process-card {
+  width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 4rem;
+  height: calc(90vh - 9rem);
+  overflow-y: auto;
+  padding: 3rem;
   border-radius: 24px;
-  box-shadow: 0 16px 48px rgba(0,0,0,0.5);
+  border: 2px solid #00e0ff; 
+  box-shadow:
+    0 0 8px rgba(0, 224, 255, 0.6),
+    0 0 16px rgba(0, 224, 255, 0.4),
+    0 0 24px rgba(0, 224, 255, 0.2);
   color: #eee;
-  background-image: url('bg-process.jpg');
+  background-image: url('./bg-process.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-color: rgba(20, 20, 20, 0.85);
   background-blend-mode: overlay;
+  backdrop-filter: blur(4px);
+  z-index: 10;
 }
 
+.process-card::-webkit-scrollbar {
+  width: 6px;
+}
+.process-card::-webkit-scrollbar-thumb {
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 3px;
+}
 
 .process-columns {
+  padding: 5rem;
   display: flex;
   gap: 4rem;
   justify-content: space-between;
@@ -105,8 +125,12 @@
 }
 
 @media (max-width: 768px) {
+  .process-section {
+    padding: 2rem 1rem;
+  }  
   .process-columns {
     flex-direction: column;
+    padding: 0;
   }
 
   .process-column {
@@ -121,7 +145,10 @@
     font-size: 1rem;
   }
 
-
+    .process-card {
+    height: calc(100vh - 6rem);
+    padding: 2rem;
+  }
 
   .process-title {
     font-size: 2rem;

@@ -1,0 +1,53 @@
+{
+  "portfolio": {
+    "header": {
+      "title": "PORTFOLIO",
+      "subtitle": "Sieh dir unsere Arbeiten an!"
+    },
+    "title": "Referenzen",
+    "items": {
+      "mymadeira": {
+        "title": "myMadeira",
+        "subtitle": "Madeira – Die Insel des ewigen Frühlings",
+        "description1": "Ein visuell reiches Reiseportal für Wanderer, Entdecker und Naturliebhaber. Beeindruckende Slider, Galerien, Wandertipps und lokale Empfehlungen begleiten den Besucher – das Design bleibt klar und emotional ansprechend.",
+        "description2": "Ein perfektes Beispiel dafür, wie man ein Reiseziel zum Erlebnis macht",
+        "link": "Projekt ansehen"
+      },
+      "alakformalas": {
+        "title": "Körperformung Werischwar",
+        "subtitle": "Körperformung, wie du sie noch nie gesehen hast",
+        "description1": "Eine Website, die aus der persönlichen Geschichte von Veronika Kiss-Horn entstanden ist und Cellulite-Massage, Maderotherapie und HIEMT-Behandlungen präsentiert. Lehrreich, vertrauensbildend und authentisch – mit Bildern und technischen Details.",
+        "description2": "Ein Beispiel dafür, wie man aus einer persönlichen Geschichte eine vertrauenswürdige Marke macht",
+        "link": "Projekt ansehen"
+      },
+      "hairflair": {
+        "title": "HairFlair (Demo)",
+        "subtitle": "Emma Saradeth – Friseurkunst mit Herz",
+        "description1": "Eine deutschsprachige Demo-Seite, die die Atmosphäre eines freundlichen, modernen Friseursalons vermittelt. Leistungen wie Schneiden, Färben und Pflege werden mit professionellen Bildern und präzisen Beschreibungen dargestellt. Das Design ist warm, einladend und dennoch elegant.",
+        "description2": "Ein starkes Beispiel für Personal Branding in der Beauty-Branche",
+        "link": "Projekt ansehen"
+      },
+      "nimbusx": {
+        "title": "Nimbus-X (Demo)",
+        "subtitle": "Lufttouren auf Madeira – NIMBUS-X",
+        "description1": "Diese Seite präsentiert einen exklusiven Lufttour-Service, bei dem Madeira aus der Vogelperspektive erlebt wird. Visuelles Storytelling, Flugrouten, Buchungssystem und Flottenpräsentation vermitteln ein Premium-Erlebnis.",
+        "description2": "Das ist nicht nur Reisen – das ist Erlebnisdesign in der Luft",
+        "link": "Projekt ansehen"
+      },
+      "woodman": {
+        "title": "Woodman (Demo)",
+        "subtitle": "Woodman – Minimalistisch und geheimnisvoll",
+        "description1": "Derzeit mit minimalem Inhalt, aber Name und Struktur deuten auf eine hochwertige Holz- oder Designmarke hin.",
+        "description2": "Eine Basis, aus der visuelle Identität entstehen kann",
+        "link": "Projekt ansehen"
+      },
+      "portuplay": {
+        "title": "Portuplay (Demo)",
+        "subtitle": "Portugiesisch spielerisch lernen – PortuPlay",
+        "description1": "Eine zivilgesellschaftliche Initiative für spielerisches Portugiesischlernen. Memory-Spiele, Liedübersetzungen und Wortschatztraining – alles visuell unterstützt. Das Design ist jugendlich, dynamisch und lehrreich.",
+        "description2": "Eine perfekte Verbindung von Lernen und Spiel",
+        "link": "Projekt ansehen"
+      }
+    }
+  }
+}

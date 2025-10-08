@@ -1,0 +1,44 @@
+{
+  "contactForm": {
+    "intro": {
+      "title": "Írj nekünk!",
+      "line1": "Van egy ötleted, amit megvalósítanál?",
+      "line2": "Egy weboldal, ami méltó lenne hozzád?",
+      "line3": "Írj bátran! Válaszolunk."
+    },
+    "formTitle": "Kapcsolatfelvétel",
+    "fields": {
+      "name": {
+        "label": "Név",
+        "placeholder": "Add meg a neved"
+      },
+      "email": {
+        "label": "E-mail",
+        "placeholder": "Add meg az email címed"
+      },
+      "phone": {
+        "label": "Telefonszám (opcionális)",
+        "placeholder": "Nem kötelező"
+      },
+      "message": {
+        "label": "Üzenet",
+        "placeholder": "Írd le, miben segíthetünk..."
+      },
+      "gdpr": {
+        "label": "Elfogadom az adatkezelési tájékoztatót.",
+        "link": "Adatkezelési tájékoztató"
+      }
+    },
+    "submit": "Üzenet küldése",
+    "popup": {
+      "title": "Köszönjük, hogy írtál!",
+      "message": "Üzeneted megérkezett. Hamarosan személyesen válaszolunk, és meglátjuk, hogyan tudunk segíteni.",
+      "close": "×"
+    },
+    "errors": {
+      "invalid": "Kérlek töltsd ki az összes kötelező mezőt!",
+      "sendError": "Hiba történt a küldés során.",
+      "responseError": "Hiba történt: "
+    }
+  }
+}

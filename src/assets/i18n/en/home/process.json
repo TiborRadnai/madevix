@@ -1,0 +1,31 @@
+{
+  "process": {  
+  "title": "Steps of website creation",
+  "steps": {
+    "1": {
+      "title": "1. Vision and inspiration",
+      "description": "You share your ideas with us. We help clarify your goals and even send a free draft so you know what to expect."
+    },
+    "2": {
+      "title": "2. Planning and structure",
+      "description": "Together we define the layout, features, and visual style. You can browse inspirational examples if you like."
+    },
+    "3": {
+      "title": "3. Quote and timeline",
+      "description": "Based on the draft, you receive a transparent quote. We set the project schedule, and if all’s good, we begin."
+    },
+    "4": {
+      "title": "4. Development and feedback",
+      "description": "We build the site step by step. You stay involved throughout, ensuring everything aligns with your vision."
+    },
+    "5": {
+      "title": "5. Testing and delivery",
+      "description": "Before handing over, we test thoroughly: speed, security, appearance — everything is in place."
+    },
+    "6": {
+      "title": "6. Payment and domain",
+      "description": "Once approved, payment is made and you receive the finished site on your own domain."
+    }
+  }
+}
+}

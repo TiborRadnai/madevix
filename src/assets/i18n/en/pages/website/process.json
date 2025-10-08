@@ -1,0 +1,31 @@
+{
+  "process": {
+    "title": "Steps of website creation",
+    "steps": {
+      "1": {
+        "title": "1. Vision and inspiration",
+        "description": "Tell us what kind of website you want. Share your preferred style, colors, features, and structure (single-page or multi-page, contact forms, booking, newsletter, etc.). If you have examples you like, send them — or browse our inspiration gallery. Let us know your desired domain, and we’ll check its availability. If it’s taken, we’ll suggest alternatives."
+      },
+      "2": {
+        "title": "2. Draft and offer",
+        "description": "Based on your ideas, we create a visual sketch showing the site’s overall structure. You’ll receive a transparent quote and timeline. Note: delivery time may vary depending on later changes."
+      },
+      "3": {
+        "title": "3. Contract and content",
+        "description": "Once everything is agreed, we send the contract. Work begins only after we receive the signed contract and all required content (texts, images, features, preferences). This isn’t just technical — it’s the foundation of smooth collaboration. If delays are caused by the client, it’s considered a breach of contract (as stated in the agreement)."
+      },
+      "4": {
+        "title": "4. Development and feedback",
+        "description": "We build the site step by step. You’ll receive regular visual updates to track progress and ensure alignment. Based on your feedback, we refine and adjust."
+      },
+      "5": {
+        "title": "5. Testing and handover prep",
+        "description": "Once ready, we begin a one-week testing phase. The domain goes live, Google Analytics is set up, security features are activated, and technical details are fine-tuned."
+      },
+      "6": {
+        "title": "6. Payment and final delivery",
+        "description": "Once approved, payment is due. Important: until full payment is received, access to the site is restricted. If payment isn’t made within the agreed timeframe, it’s considered a breach of contract. After payment, we deliver the full site — and continue maintenance if requested."
+      }
+    }
+  }
+}

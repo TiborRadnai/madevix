@@ -1,13 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
+import { TranslateModule } from '@ngx-translate/core';
+
 
 @Component({
   selector: 'app-references',
   templateUrl: './references.html',
   styleUrls: ['./references.css'],
   standalone: true,
-  imports: [CommonModule]
+  imports: [CommonModule, TranslateModule]
 })
 export class References implements OnInit {
   constructor(private sanitizer: DomSanitizer) {}

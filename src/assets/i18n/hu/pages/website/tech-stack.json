@@ -1,0 +1,28 @@
+{
+  "tech": {
+    "title": "Technológiák és eszközök",
+    "intro": "A Nexora mögött egy modern, megbízható technológiai háttér áll. Olyan eszközöket használunk, amelyek nemcsak gyorsak és stabilak, hanem vizuálisan is prémium élményt nyújtanak.",
+    "cards": {
+      "frontend": {
+        "title": "Frontend",
+        "description": "Komponensalapú, reszponzív felületek modern UI keretrendszerekkel."
+      },
+      "ui": {
+        "title": "Stílus és UI",
+        "description": "Gyorsan testreszabható, vizuálisan egységes felületek."
+      },
+      "backend": {
+        "title": "Backend és adatkezelés",
+        "description": "Skálázható szerveroldali működés és valós idejű adatkezelés."
+      },
+      "design": {
+        "title": "Tervezés és fejlesztés",
+        "description": "Pixelpontos UI tervezés és fejlesztői környezet, amit imádunk használni."
+      },
+      "collab": {
+        "title": "Verziókezelés és együttműködés",
+        "description": "Biztonságos fejlesztés, csapatmunka, és kontroll minden sor felett."
+      }
+    }
+  }
+}

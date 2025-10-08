@@ -1,20 +1,67 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { TranslateModule, TranslateService, LangChangeEvent } from '@ngx-translate/core';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-choose-nexora',
-  imports: [CommonModule],
-  standalone: true,  
+  standalone: true,
+  imports: [CommonModule, TranslateModule],
   templateUrl: './choose-nexora.html',
-  styleUrl: './choose-nexora.css'
+  styleUrls: ['./choose-nexora.css']
 })
-export class ChooseNexora {
-cards = [
-  { icon: 'fa-solid fa-scale-balanced', title: 'Rugalmas árképzés', description: 'Webfejlesztés egyedi igényekre szabva – átlátható árakkal, rejtett költségek nélkül.' },
-  { icon: 'fa-solid fa-paper-plane', title: 'Egyszerű indulás', description: 'Weboldal megrendelése online – űrlapon vagy e-mailben, bárhonnan, bármikor.' },
-  { icon: 'fa-solid fa-gears', title: 'Modern technológia', description: 'Angular, TypeScript, moduláris CSS – gyors, biztonságos és skálázható megoldások.' },
-  { icon: 'fa-solid fa-palette', title: 'Professzionális megjelenés', description: 'Dizájn, képszerkesztés, videós tartalmak – egységes arculat, egy kézben.' },
-  { icon: 'fa-solid fa-chart-line', title: 'Mérhető eredmények', description: 'Google Analytics integrációval segítünk nyomon követni, mi működik – és mi nem.' },
-  { icon: 'fa-solid fa-robot', title: 'AI-támogatott tervezés', description: 'Mesterséges intelligenciával segítünk gyorsabban és okosabban dönteni – már az első lépésektől.' }
-];
+export class ChooseNexora implements OnInit, OnDestroy {
+  cards: { icon: string; title: string; description: string }[] = [];
+  langSub!: Subscription;
+
+  constructor(private translate: TranslateService) {}
+
+  ngOnInit(): void {
+    this.loadCards();
+
+    this.langSub = this.translate.onLangChange.subscribe(() => {
+      this.loadCards();
+    });
+  }
+
+  loadCards(): void {
+    this.translate.get('choose.cards').subscribe((cards: any) => {
+      this.cards = [
+        {
+          icon: 'fa-solid fa-scale-balanced',
+          title: cards.pricing.title,
+          description: cards.pricing.description
+        },
+        {
+          icon: 'fa-solid fa-paper-plane',
+          title: cards.start.title,
+          description: cards.start.description
+        },
+        {
+          icon: 'fa-solid fa-gears',
+          title: cards.tech.title,
+          description: cards.tech.description
+        },
+        {
+          icon: 'fa-solid fa-palette',
+          title: cards.design.title,
+          description: cards.design.description
+        },
+        {
+          icon: 'fa-solid fa-chart-line',
+          title: cards.analytics.title,
+          description: cards.analytics.description
+        },
+        {
+          icon: 'fa-solid fa-robot',
+          title: cards.ai.title,
+          description: cards.ai.description
+        }
+      ];
+    });
+  }
+
+  ngOnDestroy(): void {
+    this.langSub?.unsubscribe();
+  }
 }

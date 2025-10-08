@@ -31,12 +31,14 @@
   position: relative;
   max-width: 1400px;
   margin: 0 auto;
+  overflow-x: hidden; /* csak vízszintesen rejtjük el */
+  overflow-y: visible; /* függőlegesen engedjük */
 }
+
 
 .references-track {
   display: flex;
   transition: transform 0.5s ease;
-  width: 100%;
 }
 
 .references-slide {
@@ -143,21 +145,22 @@
   padding: 1rem;
   cursor: pointer;
   z-index: 1;
-  color: var(--font-color-primary);
+  color: var(--neon-blue);
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .references-nav:hover {
   color: var(--hover-color);
+  text-shadow: 5px 5px 5px var(--neon-blue);
   transform: translateY(-50%) scale(1.1);
 }
 
 .references-nav.prev {
-  left: 0;
+  left: 1rem;
 }
 
 .references-nav.next {
-  right: 0;
+  right: 1rem;
 }
 
 .references-indicator {

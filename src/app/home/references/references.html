@@ -1,5 +1,5 @@
 <section class="references-section">
-  <h2 class="references-title">Egy pillantás a munkáinkra</h2>
+  <h2 class="references-title">{{ 'references.title' | translate }}</h2>
   <div class="references-carousel">
     <div 
       class="references-track" 
@@ -25,9 +25,9 @@
               <ng-template #plainText>
                 {{ item.caption }}
               </ng-template>
-              <span class="reference-badge" [ngClass]="item.type">
-                {{ item.type === 'live' ? 'Élő oldal' : 'Demo projekt' }}
-              </span>
+            <span class="reference-badge" [ngClass]="item.type">
+              {{ item.type === 'live' ? ('references.badge.live' | translate) : ('references.badge.demo' | translate) }}
+            </span>
             </p>
           </div>
         </div>

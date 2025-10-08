@@ -1,0 +1,9 @@
+{
+  "references": {  
+  "title": "A glimpse into our work",
+  "badge": {
+    "live": "Live site",
+    "demo": "Demo project"
+  }
+}
+}

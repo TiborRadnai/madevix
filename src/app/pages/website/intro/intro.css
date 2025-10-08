@@ -60,12 +60,16 @@
 }
 
 .typewriter {
-  font-size: clamp(2.5rem, 6vw, 6rem);
+  font-size: clamp(2rem, 8vw, 6rem);
   font-family: "Roboto", sans-serif;
   white-space: nowrap;
   overflow: hidden;
+  text-overflow: ellipsis;
   border-right: 2px solid var(--hover-color);
   animation: blink 0.7s step-end infinite;
+  padding: 0 2vw;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 @keyframes blink {

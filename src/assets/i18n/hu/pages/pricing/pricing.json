@@ -1,0 +1,92 @@
+{
+  "pricing": {
+    "header": {
+      "title": "ÁRAINK",
+      "subtitle": "Mennyibe kerül egy weboldal nálunk?"
+    },
+    "title": "Csomagajánlatok",
+    "subtitle": "Három szint, három élmény — válaszd ki, mi illik hozzád!",
+    "note": {
+      "label": "Megjegyzés:",
+      "text": "A feltüntetett árak az alapcsomagokra vonatkoznak. Egyedi igények esetén személyre szabott ajánlatot adunk."
+    },
+    "cta": "Ajánlatot kérek",
+    "packages": {
+      "launch": {
+        "title": "Launch",
+        "tagline": "A lendület csomag",
+        "price": "450 €",
+        "features": {
+          "feature1": "Egyedi, reszponzív design",
+          "feature2": "Kapcsolati űrlap + emailküldés",
+          "feature3": "GDPR-kompatibilis adatkezelés",
+          "feature4": "5 jogtiszta stock fotó",
+          "feature5": "Alap SEO (meta, alt, címek)",
+          "feature6": "Domainre való élesítés",
+          "feature7": "Licencelt komponensek",
+          "feature8": "Technikai támogatás 2 hétig"
+        },
+        "tooltips": {
+          "feature1": "A weboldal minden eszközön tökéletesen jelenik meg: mobilon, tableten, laptopon.",
+          "feature2": "Az érdeklődők azonnal kapcsolatba léphetnek veled, az üzenet pedig emailben érkezik.",
+          "feature3": "Az adatkezelés megfelel az EU-s adatvédelmi előírásoknak, biztonságos és jogtiszta.",
+          "feature4": "Jogtiszta, minőségi képek, amik vizuálisan emelik a weboldal színvonalát.",
+          "feature5": "A weboldal technikailag és tartalmilag is optimalizált, hogy jobban szerepeljen a Google-ben.",
+          "feature6": "A kész weboldalt a saját domaineden publikáljuk, teljesen működőképesen.",
+          "feature7": "Minden beépített modul jogtiszta, frissíthető és biztonságos.",
+          "feature8": "A weboldal átadása után is számíthatsz rám: hibajavítás, tanácsadás, finomítás."
+        }
+      },
+      "elevate": {
+        "title": "Elevate",
+        "tagline": "A fejlődés csomag",
+        "price": "850 €",
+        "features": {
+          "feature1": "3–5 aloldal",
+          "feature2": "Animált elemek, interaktív UX",
+          "feature3": "Ajánlatkérő űrlap + extra mezők",
+          "feature4": "10 jogtiszta stock fotó",
+          "feature5": "Google optimalizálás",
+          "feature6": "Webanalitika integráció",
+          "feature7": "Licencelt komponensek",
+          "feature8": "Technikai támogatás 1 hónapig"
+        },
+        "tooltips": {
+          "feature1": "Több különálló oldal, például: főoldal, szolgáltatások, kapcsolat, rólunk, blog.",
+          "feature2": "Interaktív mozgások, hover effektek, görgetésre reagáló vizuális élmények.",
+          "feature3": "Részletesebb űrlap, ahol az érdeklődő konkrét igényeket is megadhat (pl. projekt típusa, határidő).",
+          "feature4": "Jogtiszta, minőségi képek, amik vizuálisan emelik a weboldal színvonalát.",
+          "feature5": "A weboldal technikailag megfelel a Google elvárásainak: gyors betöltés, strukturált adatok, mobilbarát.",
+          "feature6": "Látogatói statisztikák, viselkedésfigyelés, Google Analytics integráció.",
+          "feature7": "Minden beépített modul jogtiszta, frissíthető és biztonságos.",
+          "feature8": "A weboldal átadása után is számíthatsz rám: hibajavítás, tanácsadás, finomítás."
+        }
+      },
+      "ascend": {
+        "title": "Ascend",
+        "tagline": "A márkaépítő csomag",
+        "price": "1,500 €",
+        "features": {
+          "feature1": "5+ aloldal",
+          "feature2": "Prémium UX (glassmorphism, animációk)",
+          "feature3": "Többnyelvű támogatás",
+          "feature4": "Admin oldal (alapszint)",
+          "feature5": "20 jogtiszta stock fotó",
+          "feature6": "Webshop integráció (hamarosan)",
+          "feature7": "Licencelt komponensek",
+          "feature8": "Technikai támogatás 3 hónapig"
+        },
+        "tooltips": {
+          "feature1": "Komplexabb webstruktúra: több tartalmi oldal, akár külön szekciók, landingek, blog vagy portfólió.",
+          "feature2": "Modern vizuális élmény: áttetsző rétegek, finom mozgások, prémium interakciók, amik bizalmat építenek.",
+          "feature3": "A weboldal több nyelven is elérhető, nyelvválasztóval és lokalizált tartalommal.",
+          "feature4": "Egyszerű felület, ahol saját tartalmaidat módosíthatod, újíthatod.",
+          "feature5": "Bővített képkészlet, amivel még professzionálisabb megjelenést biztosítunk — minden kép jogtiszta és minőségi.",
+          "feature6": "Termékek, kosár, rendelés — minden, ami egy online bolt működéséhez kell.",
+          "feature7": "Minden beépített modul jogtiszta, frissíthető és biztonságos — például űrlapkezelő, animációs könyvtár, nyelvváltó.",
+          "feature8": "A weboldal átadása után is számíthatsz rám: hibajavítás, tanácsadás, finomítás, akár új funkciók beépítése."
+        }
+      }
+    }
+  }
+}

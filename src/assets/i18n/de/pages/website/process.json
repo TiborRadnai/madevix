@@ -1,0 +1,31 @@
+{
+  "process": {
+    "title": "Schritte zur Website-Erstellung",
+    "steps": {
+      "1": {
+        "title": "1. Idee und Inspiration",
+        "description": "Teile uns mit, welche Art von Website du dir wünschst. Nenne Stil, Farbwelt, Funktionen und Struktur (Onepager oder mit Unterseiten, Kontaktformular, Buchung, Newsletter usw.). Wenn du Beispiele hast, die dir gefallen, sende sie uns — oder stöbere in unserer Inspirationssammlung. Gib deinen Wunsch-Domain an, und wir prüfen die Verfügbarkeit. Falls vergeben, schlagen wir Alternativen vor."
+      },
+      "2": {
+        "title": "2. Entwurf und Angebot",
+        "description": "Basierend auf deinen Vorstellungen erstellen wir eine visuelle Skizze, die den groben Aufbau zeigt. Dazu erhältst du ein transparentes Angebot und einen Zeitrahmen. Hinweis: Die Fertigstellungszeit kann sich durch spätere Änderungen verschieben."
+      },
+      "3": {
+        "title": "3. Vertrag und Inhalte",
+        "description": "Wenn alles passt, senden wir den Vertrag. Die Arbeit beginnt erst, wenn der unterschriebene Vertrag und alle nötigen Inhalte (Texte, Bilder, Funktionen, Wünsche) vorliegen. Das ist nicht nur technisch wichtig — es ist die Grundlage für eine reibungslose Zusammenarbeit. Verzögerungen durch den Auftraggeber gelten als Vertragsbruch (wie im Vertrag festgehalten)."
+      },
+      "4": {
+        "title": "4. Entwicklung und Feedback",
+        "description": "Wir bauen die Website Schritt für Schritt. Du erhältst regelmäßig visuelle Updates, damit du den Fortschritt siehst und alles deinen Vorstellungen entspricht. Dein Feedback fließt direkt in die Optimierung ein."
+      },
+      "5": {
+        "title": "5. Testphase und Übergabevorbereitung",
+        "description": "Ist die Seite fertig, beginnt eine einwöchige Testphase. Die Domain geht live, Google Analytics wird eingerichtet, Sicherheitsfunktionen aktiviert und technische Details feinjustiert."
+      },
+      "6": {
+        "title": "6. Zahlung und finale Übergabe",
+        "description": "Wenn alles passt, erfolgt die Zahlung. Wichtig: Bis zur vollständigen Zahlung bleibt der Zugriff eingeschränkt. Erfolgt die Zahlung nicht fristgerecht, gilt das als Vertragsbruch. Nach Zahlung übergeben wir die komplette Website — und übernehmen bei Bedarf die Wartung."
+      }
+    }
+  }
+}

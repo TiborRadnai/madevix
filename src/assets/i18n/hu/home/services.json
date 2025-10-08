@@ -1,0 +1,43 @@
+{
+  "services": {
+    "title": "Szolgáltatások",
+    "items": {
+      "web": {
+        "title": "Egyedi weboldal fejlesztés",
+        "description": "Modern, gyors és reszponzív weboldalak — egyedi fejlesztéssel vagy sablonos megoldással, ahogy neked a legjobb. A technológiát mindig az igényeidhez igazítjuk."
+      },
+      "mobile": {
+        "title": "Mobiloptimalizálás",
+        "description": "Minden eszközön jól működő, letisztult felhasználói élmény — telefonon, tableten, laptopon."
+      },
+      "analytics": {
+        "title": "Teljesítménymérés",
+        "description": "Látogatók, viselkedés, keresések — mérjük, elemezzük, és segítünk javítani az oldal teljesítményét."
+      },
+      "design": {
+        "title": "Képszerkesztés és prémium tartalom",
+        "description": "Minőségi képek, sablonok és grafikai elemek — igény szerint szerkesztve, hogy az oldalad vizuálisan is meggyőző legyen."
+      },
+      "domain": {
+        "title": "Domain és tárhely ügyintézés",
+        "description": "Nem kell bajlódnod vele — mindent elintézünk helyetted, a technikai részletektől a beállításokig."
+      },
+      "social": {
+        "title": "Social media integráció",
+        "description": "Facebook, Instagram, LinkedIn — gombok, megosztás, követés, minden egy helyen."
+      },
+      "seo": {
+        "title": "Alap SEO beállítások",
+        "description": "Technikai keresőoptimalizálás, hogy megtaláljanak a Google-ben — már az induláskor."
+      },
+      "consulting": {
+        "title": "Konzultáció & tanácsadás",
+        "description": "Segítünk kitalálni, hogyan legyen a weboldalad hatékony, szép és célratörő."
+      },
+      "security": {
+        "title": "Biztonsági beállítások",
+        "description": "HTTPS, adatvédelem, GDPR-kompatibilitás — minden, ami a biztonságodhoz és a nyugalomhoz kell."
+      }
+    }
+  }
+}

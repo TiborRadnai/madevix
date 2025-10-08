@@ -1,0 +1,97 @@
+{
+  "orderForm": {
+    "title": "Order",
+    "intro": "Fill out the form below and we’ll get in touch with you soon!",
+    "submit": "Submit order",
+    "popup": {
+      "title": "Request received!",
+      "message": "We’ll contact you shortly.",
+      "close": "×"
+    },
+    "fields": {
+      "name": {
+        "label": "Name *",
+        "placeholder": "Enter your name"
+      },
+      "location": {
+        "label": "Location (country, city) *",
+        "placeholder": "e.g. United Kingdom, London"
+      },
+      "phone": {
+        "label": "Phone number",
+        "placeholder": "Optional"
+      },
+      "email": {
+        "label": "Email address *",
+        "placeholder": "Enter your email"
+      },
+      "tone": {
+        "label": "Tone of voice",
+        "options": {
+          "default": "Choose...",
+          "informal": "Informal",
+          "formal": "Formal"
+        }
+      },
+      "language": {
+        "label": "Website language *",
+        "options": {
+          "default": "Choose...",
+          "hungarian": "Hungarian",
+          "english": "English",
+          "german": "German",
+          "other": "Other"
+        }
+      },
+      "projectType": {
+        "label": "New website or redesign? *",
+        "options": {
+          "default": "Choose...",
+          "new": "I want a new website",
+          "redesign": "I want to redesign an existing one"
+        }
+      },
+      "siteType": {
+        "label": "What type of website do you need? *",
+        "options": {
+          "default": "Choose...",
+          "onepage": "Onepage",
+          "multipage": "Multi-page",
+          "business": "Business",
+          "personal": "Personal",
+          "blog": "Blog",
+          "portfolio": "Portfolio",
+          "landing": "Landing page"
+        }
+      },
+      "urgency": {
+        "label": "How soon do you need it? *",
+        "options": {
+          "default": "Choose...",
+          "2weeks": "Within 2 weeks",
+          "1month": "Within 1 month",
+          "later": "More than 1 month"
+        }
+      },
+      "budget": {
+        "label": "Which price tier did you choose? *",
+        "options": {
+          "default": "Choose...",
+          "launch": "Launch",
+          "elevate": "Elevate",
+          "ascend": "Ascend"
+        }
+      },
+      "details": {
+        "label": "Details",
+        "placeholder": "Describe in detail what you need..."
+      }
+    },
+    "info": {
+      "title": "What happens next?",
+      "paragraph1":"After submitting the form, you won’t receive an automatic quote or start any payment process. This isn’t a webshop — it’s the beginning of a conversation.",
+      "paragraph2": "Every project is unique, so I’ll first review your needs. If I see that we’re a good fit, I’ll respond personally. That might be a short email or a quick call to clarify the details.",
+      "paragraph3": "My goal isn’t to sell anything — it’s to build something that’s worthy of you and your brand. If that approach resonates with you, I’d be happy to hear from you."
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "contactDirect": {
+    "title": "Kontaktinformationen",
+    "items": {
+      "email": "info@nexora.com",
+      "phone": "+49 176 222 14043",
+      "linkedin": "LinkedIn-Profil",
+      "github": "GitHub-Konto"
+    }
+  }
+}

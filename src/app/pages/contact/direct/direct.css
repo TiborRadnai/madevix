@@ -1,3 +1,11 @@
+.direct-section {
+  min-height: auto;
+  height: auto;    
+  background: #ffffff;
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
 .direct-contact {
   padding: 2rem 1rem;
   background-color: #f8f9fa;

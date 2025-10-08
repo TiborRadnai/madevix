@@ -1,49 +1,94 @@
 <section class="contact-form-section" id="form">
   <div class="form-grid">
+    <!-- Bevezető szöveg -->
     <div class="form-intro">
-      <h2>Írj nekünk!</h2>
+      <h2>{{ 'contactForm.intro.title' | translate }}</h2>
       <p>
-        Van egy ötleted, amit megvalósítanál?<br>
-        Egy weboldal, ami méltó lenne hozzád?<br>
-        <strong>Írj bátran! Válaszolunk.</strong>
+        {{ 'contactForm.intro.line1' | translate }}<br>
+        {{ 'contactForm.intro.line2' | translate }}<br>
+        <strong>{{ 'contactForm.intro.line3' | translate }}</strong>
       </p>
-      <img src="assets/images/contact/contactUs.webp" alt="Kapcsolat illusztráció" class="intro-image">      
-    </div>    
+      <img src="assets/images/contact/contactUs.webp" alt="{{ 'contactForm.intro.imageAlt' | translate }}" class="intro-image">
+    </div>
+
+    <!-- Űrlap -->
     <div class="form-wrapper">
-      <h2>Kapcsolatfelvétel</h2>
-        <form #form="ngForm" (ngSubmit)="onSubmit(form)" novalidate>
-          <label>
-            Név
-            <input id="name" type="text" name="name" [(ngModel)]="formData.name" required autocomplete="name">
+      <h2>{{ 'contactForm.formTitle' | translate }}</h2>
+      <form #form="ngForm" (ngSubmit)="onSubmit(form)" novalidate>
+        <label>
+          {{ 'contactForm.fields.name.label' | translate }}
+          <input
+            id="name"
+            type="text"
+            name="name"
+            [(ngModel)]="formData.name"
+            required
+            autocomplete="name"
+            placeholder="{{ 'contactForm.fields.name.placeholder' | translate }}"
+          >
+        </label>
+
+        <label>
+          {{ 'contactForm.fields.email.label' | translate }}
+          <input
+            id="email"
+            type="email"
+            name="email"
+            [(ngModel)]="formData.email"
+            required
+            autocomplete="email"
+            placeholder="{{ 'contactForm.fields.email.placeholder' | translate }}"
+          >
+        </label>
+
+        <label>
+          {{ 'contactForm.fields.phone.label' | translate }}
+          <input
+            id="phone"
+            type="tel"
+            name="phone"
+            [(ngModel)]="formData.phone"
+            placeholder="{{ 'contactForm.fields.phone.placeholder' | translate }}"
+          >
+        </label>
+
+        <label>
+          {{ 'contactForm.fields.message.label' | translate }}
+          <textarea
+            id="message"
+            name="message"
+            [(ngModel)]="formData.message"
+            required
+            minlength="10"
+            autocomplete="off"
+            placeholder="{{ 'contactForm.fields.message.placeholder' | translate }}"
+          ></textarea>
+        </label>
+
+        <div class="gdpr">
+          <input
+            id="gdpr"
+            type="checkbox"
+            name="gdpr"
+            [(ngModel)]="formData.gdpr"
+            required
+          >
+          <label for="gdpr">{{ 'contactForm.fields.gdpr.label' | translate }}
+            <a href="/privacyPolicy" target="_blank">{{ 'contactForm.fields.gdpr.link' | translate }}</a>
           </label>
-          <label>
-            E-mail
-            <input id="email" type="email" name="email" [(ngModel)]="formData.email" required autocomplete="email">
-          </label>
-          <label>
-            Telefonszám (opcionális)
-            <input id="phone" type="tel" name="phone" [(ngModel)]="formData.phone">
-          </label>
-          <label>
-            Üzenet
-            <textarea id="message" name="message" [(ngModel)]="formData.message" required minlength="10" autocomplete="off"></textarea>
-          </label>
-          <div class="gdpr">
-            <input id="gdpr" type="checkbox" name="gdpr" [(ngModel)]="formData.gdpr" required>
-            <label for="gdpr">
-              Elfogadom az <a href="/privacyPolicy" target="_blank">adatkezelési tájékoztatót.</a>
-            </label>
-          </div>
-          <button type="submit">Üzenet küldése</button>
-        </form>
+        </div>
+
+        <button type="submit">{{ 'contactForm.submit' | translate }}</button>
+      </form>
     </div>
   </div>
 
+  <!-- Popup -->
   <div class="popup" *ngIf="showPopup">
     <div class="popup-content">
-      <button class="close-btn" (click)="closePopup()">×</button>
-      <h2>Köszönjük, hogy írtál!</h2>
-      <p>Üzeneted megérkezett. Hamarosan személyesen válaszolunk, és meglátjuk, hogyan tudunk segíteni.</p>
+      <button class="close-btn" (click)="closePopup()">{{ 'contactForm.popup.close' | translate }}</button>
+      <h2>{{ 'contactForm.popup.title' | translate }}</h2>
+      <p>{{ 'contactForm.popup.message' | translate }}</p>
     </div>
-  </div>  
+  </div>
 </section>

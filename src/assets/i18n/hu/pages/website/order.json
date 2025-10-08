@@ -1,0 +1,97 @@
+{
+  "orderForm": {
+    "title": "Megrendelés",
+    "intro": "Töltsd ki az alábbi űrlapot, és hamarosan felvesszük veled a kapcsolatot!",
+    "submit": "Megrendelem",
+    "popup": {
+      "title": "Igényét megkaptuk!",
+      "message": "Hamarosan felvesszük Önnel a kapcsolatot.",
+      "close": "×"
+    },
+    "fields": {
+      "name": {
+        "label": "Név *",
+        "placeholder": "Add meg a neved"
+      },
+      "location": {
+        "label": "Cím (ország, város) *",
+        "placeholder": "Pl. Magyarország, Budapest"
+      },
+      "phone": {
+        "label": "Telefonszám",
+        "placeholder": "Nem kötelező"
+      },
+      "email": {
+        "label": "Email cím *",
+        "placeholder": "Add meg az email címed"
+      },
+      "tone": {
+        "label": "Hangvétel",
+        "options": {
+          "default": "Válassz...",
+          "informal": "Tegeződés",
+          "formal": "Magázódás"
+        }
+      },
+      "language": {
+        "label": "Weboldal nyelve *",
+        "options": {
+          "default": "Válassz...",
+          "hungarian": "Magyar",
+          "english": "Angol",
+          "german": "Német",
+          "other": "Egyéb"
+        }
+      },
+      "projectType": {
+        "label": "Új weboldal vagy felújítás? *",
+        "options": {
+          "default": "Válassz...",
+          "new": "Új weboldalt szeretnék",
+          "redesign": "Meglévőt szeretnék felújíttatni"
+        }
+      },
+      "siteType": {
+        "label": "Milyen típusú weboldalt szeretnél? *",
+        "options": {
+          "default": "Válassz...",
+          "onepage": "Onepage",
+          "multipage": "Több oldalas",
+          "business": "Céges",
+          "personal": "Magánjellegű",
+          "blog": "Blog",
+          "portfolio": "Portfólió",
+          "landing": "Landing page"
+        }
+      },
+      "urgency": {
+        "label": "Milyen gyorsan kellene? *",
+        "options": {
+          "default": "Válassz...",
+          "2weeks": "2 héten belül",
+          "1month": "1 hónapon belül",
+          "later": "1 hónapon túl"
+        }
+      },
+      "budget": {
+        "label": "Melyik árkategóriát választottad? *",
+        "options": {
+          "default": "Válassz...",
+          "launch": "Launch",
+          "elevate": "Elevate",
+          "ascend": "Ascend"
+        }
+      },
+      "details": {
+        "label": "Részletek",
+        "placeholder": "Írd le részletesen, mire van szükséged..."
+      }
+    },
+    "info": {
+      "title": "Mi történik ezután?",
+      "paragraph1": "Miután elküldted az űrlapot, nem kapsz automatikus árajánlatot, és nem indul el semmilyen fizetési folyamat. Ez nem egy webshop, hanem egy induló párbeszéd.",
+      "paragraph2":  "Minden projekt egyedi, ezért először áttekintem az igényeidet, és ha látom, hogy valóban tudunk együtt dolgozni, akkor válaszolok személyesen. Ez lehet egy rövid email, vagy egy egyeztetés, ahol pontosítjuk a részleteket.",
+      "paragraph3":  "A célom nem az, hogy bármit eladjunk — hanem hogy valami olyat építsünk, ami méltó hozzád és a márkádhoz. Ha úgy érzed, hogy ez a megközelítés neked való, akkor örömmel veszem az üzeneted."
+    }
+  }
+}

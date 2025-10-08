@@ -4,9 +4,10 @@
   z-index: 0;
   background-color: var(--font-color-secondary);
   color: var(--font-color-primary);
-  height: 100svh;
+  min-height: 100svh;
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 
 .choose-nexora-section::before {
@@ -35,6 +36,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
 }
 
 .card:hover {
@@ -82,6 +84,12 @@
   margin: 0.5rem auto 0;
   background-color: var(--hover-color);
   border-radius: 2px;
+}
+
+@media (max-width: 1400px) {
+    .choose-nexora-section {
+    height: auto;
+  }
 }
 
 @media (max-width: 1130px) {

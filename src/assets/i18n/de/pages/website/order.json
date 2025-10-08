@@ -1,0 +1,97 @@
+{
+  "orderForm": {
+    "title": "Bestellung",
+    "intro": "Fülle das Formular unten aus – wir melden uns bald bei dir!",
+    "submit": "Jetzt anfragen",
+    "popup": {
+      "title": "Anfrage erhalten!",
+      "message": "Wir melden uns in Kürze bei Ihnen.",
+      "close": "×"
+    },
+    "fields": {
+      "name": {
+        "label": "Name *",
+        "placeholder": "Gib deinen Namen ein"
+      },
+      "location": {
+        "label": "Adresse (Land, Stadt) *",
+        "placeholder": "z. B. Deutschland, München"
+      },
+      "phone": {
+        "label": "Telefonnummer",
+        "placeholder": "Optional"
+      },
+      "email": {
+        "label": "E-Mail-Adresse *",
+        "placeholder": "Gib deine E-Mail ein"
+      },
+      "tone": {
+        "label": "Tonfall",
+        "options": {
+          "default": "Wähle...",
+          "informal": "Du-Form",
+          "formal": "Sie-Form"
+        }
+      },
+      "language": {
+        "label": "Website-Sprache *",
+        "options": {
+          "default": "Wähle...",
+          "hungarian": "Ungarisch",
+          "english": "Englisch",
+          "german": "Deutsch",
+          "other": "Andere"
+        }
+      },
+      "projectType": {
+        "label": "Neue Website oder Redesign? *",
+        "options": {
+          "default": "Wähle...",
+          "new": "Ich möchte eine neue Website",
+          "redesign": "Ich möchte eine bestehende überarbeiten"
+        }
+      },
+      "siteType": {
+        "label": "Welche Art von Website brauchst du? *",
+        "options": {
+          "default": "Wähle...",
+          "onepage": "Onepage",
+          "multipage": "Mehrseitig",
+          "business": "Geschäftlich",
+          "personal": "Privat",
+          "blog": "Blog",
+          "portfolio": "Portfolio",
+          "landing": "Landingpage"
+        }
+      },
+      "urgency": {
+        "label": "Wie schnell brauchst du sie? *",
+        "options": {
+          "default": "Wähle...",
+          "2weeks": "Innerhalb von 2 Wochen",
+          "1month": "Innerhalb von 1 Monat",
+          "later": "Später als 1 Monat"
+        }
+      },
+      "budget": {
+        "label": "Welche Preiskategorie hast du gewählt? *",
+        "options": {
+          "default": "Wähle...",
+          "launch": "Launch",
+          "elevate": "Elevate",
+          "ascend": "Ascend"
+        }
+      },
+      "details": {
+        "label": "Details",
+        "placeholder": "Beschreibe genau, was du brauchst..."
+      }
+    },
+    "info": {
+      "title": "Was passiert danach?",
+      "paragraph1": "Nach dem Absenden erhältst du kein automatisches Angebot und es startet kein Zahlungsprozess. Das hier ist kein Webshop – sondern der Beginn eines Gesprächs.",
+      "paragraph2":  "Jedes Projekt ist einzigartig. Ich schaue mir deine Anfrage an und melde mich persönlich, wenn ich sehe, dass wir gut zusammenarbeiten können. Das kann eine kurze E-Mail oder ein Gespräch zur Klärung der Details sein.",
+      "paragraph3":  "Mein Ziel ist nicht, etwas zu verkaufen – sondern etwas zu bauen, das dir und deiner Marke gerecht wird. Wenn dir dieser Ansatz zusagt, freue ich mich auf deine Nachricht."
+    }
+  }
+}

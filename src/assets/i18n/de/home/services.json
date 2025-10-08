@@ -1,0 +1,43 @@
+{
+  "services": {
+    "title": "Leistungen",
+    "items": {
+      "web": {
+        "title": "Individuelle Webentwicklung",
+        "description": "Moderne, schnelle und responsive Websites — individuell programmiert oder mit Vorlage, ganz nach Bedarf. Die Technologie passt sich deinen Anforderungen an."
+      },
+      "mobile": {
+        "title": "Mobile Optimierung",
+        "description": "Klares Nutzererlebnis auf allen Geräten — Smartphone, Tablet, Laptop."
+      },
+      "analytics": {
+        "title": "Leistungsanalyse",
+        "description": "Besucher, Verhalten, Suchanfragen — wir messen, analysieren und helfen, die Website zu verbessern."
+      },
+      "design": {
+        "title": "Bildbearbeitung & Premium-Inhalte",
+        "description": "Hochwertige Bilder, Vorlagen und Grafikelemente — bei Bedarf bearbeitet, damit deine Website visuell überzeugt."
+      },
+      "domain": {
+        "title": "Domain- & Hosting-Service",
+        "description": "Kein Aufwand für dich — wir kümmern uns um alles, von der Technik bis zur Einrichtung."
+      },
+      "social": {
+        "title": "Social-Media-Integration",
+        "description": "Facebook, Instagram, LinkedIn — Buttons, Teilen, Folgen — alles an einem Ort."
+      },
+      "seo": {
+        "title": "Grundlegende SEO-Einstellungen",
+        "description": "Technische Suchmaschinenoptimierung, damit du bei Google gefunden wirst — direkt zum Start."
+      },
+      "consulting": {
+        "title": "Beratung & Strategie",
+        "description": "Wir helfen dir, eine Website zu gestalten, die effektiv, schön und zielgerichtet ist."
+      },
+      "security": {
+        "title": "Sicherheitseinstellungen",
+        "description": "HTTPS, Datenschutz, DSGVO-Konformität — alles, was du für Sicherheit und Ruhe brauchst."
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "services": {
+    "title": "Services",
+    "items": {
+      "web": {
+        "title": "Custom website development",
+        "description": "Modern, fast and responsive websites — custom-built or template-based, whichever suits you best. We tailor the technology to your needs."
+      },
+      "mobile": {
+        "title": "Mobile optimization",
+        "description": "Clean user experience across all devices — phone, tablet, laptop."
+      },
+      "analytics": {
+        "title": "Performance tracking",
+        "description": "Visitors, behavior, searches — we measure, analyze, and help improve your site’s performance."
+      },
+      "design": {
+        "title": "Image editing & premium content",
+        "description": "High-quality visuals, templates and graphic elements — edited as needed to make your site visually convincing."
+      },
+      "domain": {
+        "title": "Domain & hosting management",
+        "description": "No hassle — we handle everything for you, from technical setup to configuration."
+      },
+      "social": {
+        "title": "Social media integration",
+        "description": "Facebook, Instagram, LinkedIn — buttons, sharing, following, all in one place."
+      },
+      "seo": {
+        "title": "Basic SEO setup",
+        "description": "Technical search optimization so people can find you on Google — right from launch."
+      },
+      "consulting": {
+        "title": "Consulting & strategy",
+        "description": "We help you shape a website that’s effective, beautiful, and goal-driven."
+      },
+      "security": {
+        "title": "Security settings",
+        "description": "HTTPS, data protection, GDPR compliance — everything you need for peace of mind."
+      }
+    }
+  }
+}

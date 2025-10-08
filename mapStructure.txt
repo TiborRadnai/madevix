@@ -3,8 +3,8 @@ php:
     -form-handler.php
 
 src:
-    app
-    assets
+    /app
+    /assets
     index.html
     main.server.ts 
     main.ts 
@@ -12,10 +12,10 @@ src:
     styles.css
 
 src/app:
-    core 
-    home 
-    pages 
-    shared 
+    /core 
+    /home 
+    /pages 
+    /shared 
 
 src/app/core:
     app.config.server.ts
@@ -31,41 +31,41 @@ src/app/home:
     home.css
     home.html
     home.ts
-    choose-nexora
+    /choose-nexora
         -bg-choose-nexora.jpg
         -choose-nexora.css
         -choose-nexora.html
         -choose.nexora.spec.ts
         -choose-nexora.ts
-    header
+    /header
         -bg-image1.jpg
         -header.css
         -header.html
         -header.spec.ts
         -header.ts
-    intoduction
+    /intoduction
         -intoduction.css
         -intoduction.html
         -intoduction.spec.ts
         -intoduction.ts
-    make-website
+    /make-website
         -make-website.css
         -make-website.html
         -make-website.spec.ts
         -make-website.ts
-    process
+    /process
         -bg-choose-nexora.jpg
         -bg-process.jpg
         -process.css
         -process.html
         -process.spec.ts
         -process.ts
-    references
+    /references
         -references.css
         -references.html
         -references.spec.ts
         -references.ts
-    services
+    /services
         -fade-on-scroll.directive.ts
         -scroll-smoother.service.ts
         -services.css
@@ -74,116 +74,217 @@ src/app/home:
         -service.ts
 
 src/app/pages:
-    contact
+    /contact
         contact.css
         contact.html
         contact.spec.ts
         contact.ts
-        closing
+        /closing
             -closing.css
             -closing.html
             -closing.spec.ts
             -closing.ts
-        direct
+        /direct
             -direct.css
             -direct.html
             -direct.spec.ts
             -direct.ts
-        form
+        /form
             -form.css
             -form.html
             -form.spec.ts
             -form.ts
-        header
+        /header
             -contact-bg.webp
             -header.css
             -header.html
             -header.spec.ts
             -header.ts
-        location
+        /location
             -location.css
             -location.html
             -location.spec.ts
             -location.ts
-    portfolio
+    /portfolio
         portfolio.css
         portfolio.html
         portfolio.spec.ts
         portfolio.ts
-        header
+        /header
             -header.css
             -header.html
             -header.spec.ts
             -header.ts
             -website-bg.webp
-    pricing
+    /pricing
         pricing.css
         pricing.html
         pricing.spec.ts
         pricing.ts
-        closing
+        /closing
             -closing.css
             -closing.html
             -closing.spec.ts
             -closing.ts
-        cta
+        /cta
             -cta.css
             -cta.html
             -cta.spec.ts
             -cta.ts
-        header
+        /header
             -header.css
             -header.html
             -header.spec.ts
             -header.ts
             -sections-bg.webp
-    website
+    /website
         website.css
         website.html
         website.spec.ts
         website.ts
-        extras
+        /extras
             -extras.css
             -extras.html
             -extras.spec.ts
             -extras.ts
-        inspiration
+        /inspiration
             -inspiration.css
             -inspiration.html
             -inspiration.spec.ts
             -inspiration.ts
-        intro 
+        /intro 
             -intro.css 
             -intro.html
             -intro.spec.ts
             -intro.ts           
-        order 
+        /order 
             -order.css
             -order.html
             -order.spec.ts
             -order.ts
-        process
+        /process
             -bg-process.webp
             -process.css
             -process.html
             -process.spec.ts
             -process.ts
-        tech-stack
+        /tech-stack
             -tech-stack.css
             -tech-stack.html
             -tech-stack.spec.ts
             -tech-stack.ts   
 
 src/app/shared:
-    footer
+    /footer
         -footer.css
         -footer.html
         -footer.spec.ts
         -footer.ts
-    navbar
+    /navbar
         -navbar.css
         -navbar.html
         -navbar.spec.ts
         -navbar.ts
+
+src/assets/i18n:
+    /de
+        /home
+            choose-nexora.json
+            header.json
+            introduction.json
+            make-website-json
+            process.json
+            references.json
+            services-json
+        /pages
+            /contact
+                closing.json
+                direct.json
+                form.json
+                header.json
+                location.json
+            /portfolio
+                header.json
+                portfolio.json
+            /pricing
+                closing.json
+                cta.json
+                header.json
+                pricing.json
+            /website
+                extras.json
+                inspiration.json
+                intro.json
+                order.json
+                process.json
+                tech-stack.json
+        footer.json
+        shared.json 
+    /en
+        /home
+            choose-nexora.json
+            header.json
+            introduction.json
+            make-website-json
+            process.json
+            references.json
+            services-json
+        /pages
+            /contact
+                closing.json
+                direct.json
+                form.json
+                header.json
+                location.json
+            /portfolio
+                header.json
+                portfolio.json
+            /pricing
+                closing.json
+                cta.json
+                header.json
+                pricing.json
+            /website
+                extras.json
+                inspiration.json
+                intro.json
+                order.json
+                process.json
+                tech-stack.json
+        footer.json
+        shared.json      
+    /hu
+        /home
+            choose-nexora.json
+            header.json
+            introduction.json
+            make-website-json
+            process.json
+            references.json
+            services-json
+        /pages
+            /contact
+                closing.json
+                direct.json
+                form.json
+                header.json
+                location.json
+            /portfolio
+                header.json
+                portfolio.json
+            /pricing
+                closing.json
+                cta.json
+                header.json
+                pricing.json
+            /website
+                extras.json
+                inspiration.json
+                intro.json
+                order.json
+                process.json
+                tech-stack.json
+        footer.json
+        shared.json           
 
 
