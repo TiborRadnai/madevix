@@ -1,6 +1,6 @@
 {
   "footer": {
-    "slogan": "Web development in a new dimension",
+    "slogan": "Crafted clarity. Inspired by altitude.",
     "nav": {
       "home": "Home",
       "website": "Website creation",
@@ -9,10 +9,10 @@
       "contact": "Contact"
     },
     "contact": {
-      "email": "info@nexora.hu",
+      "email": "info@madevix.hu",
       "linkedin": "LinkedIn",
       "github": "GitHub"
     },
-    "bottom": "© 2025 Nexora. All rights reserved."
+    "bottom": "© 2025 Madevix. All rights reserved."
   }
 }
