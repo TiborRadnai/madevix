@@ -1,6 +1,6 @@
 {
   "footer": {
-    "slogan": "Webentwicklung in neuer Dimension",
+    "slogan": "Gestaltete Klarheit. Inspiriert von Höhe.",
     "nav": {
       "home": "Startseite",
       "website": "Webseitenerstellung",
@@ -9,10 +9,10 @@
       "contact": "Kontakt"
     },
     "contact": {
-      "email": "info@nexora.hu",
+      "email": "info@madevix.hu",
       "linkedin": "LinkedIn",
       "github": "GitHub"
     },
-    "bottom": "© 2025 Nexora. Alle Rechte vorbehalten."
+    "bottom": "© 2025 Madevix. Alle Rechte vorbehalten."
   }
 }

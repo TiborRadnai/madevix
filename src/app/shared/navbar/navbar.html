@@ -1,13 +1,14 @@
   <div class="menu-bar">
     <a routerLink="/" class="logo-link">
-      <img src="assets/images/nexoraLogoMini.png" alt="NEXORA Logo" class="logo-image" />
+      <img src="assets/images/madevixLogoDarkMini.png" alt="Madevix Logo" class="logo-image" />
     </a>
     <button class="hamburger" *ngIf="!isMenuOpen" (click)="toggleMenu()">☰</button>
   </div>
   <div class="menu-container" [class.show]="isMenuOpen">
-    <div class="logo">
-      <h1>NEXORA</h1>
-    <p class="slogan">{{ 'navbar.slogan' | translate }}</p>    </div>
+<a routerLink="/" class="logo clickable-logo" (click)="toggleMenu()">
+  <h1>MaDeVix</h1>
+  <p class="slogan">{{ 'navbar.slogan' | translate }}</p>
+</a>
     <button class="close-menu" (click)="toggleMenu()">✕</button>
     <ul class="nav flex-column">
       <li class="nav-item"><a class="nav-link" routerLink="/website" (click)="toggleMenu()">{{ 'navbar.menu.website' | translate }}</a></li>

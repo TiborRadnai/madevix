@@ -203,3 +203,12 @@
     height: 40px;
   }
 }
+
+.clickable-logo {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+.clickable-logo:hover {
+  opacity: 0.9; /* vagy valami finom hover effekt */
+}
