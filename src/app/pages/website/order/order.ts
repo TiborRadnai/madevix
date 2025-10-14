@@ -25,7 +25,7 @@ export class Order {
       return;
     }
 
-    this.http.post('/nexora/php/form-handler.php', this.formData, {
+    this.http.post('/php/form-handler.php', this.formData, {
       headers: { 'Content-Type': 'application/json' }
     }).subscribe({
       next: (res: any) => {
