@@ -68,7 +68,7 @@ export class ContactForm implements AfterViewInit {
       return;
     }
 
-    this.http.post('/nexora/php/contact-handler.php', this.formData, {
+    this.http.post('/php/contact-handler.php', this.formData, {
       headers: { 'Content-Type': 'application/json' }
     })
     .subscribe({

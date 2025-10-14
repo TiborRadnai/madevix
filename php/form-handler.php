@@ -11,12 +11,12 @@ $dotenv->load();
 
 // Címzett és tárgy
 $to = $_ENV['EMAIL_TO'];
-$subject = "Új megrendelés a Nexora.com-on";
+$subject = "Új megrendelés a Madevix.com-on";
 
 // Mezők definiálása
 $fields = [
   'name', 'location', 'phone', 'email', 'tone', 'language',
-  'type', 'siteType', 'urgency', 'priceTier', 'details'
+  'projectType', 'siteType', 'urgency', 'budget', 'details'
 ];
 
 // JSON dekódolás
@@ -53,7 +53,7 @@ $mail->Password = $_ENV['SMTP_PASS'];
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 
-$mail->setFrom($_ENV['EMAIL_FROM'], 'Nexora Megrendelés');
+$mail->setFrom($_ENV['EMAIL_FROM'], 'Madevix Megrendelés');
 $mail->addAddress($to);
 $mail->Subject = $subject;
 $mail->Body = $body;

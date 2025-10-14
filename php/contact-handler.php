@@ -11,7 +11,7 @@ $dotenv->load();
 
 // Címzett és tárgy
 $to = $_ENV['EMAIL_TO'];
-$subject = "Kapcsolatfelvétel a Nexora.com-on";
+$subject = "Kapcsolatfelvétel a Madevix.com-on";
 
 // Mezők definiálása
 $fields = ['name', 'email', 'phone', 'message', 'gdpr'];
@@ -34,7 +34,7 @@ if (!filter_var($data['email'], FILTER_VALIDATE_EMAIL) || empty($data['name']) |
 }
 
 // Email tartalom összeállítása
-$body = "Kapcsolatfelvételi üzenet érkezett a Nexora.com-on:\n\n";
+$body = "Kapcsolatfelvételi üzenet érkezett a Madevix.com-on:\n\n";
 foreach ($data as $key => $value) {
   $body .= ucfirst($key) . ": " . $value . "\n";
 }
@@ -50,7 +50,7 @@ $mail->Password = $_ENV['SMTP_PASS'];
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 
-$mail->setFrom($_ENV['EMAIL_FROM'], 'Nexora Kapcsolat');
+$mail->setFrom($_ENV['EMAIL_FROM'], 'Madevix Kapcsolat');
 $mail->addAddress($to);
 $mail->Subject = $subject;
 $mail->Body = $body;
