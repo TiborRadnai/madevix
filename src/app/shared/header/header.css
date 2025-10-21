@@ -4,7 +4,7 @@
   justify-content: center;
   min-height: 60vh;
   padding: 2rem;
-  background-image: url('./bg-image1.webp'); /* Apache-kompatibilis útvonal */
+  background-image: url("/assets/images/backgrounds/bg-image1.webp");
   background-size: cover;
   background-position: center;
   text-align: center;

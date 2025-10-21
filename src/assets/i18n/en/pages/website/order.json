@@ -28,7 +28,7 @@
       "tone": {
         "label": "Tone of voice",
         "options": {
-          "default": "Choose...",
+          "default": "Select a tone...",
           "informal": "Informal",
           "formal": "Formal"
         }
@@ -36,7 +36,7 @@
       "language": {
         "label": "Website language *",
         "options": {
-          "default": "Choose...",
+          "default": "Select a language...",
           "hungarian": "Hungarian",
           "english": "English",
           "german": "German",
@@ -46,7 +46,7 @@
       "projectType": {
         "label": "New website or redesign? *",
         "options": {
-          "default": "Choose...",
+          "default": "New website or redesign?",
           "new": "I want a new website",
           "redesign": "I want to redesign an existing one"
         }
@@ -54,7 +54,7 @@
       "siteType": {
         "label": "What type of website do you need? *",
         "options": {
-          "default": "Choose...",
+          "default": "Select site type...",
           "onepage": "Onepage",
           "multipage": "Multi-page",
           "business": "Business",
@@ -67,7 +67,7 @@
       "urgency": {
         "label": "How soon do you need it? *",
         "options": {
-          "default": "Choose...",
+          "default": "How urgent is your project?",
           "2weeks": "Within 2 weeks",
           "1month": "Within 1 month",
           "later": "More than 1 month"
@@ -76,16 +76,20 @@
       "budget": {
         "label": "Which price tier did you choose? *",
         "options": {
-          "default": "Choose...",
-          "launch": "Launch",
-          "elevate": "Elevate",
-          "ascend": "Ascend"
+          "default": "Choose your budget...",
+          "spark": "Spark",
+          "flow": "Flow",
+          "peak": "Peak"
         }
       },
       "details": {
         "label": "Details",
-        "placeholder": "Describe in detail what you need..."
+        "placeholder": "Describe in detail what you need...",
+        "charCounter": "{{count}} / 500 characters"
       }
+    },
+    "notice": {
+      "requiredFields": "Please note: fields marked with * are required."
     },
     "info": {
       "title": "What happens next?",

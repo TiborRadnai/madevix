@@ -1,0 +1,39 @@
+SPARK - A márkád születése (450€-tól)
+    -Egyedi, reszponzív design (onepage vagy max +1 aloldal)
+    -Kapcsolati űrlap + GDPR-kompatibilis adatkezelés
+    -5 stock fotó, vizuális koncepcióba illesztve
+    -Alap SEO (meta, alt, címek)
+    -Domainre élesítés
+    -Technikai támogatás 2 hétig
+    - + Ajánlható modulok:
+        -Egyedi email-cím a domainhez
+        -Hírlevél-feliratkozás
+        -Social media linkek
+
+FLOW - A történeted kibontakozása (800€-tól)
+    -3–5 aloldal, történetmesélő struktúrában
+    -Interaktív UX elemek, ajánlatkérő űrlap
+    -10 stock fotó, koncepcióba illesztve
+    -Kulcsszókutatás + technikai SEO
+    -Webanalitika integráció
+    -Technikai támogatás 1 hónapig
+    - + Ajánlható modulok:
+        -Látogatószámláló
+        -Blogmodul olvasási idővel
+        -Like számláló (pl. blogbejegyzésekhez)
+        -Social media megosztás
+
+PEEK - A márkád kiteljesedése (1500€-tól)
+    -5+ aloldal, prémium UX (glassmorphism, animációk)
+    -Többnyelvű támogatás
+    -Tartalomfrissítés 3 hónapig
+    -Webshop integráció (hamarosan)
+    -20 stock fotó, márkaidentitásba illesztve
+    -Technikai támogatás 3 hónapig
+    - + Ajánlható modulok:
+        -Blogmodul statisztikákkal
+        -Referenciák / portfólió
+        -Képgaléria / lightbox
+        -Google Maps integráció
+        -Hírlevél + kampánykezelés
+        -Cookie-kezelés / jogi modul

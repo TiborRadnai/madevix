@@ -12,6 +12,7 @@ export class MultiFileTranslateLoader implements TranslateLoader {
     const files = [
       'shared.json',
       'footer.json',
+      'legal.json',
       'home/header.json',
       'home/choose-nexora.json',
       'home/introduction.json',
@@ -34,6 +35,7 @@ export class MultiFileTranslateLoader implements TranslateLoader {
       'pages/contact/location.json',
       'pages/contact/direct.json',
       'pages/contact/closing.json'
+
       // ide jöhetnek a pages fájlok is, ha kell
     ];
 

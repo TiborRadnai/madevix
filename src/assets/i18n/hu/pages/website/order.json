@@ -15,7 +15,7 @@
       },
       "location": {
         "label": "Cím (ország, város) *",
-        "placeholder": "Pl. Magyarország, Budapest"
+        "placeholder": "pl. Magyarország, Budapest"
       },
       "phone": {
         "label": "Telefonszám",
@@ -28,7 +28,7 @@
       "tone": {
         "label": "Hangvétel",
         "options": {
-          "default": "Válassz...",
+          "default": "Válassz hangnemet...",
           "informal": "Tegeződés",
           "formal": "Magázódás"
         }
@@ -36,7 +36,7 @@
       "language": {
         "label": "Weboldal nyelve *",
         "options": {
-          "default": "Válassz...",
+          "default": "Válassz nyelvet...",
           "hungarian": "Magyar",
           "english": "Angol",
           "german": "Német",
@@ -46,7 +46,7 @@
       "projectType": {
         "label": "Új weboldal vagy felújítás? *",
         "options": {
-          "default": "Válassz...",
+          "default": "Új weboldal vagy felújítás?",
           "new": "Új weboldalt szeretnék",
           "redesign": "Meglévőt szeretnék felújíttatni"
         }
@@ -54,7 +54,7 @@
       "siteType": {
         "label": "Milyen típusú weboldalt szeretnél? *",
         "options": {
-          "default": "Válassz...",
+          "default": "Válassz weboldal típust...",
           "onepage": "Onepage",
           "multipage": "Több oldalas",
           "business": "Céges",
@@ -67,7 +67,7 @@
       "urgency": {
         "label": "Milyen gyorsan kellene? *",
         "options": {
-          "default": "Válassz...",
+          "default": "Milyen sürgős a projekt?",
           "2weeks": "2 héten belül",
           "1month": "1 hónapon belül",
           "later": "1 hónapon túl"
@@ -76,17 +76,21 @@
       "budget": {
         "label": "Melyik árkategóriát választottad? *",
         "options": {
-          "default": "Válassz...",
-          "launch": "Launch",
-          "elevate": "Elevate",
-          "ascend": "Ascend"
+          "default": "Költségkeret kiválasztása...",
+          "spark": "Spark",
+          "flow": "Flow",
+          "peak": "Peak"
         }
       },
       "details": {
         "label": "Részletek",
-        "placeholder": "Írd le részletesen, mire van szükséged..."
+        "placeholder": "Írd le részletesen, mire van szükséged...",
+        "charCounter": "{{count}} / 500 karakter"
       }
     },
+  "notice": {
+    "requiredFields": "Figyelem, a csillaggal jelölt mező kitöltése kötelező!"
+  },
     "info": {
       "title": "Mi történik ezután?",
       "paragraph1": "Miután elküldted az űrlapot, nem kapsz automatikus árajánlatot, és nem indul el semmilyen fizetési folyamat. Ez nem egy webshop, hanem egy induló párbeszéd.",

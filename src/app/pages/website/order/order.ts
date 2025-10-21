@@ -13,7 +13,14 @@ import { TranslateModule } from '@ngx-translate/core';
 })
 export class Order {
   showPopup = false;
-  formData: any = {};
+  formData: any = {
+    budget: '',
+    urgency: '',
+    siteType: '',
+    projectType: '',
+    language: '',
+    tone: ''
+  };
 
   constructor(private http: HttpClient) {}
 
