@@ -1,20 +1,21 @@
 {
-"legal": {
-  "impressum": {
-    "title": "Impressum",
-    "company": "Firmenname:",
-    "company.value": "MaDeVix Webdesign",
-    "address": "Adresse:",
-    "address.value": "Oberstaufen, Bayern, Deutschland",
-    "contact": "Kontaktperson:",
-    "contact.value": "Tibor Radnai (Gründer und Lead Designer)",
-    "email": "E-Mail:",
-    "email.value": "info@madevix.com",
-    "tax": "Steuernummer:",
-    "tax.value": "DE123456789",
-    "disclaimer": "Haftungsausschluss:",
-    "disclaimer.value": "Die Informationen auf dieser Website stellen keine Rechtsberatung dar. Für die Richtigkeit der Inhalte wird keine Haftung übernommen."
+  "legal": {
+    "impressum": {
+      "title": "Impressum",
+      "companyLabel": "Firmenname:",
+      "company": "MaDeVix UX & Identity – Radnai Tibor, Einzelunternehmer",
+      "addressLabel": "Geschäftsanschrift:",
+      "address": "Am Schwedenkreuz 5, 87534 Oberstaufen, Deutschland",
+      "contactLabel": "Verantwortlicher Ansprechpartner:",
+      "contact": "Radnai Tibor – Inhaber und leitender Designer",
+      "phoneLabel": "Telefon:",
+      "phone": "+49 176 22214043",
+      "emailLabel": "E-Mail:",
+      "email": "info@madevix.com",
+      "taxLabel": "Umsatzsteuer-ID:",
+      "tax": "DE123456789",
+      "disclaimerLabel": "Haftungsausschluss:",
+      "disclaimer": "Die auf dieser Website bereitgestellten Informationen stellen keine Rechtsberatung dar. Für die Richtigkeit der Inhalte und für externe Links übernehmen wir keine Haftung; für deren Inhalte sind ausschließlich die jeweiligen Anbieter verantwortlich."
+    }
   }
-}
-
 }
