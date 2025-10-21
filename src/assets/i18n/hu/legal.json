@@ -3,17 +3,19 @@
     "impressum": {
       "title": "Impresszum",
       "companyLabel": "Cégnév:",
-      "company": "MaDeVix Webdesign",
+      "company": "MaDeVix UX & Identity - Radnai Tibor, egyéni vállalkozó",
       "addressLabel": "Székhely:",
-      "address": "Oberstaufen, Bajorország, Németország",
+      "address": "Am Schwedenkreuz 5, 87534 Oberstaufen, Németország",
       "contactLabel": "Kapcsolattartó:",
-      "contact": "Radnai Tibor (alapító és vezető designer)",
+      "contact": "Radnai Tibor - tulajdonos és vezető designer",
+      "phoneLabel": "Telefon:",
+      "phone": "+49 176 22214043",
       "emailLabel": "E-mail:",
       "email": "info@madevix.com",
       "taxLabel": "Adószám:",
       "tax": "DE123456789",
       "disclaimerLabel": "Felelősség kizárása:",
-      "disclaimer": "A weboldalon található információk nem minősülnek jogi tanácsadásnak. A tartalom pontosságáért felelősséget nem vállalunk."
+      "disclaimer": "A weboldalon található információk nem minősülnek jogi tanácsadásnak. A tartalom pontosságáért és a külső hivatkozásokért nem vállalunk felelősséget; azok tartalmáért kizárólag az adott szolgáltató felelős."
     }
   }
 }
