@@ -1,0 +1,19 @@
+{
+  "legal": {
+    "impressum": {
+      "title": "Impresszum",
+      "companyLabel": "Cégnév:",
+      "company": "MaDeVix Webdesign",
+      "addressLabel": "Székhely:",
+      "address": "Oberstaufen, Bajorország, Németország",
+      "contactLabel": "Kapcsolattartó:",
+      "contact": "Radnai Tibor (alapító és vezető designer)",
+      "emailLabel": "E-mail:",
+      "email": "info@madevix.com",
+      "taxLabel": "Adószám:",
+      "tax": "DE123456789",
+      "disclaimerLabel": "Felelősség kizárása:",
+      "disclaimer": "A weboldalon található információk nem minősülnek jogi tanácsadásnak. A tartalom pontosságáért felelősséget nem vállalunk."
+    }
+  }
+}

@@ -13,6 +13,11 @@
       "linkedin": "LinkedIn",
       "github": "GitHub"
     },
-    "bottom": "© 2025 Madevix. Alle Rechte vorbehalten."
+    "bottom": "© 2025 Madevix. Alle Rechte vorbehalten.",
+    "legal": {
+      "impressum": "Impressum",
+      "privacy": "Datenschutz",
+      "cookies": "Cookie-Einstellungen"
+    }
   }
 }

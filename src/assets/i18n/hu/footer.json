@@ -13,6 +13,11 @@
       "linkedin": "LinkedIn",
       "github": "GitHub"
     },
-    "bottom": "© 2025 Madevix. Minden jog fenntartva."
+    "bottom": "© 2025 Madevix. Minden jog fenntartva.",
+    "legal": {
+      "impressum": "Impresszum",
+      "privacy": "Adatvédelem",
+      "cookies": "Cookie beállítások"
+    }
   }
 }

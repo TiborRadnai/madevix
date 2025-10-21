@@ -6,87 +6,96 @@
     },
     "title": "Paketangebote",
     "subtitle": "Drei Stufen, drei Erlebnisse – wähle, was zu dir passt!",
+    "subtitleExtras": "Optionale Zusatzmodule",
     "note": {
       "label": "Hinweis:",
-      "text": "Die angegebenen Preise gelten für Basispakete. Bei individuellen Anforderungen erstellen wir ein maßgeschneidertes Angebot."
+      "text": "Die angegebenen Preise gelten für die Basispakete. Für individuelle Anforderungen erstellen wir ein maßgeschneidertes Angebot."
+    },
+    "table": {
+      "feature": "Leistung"
     },
     "cta": "Angebot anfordern",
     "packages": {
-      "launch": {
-        "title": "Launch",
-        "tagline": "Das Schwung-Paket",
-        "price": "450 €",
-        "features": {
-          "feature1": "Individuelles, responsives Design",
-          "feature2": "Kontaktformular + E-Mail-Versand",
-          "feature3": "DSGVO-konforme Datenverarbeitung",
-          "feature4": "5 lizenzierte Stockfotos",
-          "feature5": "Basis-SEO (Meta, Alt, Titel)",
-          "feature6": "Live-Schaltung auf Domain",
-          "feature7": "Lizenzierte Komponenten",
-          "feature8": "Technischer Support für 2 Wochen"
-        },
-        "tooltips": {
-          "feature1": "Die Website sieht auf allen Geräten perfekt aus: Mobil, Tablet, Laptop.",
-          "feature2": "Interessenten können dich direkt kontaktieren, die Nachricht kommt per E-Mail.",
-          "feature3": "Die Datenverarbeitung entspricht den EU-Datenschutzrichtlinien – sicher und rechtskonform.",
-          "feature4": "Hochwertige, lizenzierte Bilder, die das Design visuell aufwerten.",
-          "feature5": "Technisch und inhaltlich optimiert für bessere Google-Rankings.",
-          "feature6": "Wir veröffentlichen die fertige Website auf deiner Domain – voll funktionsfähig.",
-          "feature7": "Alle Module sind lizenziert, aktualisierbar und sicher.",
-          "feature8": "Auch nach dem Launch stehe ich zur Verfügung: Fehlerbehebung, Beratung, Feinschliff."
-        }
+      "spark": {
+        "title": "Spark",
+        "price": "ab 450 €"
       },
-      "elevate": {
-        "title": "Elevate",
-        "tagline": "Das Wachstums-Paket",
-        "price": "850 €",
-        "features": {
-          "feature1": "3–5 Unterseiten",
-          "feature2": "Animierte Elemente, interaktives UX",
-          "feature3": "Anfrageformular + Zusatzfelder",
-          "feature4": "10 lizenzierte Stockfotos",
-          "feature5": "Google-Optimierung",
-          "feature6": "Webanalyse-Integration",
-          "feature7": "Lizenzierte Komponenten",
-          "feature8": "Technischer Support für 1 Monat"
-        },
-        "tooltips": {
-          "feature1": "Mehrere Seiten wie Startseite, Leistungen, Kontakt, Über uns, Blog.",
-          "feature2": "Interaktive Effekte: Hover, Scroll-Animationen, visuelle Dynamik.",
-          "feature3": "Detailliertes Formular mit Projektart, Deadline etc.",
-          "feature4": "Hochwertige, lizenzierte Bilder, die das Design visuell aufwerten.",
-          "feature5": "Technisch auf Google abgestimmt: schnelle Ladezeiten, strukturierte Daten, mobilfreundlich.",
-          "feature6": "Besucherstatistiken, Verhaltensanalyse, Google Analytics Integration.",
-          "feature7": "Alle Module sind lizenziert, aktualisierbar und sicher.",
-          "feature8": "Auch nach dem Launch stehe ich zur Verfügung: Fehlerbehebung, Beratung, Feinschliff."
-        }
+      "flow": {
+        "title": "Flow",
+        "price": "ab 800 €"
       },
-      "ascend": {
-        "title": "Ascend",
-        "tagline": "Das Markenaufbau-Paket",
-        "price": "1.500 €",
-        "features": {
-          "feature1": "5+ Unterseiten",
-          "feature2": "Premium-UX (Glassmorphism, Animationen)",
-          "feature3": "Mehrsprachige Unterstützung",
-          "feature4": "Admin-Bereich (Basis)",
-          "feature5": "20 lizenzierte Stockfotos",
-          "feature6": "Webshop-Integration (bald verfügbar)",
-          "feature7": "Lizenzierte Komponenten",
-          "feature8": "Technischer Support für 3 Monate"
-        },
-        "tooltips": {
-          "feature1": "Komplexere Struktur: mehrere Inhaltsseiten, Sektionen, Landingpages, Blog oder Portfolio.",
-          "feature2": "Modernes visuelles Erlebnis: transparente Ebenen, sanfte Bewegungen, hochwertige Interaktionen, die Vertrauen schaffen.",
-          "feature3": "Die Website ist in mehreren Sprachen verfügbar – mit Sprachwahl und lokalisierten Inhalten.",
-          "feature4": "Einfaches Interface zur Verwaltung und Aktualisierung eigener Inhalte.",
-          "feature5": "Erweiterter Bildbestand für ein professionelles Erscheinungsbild – alle Bilder sind lizenziert und hochwertig.",
-          "feature6": "Produkte, Warenkorb, Bestellung – alles, was ein Online-Shop braucht.",
-          "feature7": "Alle Module sind lizenziert, aktualisierbar und sicher – z. B. Formularverwaltung, Animationsbibliotheken, Sprachumschalter.",
-          "feature8": "Auch nach dem Launch stehe ich zur Verfügung: Fehlerbehebung, Beratung, Feinschliff, neue Funktionen."
-        }
+      "peak": {
+        "title": "Peak",
+        "price": "ab 1500 €"
       }
-    }
+    },
+    "features": {
+      "responsiveDesign": "Individuelles, responsives Design (Onepage oder max. +1 Unterseite)",
+      "contactForm": "Kontaktformular + DSGVO-konforme Datenverarbeitung",
+      "stockPhotos5": "5 Stockfotos, passend zur visuellen Konzeption",
+      "basicSEO": "Basis-SEO (Meta, Alt-Texte, Überschriften)",
+      "domainSetup": "Live-Schaltung auf Domain",
+      "support2w": "Technischer Support für 2 Wochen",
+      "multiPage": "3–5 Unterseiten mit Storytelling-Struktur",
+      "interactiveUX": "Interaktive UX-Elemente, Anfrageformular",
+      "stockPhotos10": "10 Stockfotos, konzeptgerecht integriert",
+      "keywordSEO": "Keyword-Recherche + technisches SEO",
+      "analytics": "Webanalyse-Integration",
+      "support1mo": "Technischer Support für 1 Monat",
+      "multiPagePremium": "5+ Unterseiten, Premium-UX (Glassmorphism, Animationen)",
+      "multiLang": "Mehrsprachige Unterstützung",
+      "contentUpdate3mo": "Inhaltsaktualisierung für 3 Monate",
+      "webshopSoon": "Webshop-Integration (bald verfügbar)",
+      "stockPhotos20": "20 Stockfotos, abgestimmt auf Markenidentität",
+      "support3mo": "Technischer Support für 3 Monate"
+    },
+    "modules": {
+      "customEmail": "Individuelle E-Mail-Adresse zur Domain",
+      "newsletterSignup": "Newsletter-Anmeldung",
+      "socialLinks": "Social-Media-Links",
+      "visitorCounter": "Besucherzähler",
+      "blogModuleReadTime": "Blogmodul mit Lesedauer",
+      "likeCounter": "Like-Zähler (z. B. für Blogbeiträge)",
+      "socialShare": "Social-Media-Sharing",
+      "blogModuleStats": "Blogmodul mit Statistiken",
+      "portfolio": "Referenzen / Portfolio",
+      "galleryLightbox": "Bildergalerie mit Lightbox",
+      "googleMaps": "Google Maps-Integration",
+      "newsletterCampaign": "Newsletter + Kampagnenverwaltung",
+      "cookieLegal": "Cookie-Handling / rechtliches Modul"
+    },
+    "tooltips": {
+      "responsiveDesign": "Mobilfreundliches, individuelles Design, das auf allen Geräten gut aussieht.",
+      "contactForm": "Kontaktformular mit DSGVO-konformer Datenverarbeitung.",
+      "stockPhotos5": "5 hochwertige Stockfotos, abgestimmt auf das visuelle Konzept.",
+      "basicSEO": "Grundlegende SEO: Meta-Tags, Alt-Texte, Überschriften.",
+      "domainSetup": "Live-Schaltung der Website auf deiner eigenen Domain.",
+      "support2w": "Technischer Support für 2 Wochen nach dem Launch.",
+      "multiPage": "Mehrseitige Struktur mit Storytelling-Ansatz.",
+      "interactiveUX": "Interaktive Elemente wie Anfrageformulare oder animierte Buttons.",
+      "stockPhotos10": "10 Stockfotos, die deine Markenstory visuell unterstützen.",
+      "keywordSEO": "Keyword-Recherche und technische SEO für bessere Auffindbarkeit.",
+      "analytics": "Integration von Google Analytics oder Matomo zur Besucherauswertung.",
+      "support1mo": "Technischer Support für 1 Monat nach dem Launch.",
+      "multiPagePremium": "Premium-UX mit Animationen, Glassmorphism und visuellem Feinschliff.",
+      "multiLang": "Mehrsprachige Inhalte und Sprachumschaltung.",
+      "contentUpdate3mo": "Inhaltsaktualisierungen und kleinere Anpassungen über 3 Monate.",
+      "webshopSoon": "Webshop-Funktion vorbereitet, bald verfügbar.",
+      "stockPhotos20": "20 Stockfotos, abgestimmt auf deine Markenidentität.",
+      "support3mo": "Technischer Support für 3 Monate nach dem Launch.",
+      "customEmail": "Professionelle E-Mail-Adresse zur eigenen Domain (z. B. hallo@deinemarke.de).",
+      "newsletterSignup": "Newsletter-Anmeldung mit DSGVO-konformer Datenverarbeitung.",
+      "socialLinks": "Icons und Links zu deinen Social-Media-Profilen.",
+      "visitorCounter": "Live-Besucherzähler auf der Website.",
+      "blogModuleReadTime": "Anzeige der geschätzten Lesedauer bei Blogbeiträgen.",
+      "likeCounter": "Like-Button und Zähler, z. B. für Blogposts.",
+      "socialShare": "Teilen-Buttons für Facebook, LinkedIn usw.",
+      "blogModuleStats": "Blogmodul mit Statistiken: Aufrufe, Interaktionen, Lesedauer.",
+      "portfolio": "Referenzen oder Portfolio mit Bildern und Beschreibungen.",
+      "galleryLightbox": "Bildergalerie mit Zoomfunktion im Lightbox-Stil.",
+      "googleMaps": "Google Maps-Einbettung, z. B. für Standortanzeige.",
+      "newsletterCampaign": "Newsletter-Versand und Kampagnenverwaltung mit Mailchimp oder Brevo.",
+      "cookieLegal": "Cookie-Handling und rechtliches Modul für Datenschutzkonformität."
+  }
   }
 }

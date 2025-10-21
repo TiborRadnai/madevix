@@ -28,7 +28,7 @@
       "tone": {
         "label": "Tonfall",
         "options": {
-          "default": "Wähle...",
+          "default": "Tonalität auswählen...",
           "informal": "Du-Form",
           "formal": "Sie-Form"
         }
@@ -36,7 +36,7 @@
       "language": {
         "label": "Website-Sprache *",
         "options": {
-          "default": "Wähle...",
+          "default": "Sprache auswählen...",
           "hungarian": "Ungarisch",
           "english": "Englisch",
           "german": "Deutsch",
@@ -46,7 +46,7 @@
       "projectType": {
         "label": "Neue Website oder Redesign? *",
         "options": {
-          "default": "Wähle...",
+          "default": "Neue Website oder Redesign?",
           "new": "Ich möchte eine neue Website",
           "redesign": "Ich möchte eine bestehende überarbeiten"
         }
@@ -54,7 +54,7 @@
       "siteType": {
         "label": "Welche Art von Website brauchst du? *",
         "options": {
-          "default": "Wähle...",
+          "default": "Website-Typ auswählen...",
           "onepage": "Onepage",
           "multipage": "Mehrseitig",
           "business": "Geschäftlich",
@@ -67,7 +67,7 @@
       "urgency": {
         "label": "Wie schnell brauchst du sie? *",
         "options": {
-          "default": "Wähle...",
+          "default": "Wie dringend ist dein Projekt?",
           "2weeks": "Innerhalb von 2 Wochen",
           "1month": "Innerhalb von 1 Monat",
           "later": "Später als 1 Monat"
@@ -76,16 +76,20 @@
       "budget": {
         "label": "Welche Preiskategorie hast du gewählt? *",
         "options": {
-          "default": "Wähle...",
-          "launch": "Launch",
-          "elevate": "Elevate",
-          "ascend": "Ascend"
+          "default": "Budget auswählen...",
+          "spark": "Spark",
+          "flow": "Flow",
+          "peak": "Peak"
         }
       },
       "details": {
         "label": "Details",
-        "placeholder": "Beschreibe genau, was du brauchst..."
+        "placeholder": "Beschreibe genau, was du brauchst...",
+        "charCounter": "{{count}} / 500 Zeichen"
       }
+    },
+    "notice": {
+      "requiredFields": "Bitte beachten: Felder mit * sind Pflichtfelder."
     },
     "info": {
       "title": "Was passiert danach?",

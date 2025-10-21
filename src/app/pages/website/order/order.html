@@ -25,9 +25,9 @@
     <label for="language">{{ 'orderForm.fields.language.label' | translate }}</label>
     <select id="language" name="language" required [(ngModel)]="formData.language">
       <option value="">{{ 'orderForm.fields.language.options.default' | translate }}</option>
+      <option value="german">{{ 'orderForm.fields.language.options.german' | translate }}</option> 
+      <option value="english">{{ 'orderForm.fields.language.options.english' | translate }}</option>           
       <option value="hungarian">{{ 'orderForm.fields.language.options.hungarian' | translate }}</option>
-      <option value="english">{{ 'orderForm.fields.language.options.english' | translate }}</option>
-      <option value="german">{{ 'orderForm.fields.language.options.german' | translate }}</option>
       <option value="other">{{ 'orderForm.fields.language.options.other' | translate }}</option>
     </select>
 
@@ -61,14 +61,31 @@
     <label for="budget">{{ 'orderForm.fields.budget.label' | translate }}</label>
     <select id="budget" name="budget" required [(ngModel)]="formData.budget">
       <option value="">{{ 'orderForm.fields.budget.options.default' | translate }}</option>
-      <option value="launch">{{ 'orderForm.fields.budget.options.launch' | translate }}</option>
-      <option value="elevate">{{ 'orderForm.fields.budget.options.elevate' | translate }}</option>
-      <option value="ascend">{{ 'orderForm.fields.budget.options.ascend' | translate }}</option>
+      <option value="spark">{{ 'orderForm.fields.budget.options.spark' | translate }}</option>
+      <option value="flow">{{ 'orderForm.fields.budget.options.flow' | translate }}</option>
+      <option value="peak">{{ 'orderForm.fields.budget.options.peak' | translate }}</option>
     </select>
 
     <label for="details">{{ 'orderForm.fields.details.label' | translate }}</label>
-    <textarea id="details" name="details" rows="8" [(ngModel)]="formData.details" placeholder="{{ 'orderForm.fields.details.placeholder' | translate }}"></textarea>
+    <div class="textarea-wrapper">
+      <textarea 
+        id="details" 
+        name="details" 
+        rows="8"
+        maxlength="500" 
+        [(ngModel)]="formData.details" 
+        placeholder="{{ 'orderForm.fields.details.placeholder' | translate }}">
+      </textarea>
 
+      <div class="char-counter">
+        {{ 'orderForm.fields.details.charCounter' | translate:{ count: formData.details?.length || 0 } }}
+      </div>
+    </div>
+
+  <p class="form-note">
+    {{ 'orderForm.notice.requiredFields' | translate }}
+  </p>
+  
     <button type="submit">{{ 'orderForm.submit' | translate }}</button>
   </form>
 

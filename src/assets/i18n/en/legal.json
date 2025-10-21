@@ -1,0 +1,20 @@
+{
+"legal": {
+  "impressum": {
+    "title": "Legal Notice",
+    "company": "Company Name:",
+    "company.value": "MaDeVix Webdesign",
+    "address": "Registered Address:",
+    "address.value": "Oberstaufen, Bavaria, Germany",
+    "contact": "Contact Person:",
+    "contact.value": "Tibor Radnai (Founder and Lead Designer)",
+    "email": "Email:",
+    "email.value": "info@madevix.com",
+    "tax": "Tax ID:",
+    "tax.value": "DE123456789",
+    "disclaimer": "Disclaimer:",
+    "disclaimer.value": "The information on this website does not constitute legal advice. No liability is accepted for the accuracy of the content."
+  }
+}
+
+}

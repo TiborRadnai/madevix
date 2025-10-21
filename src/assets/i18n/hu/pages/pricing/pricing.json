@@ -6,87 +6,96 @@
     },
     "title": "Csomagajánlatok",
     "subtitle": "Három szint, három élmény — válaszd ki, mi illik hozzád!",
+    "subtitleExtras": "Választható extrák",
     "note": {
       "label": "Megjegyzés:",
       "text": "A feltüntetett árak az alapcsomagokra vonatkoznak. Egyedi igények esetén személyre szabott ajánlatot adunk."
     },
+    "table": {
+      "feature": "Szolgáltatás"
+    },
     "cta": "Ajánlatot kérek",
     "packages": {
-      "launch": {
-        "title": "Launch",
-        "tagline": "A lendület csomag",
-        "price": "450 €",
-        "features": {
-          "feature1": "Egyedi, reszponzív design",
-          "feature2": "Kapcsolati űrlap + emailküldés",
-          "feature3": "GDPR-kompatibilis adatkezelés",
-          "feature4": "5 jogtiszta stock fotó",
-          "feature5": "Alap SEO (meta, alt, címek)",
-          "feature6": "Domainre való élesítés",
-          "feature7": "Licencelt komponensek",
-          "feature8": "Technikai támogatás 2 hétig"
-        },
-        "tooltips": {
-          "feature1": "A weboldal minden eszközön tökéletesen jelenik meg: mobilon, tableten, laptopon.",
-          "feature2": "Az érdeklődők azonnal kapcsolatba léphetnek veled, az üzenet pedig emailben érkezik.",
-          "feature3": "Az adatkezelés megfelel az EU-s adatvédelmi előírásoknak, biztonságos és jogtiszta.",
-          "feature4": "Jogtiszta, minőségi képek, amik vizuálisan emelik a weboldal színvonalát.",
-          "feature5": "A weboldal technikailag és tartalmilag is optimalizált, hogy jobban szerepeljen a Google-ben.",
-          "feature6": "A kész weboldalt a saját domaineden publikáljuk, teljesen működőképesen.",
-          "feature7": "Minden beépített modul jogtiszta, frissíthető és biztonságos.",
-          "feature8": "A weboldal átadása után is számíthatsz rám: hibajavítás, tanácsadás, finomítás."
-        }
+      "spark": {
+        "title": "Spark",
+        "price": "450 €-tól"
       },
-      "elevate": {
-        "title": "Elevate",
-        "tagline": "A fejlődés csomag",
-        "price": "850 €",
-        "features": {
-          "feature1": "3–5 aloldal",
-          "feature2": "Animált elemek, interaktív UX",
-          "feature3": "Ajánlatkérő űrlap + extra mezők",
-          "feature4": "10 jogtiszta stock fotó",
-          "feature5": "Google optimalizálás",
-          "feature6": "Webanalitika integráció",
-          "feature7": "Licencelt komponensek",
-          "feature8": "Technikai támogatás 1 hónapig"
-        },
-        "tooltips": {
-          "feature1": "Több különálló oldal, például: főoldal, szolgáltatások, kapcsolat, rólunk, blog.",
-          "feature2": "Interaktív mozgások, hover effektek, görgetésre reagáló vizuális élmények.",
-          "feature3": "Részletesebb űrlap, ahol az érdeklődő konkrét igényeket is megadhat (pl. projekt típusa, határidő).",
-          "feature4": "Jogtiszta, minőségi képek, amik vizuálisan emelik a weboldal színvonalát.",
-          "feature5": "A weboldal technikailag megfelel a Google elvárásainak: gyors betöltés, strukturált adatok, mobilbarát.",
-          "feature6": "Látogatói statisztikák, viselkedésfigyelés, Google Analytics integráció.",
-          "feature7": "Minden beépített modul jogtiszta, frissíthető és biztonságos.",
-          "feature8": "A weboldal átadása után is számíthatsz rám: hibajavítás, tanácsadás, finomítás."
-        }
+      "flow": {
+        "title": "Flow",
+        "price": "800 €-tól"
       },
-      "ascend": {
-        "title": "Ascend",
-        "tagline": "A márkaépítő csomag",
-        "price": "1,500 €",
-        "features": {
-          "feature1": "5+ aloldal",
-          "feature2": "Prémium UX (glassmorphism, animációk)",
-          "feature3": "Többnyelvű támogatás",
-          "feature4": "Admin oldal (alapszint)",
-          "feature5": "20 jogtiszta stock fotó",
-          "feature6": "Webshop integráció (hamarosan)",
-          "feature7": "Licencelt komponensek",
-          "feature8": "Technikai támogatás 3 hónapig"
-        },
-        "tooltips": {
-          "feature1": "Komplexabb webstruktúra: több tartalmi oldal, akár külön szekciók, landingek, blog vagy portfólió.",
-          "feature2": "Modern vizuális élmény: áttetsző rétegek, finom mozgások, prémium interakciók, amik bizalmat építenek.",
-          "feature3": "A weboldal több nyelven is elérhető, nyelvválasztóval és lokalizált tartalommal.",
-          "feature4": "Egyszerű felület, ahol saját tartalmaidat módosíthatod, újíthatod.",
-          "feature5": "Bővített képkészlet, amivel még professzionálisabb megjelenést biztosítunk — minden kép jogtiszta és minőségi.",
-          "feature6": "Termékek, kosár, rendelés — minden, ami egy online bolt működéséhez kell.",
-          "feature7": "Minden beépített modul jogtiszta, frissíthető és biztonságos — például űrlapkezelő, animációs könyvtár, nyelvváltó.",
-          "feature8": "A weboldal átadása után is számíthatsz rám: hibajavítás, tanácsadás, finomítás, akár új funkciók beépítése."
-        }
+      "peak": {
+        "title": "Peak",
+        "price": "1500 €-tól"  
       }
+    },
+    "features": {
+      "responsiveDesign": "Egyedi, reszponzív design (onepage vagy max +1 aloldal)",
+      "contactForm": "Kapcsolati űrlap + GDPR-kompatibilis adatkezelés",
+      "stockPhotos5": "5 stock fotó, vizuális koncepcióba illesztve",
+      "basicSEO": "Alap SEO (meta, alt, címek)",
+      "domainSetup": "Domainre élesítés",
+      "support2w": "Technikai támogatás 2 hétig",
+      "multiPage": "3–5 aloldal, történetmesélő struktúrában",
+      "interactiveUX": "Interaktív UX elemek, ajánlatkérő űrlap",
+      "stockPhotos10": "10 stock fotó, koncepcióba illesztve",
+      "keywordSEO": "Kulcsszókutatás + technikai SEO",
+      "analytics": "Webanalitika integráció",
+      "support1mo": "Technikai támogatás 1 hónapig",
+      "multiPagePremium": "5+ aloldal, prémium UX (glassmorphism, animációk)",
+      "multiLang": "Többnyelvű támogatás",
+      "contentUpdate3mo": "Tartalomfrissítés 3 hónapig",
+      "webshopSoon": "Webshop integráció (hamarosan)",
+      "stockPhotos20": "20 stock fotó, márkaidentitásba illesztve",
+      "support3mo": "Technikai támogatás 3 hónapig"
+    },
+    "modules": {
+      "customEmail": "Egyedi email-cím a domainhez",
+      "newsletterSignup": "Hírlevél-feliratkozás",
+      "socialLinks": "Social media linkek",
+      "visitorCounter": "Látogatószámláló",
+      "blogModuleReadTime": "Blogmodul olvasási idővel",
+      "likeCounter": "Like számláló (pl. blogbejegyzésekhez)",
+      "socialShare": "Social media megosztás",
+      "blogModuleStats": "Blogmodul statisztikákkal",
+      "portfolio": "Referenciák / portfólió",
+      "galleryLightbox": "Képgaléria / lightbox",
+      "googleMaps": "Google Maps integráció",
+      "newsletterCampaign": "Hírlevél + kampánykezelés",
+      "cookieLegal": "Cookie-kezelés / jogi modul"
+    },
+    "tooltips": {
+      "responsiveDesign": "Mobilbarát, egyedi arculatú oldal, amely minden eszközön jól mutat.",
+      "contactForm": "Kapcsolati űrlap beépített adatvédelmi (GDPR) megfeleléssel.",
+      "stockPhotos5": "5 prémium stock fotó, amelyek illeszkednek a vizuális koncepcióhoz.",
+      "basicSEO": "Alapvető keresőoptimalizálás: meta címkék, képleírások, címsorok.",
+      "domainSetup": "A kész weboldal élesítése a saját domainen.",
+      "support2w": "Technikai segítségnyújtás 2 héten keresztül.",
+      "multiPage": "Több aloldalból álló struktúra, amely történetmesélésre épül.",
+      "interactiveUX": "Interaktív elemek, például ajánlatkérő űrlap vagy animált gombok.",
+      "stockPhotos10": "10 stock fotó, amelyek vizuálisan támogatják a márkád történetét.",
+      "keywordSEO": "Kulcsszókutatás és technikai SEO beállítások a jobb keresőtalálatokért.",
+      "analytics": "Google Analytics vagy Matomo integráció a látogatói adatokhoz.",
+      "support1mo": "Technikai segítségnyújtás 1 hónapon keresztül.",
+      "multiPagePremium": "Prémium vizuális élmény: animációk, glassmorphism, kifinomult UX.",
+      "multiLang": "Többnyelvű tartalomkezelés és nyelvváltó funkció.",
+      "contentUpdate3mo": "Tartalomfrissítések és kisebb módosítások 3 hónapon át.",
+      "webshopSoon": "Webshop funkció előkészítve, hamarosan aktiválható.",
+      "stockPhotos20": "20 stock fotó, amelyek illeszkednek a márkaidentitáshoz.",
+      "support3mo": "Technikai segítségnyújtás 3 hónapon keresztül.",
+      "customEmail": "Saját domainhez tartozó professzionális email-cím (pl. hello@markad.hu).",
+      "newsletterSignup": "Hírlevél-feliratkozási lehetőség, GDPR-kompatibilis adatkezeléssel.",
+      "socialLinks": "Ikonok és linkek a közösségi média profiljaidhoz.",
+      "visitorCounter": "Valós idejű látogatószámláló a weboldalon.",
+      "blogModuleReadTime": "Blogbejegyzésekhez becsült olvasási idő megjelenítése.",
+      "likeCounter": "Like gomb és számláló, például blogposztokhoz.",
+      "socialShare": "Megosztás gombok Facebookra, LinkedInre, stb.",
+      "blogModuleStats": "Blogmodul statisztikákkal: nézettség, interakciók, olvasási idő.",
+      "portfolio": "Referenciák vagy portfólió szekció, képekkel és leírásokkal.",
+      "galleryLightbox": "Képgaléria, amely nagyítható képeket jelenít meg lightboxban.",
+      "googleMaps": "Google Maps térkép beágyazása, például elérhetőséghez.",
+      "newsletterCampaign": "Hírlevélküldés és kampánykezelés Mailchimp vagy Brevo integrációval.",
+      "cookieLegal": "Cookie-kezelés és jogi modul az adatvédelmi megfeleléshez."
     }
   }
 }
