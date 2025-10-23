@@ -1,5 +1,5 @@
 {
-  "process": {
+  "process-website": {
     "title": "A weboldalkészítés lépései",
     "steps": {
       "1": {
@@ -12,7 +12,7 @@
       },
       "3": {
         "title": "3. Szerződés és tartalom",
-        "description": "Ha minden rendben, küldjük a szerződést. A munka csak akkor kezdődik el, ha az aláírt szerződés és minden szükséges tartalom (szövegek, képek, funkciók, igények) megérkezett hozzánk. Ez nem csak technikai feltétel — ez a gördülékeny együttműködés alapja. Ha a munka a megrendelő hibájából nem haladhat, az szerződésszegésnek minősül (ez a szerződésben is szerepel)."
+        "description": "Ha minden rendben, küldjük a szerződést. A munka akkor indul, ha az aláírt dokumentum és minden szükséges tartalom (szövegek, képek, funkciók, igények) megérkezett hozzánk. Ez nem csak technikai feltétel — ez az inspirált, gördülékeny együttműködés alapja. Minél teljesebb az indulás, annál gyorsabb és élvezetesebb a közös munka."
       },
       "4": {
         "title": "4. Fejlesztés és visszajelzés",
@@ -24,7 +24,7 @@
       },
       "6": {
         "title": "6. Fizetés és végleges átadás",
-        "description": "Ha minden rendben, jön a fizetés. Fontos: amíg a végösszeg nem érkezik meg, a weboldalhoz nem biztosítunk hozzáférést. Ha a fizetés a szerződésben meghatározott időn belül nem történik meg, az szerződésszegésnek minősül. A fizetés után átadjuk a teljes weboldalt, és ha igényelted, folytatjuk a karbantartást is."
+        "description": "A projekt végén, ha minden rendben, jön a fizetés. Ezután átadjuk a teljes weboldalt, és ha igényelted, folytatjuk a karbantartást is. A hozzáférés biztosítása a végleges kiegyenlítés után történik — így garantáljuk, hogy minden részlet a helyére kerüljön, és a projekt valóban lezáruljon."
       }
     }
   }

@@ -1,1 +1,33 @@
-<p>cookies works!</p>
+<section class="legal-page">
+  <h1>{{ 'legal.cookies.title' | translate }}</h1>
+  <dl class="legal-list">
+    <div>
+      <dt>{{ 'legal.cookies.usageLabel' | translate }}</dt>
+      <dd>{{ 'legal.cookies.usage' | translate }}</dd>
+    </div>
+    <div>
+      <dt>{{ 'legal.cookies.typesLabel' | translate }}</dt>
+      <dd>{{ 'legal.cookies.types' | translate }}</dd>
+    </div>
+    <div>
+      <dt>{{ 'legal.cookies.consentLabel' | translate }}</dt>
+      <dd>{{ 'legal.cookies.consent' | translate }}</dd>
+    </div>
+    <div>
+      <dt>{{ 'legal.cookies.thirdPartyLabel' | translate }}</dt>
+      <dd>{{ 'legal.cookies.thirdParty' | translate }}</dd>
+    </div>
+    <div>
+      <dt>{{ 'legal.cookies.contactLabel' | translate }}</dt>
+      <dd>{{ 'legal.cookies.contact' | translate }}</dd>
+    </div>
+  </dl>
+  <p>
+    <button (click)="openCookieSettings()" class="cookie-settings-link">
+      {{ 'legal.cookies.modifySettings' | translate }}
+    </button>
+  </p>
+  <button class="legal-close" (click)="router.navigate(['/'])">
+    {{ 'legal.closeButton' | translate }}
+  </button>
+</section>

@@ -1,0 +1,31 @@
+{
+  "process-home": {
+    "title": "Schritte zur Website-Erstellung",
+    "steps": {
+      "1": {
+        "title": "1. Idee und Inspiration",
+        "description": "Du erzählst uns, wie deine Website aussehen soll. Wir helfen dir, die Ziele zu klären und schicken dir auf Wunsch ein kostenloses Konzept zur Orientierung."
+      },
+      "2": {
+        "title": "2. Planung und Struktur",
+        "description": "Gemeinsam entwickeln wir Aufbau, Funktionen und Stil. Wenn du magst, kannst du dich von Beispielprojekten inspirieren lassen."
+      },
+      "3": {
+        "title": "3. Angebot und Zeitrahmen",
+        "description": "Auf Basis des Konzepts erhältst du ein transparentes Angebot. Wir legen den Zeitplan fest – und wenn alles passt, geht’s los."
+      },
+      "4": {
+        "title": "4. Entwicklung und Feedback",
+        "description": "Schritt für Schritt entsteht deine Website. Du bleibst eingebunden, damit alles genau so wird, wie du es dir vorstellst."
+      },
+      "5": {
+        "title": "5. Test und Übergabe",
+        "description": "Bevor du die Website bekommst, testen wir alles gründlich: Geschwindigkeit, Sicherheit, Design – alles sitzt."
+      },
+      "6": {
+        "title": "6. Zahlung und Domain",
+        "description": "Wenn alles passt, erfolgt die Zahlung – und du bekommst deine fertige Website auf deiner eigenen Domain."
+      }
+    }
+  }
+}

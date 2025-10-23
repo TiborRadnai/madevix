@@ -8,7 +8,7 @@
   --font-color-secondary: #f0f8ff;
   --icon-color: #00ffff;
   --blue-font-color: #00ccff;
-  --neon-blue: #00e0ff;
+  --neon-blue: rgb(0, 224, 255);
 }
 
 html {

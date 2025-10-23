@@ -17,7 +17,8 @@
     "legal": {
       "impressum": "Legal notice",
       "privacy": "Privacy policy",
-      "cookies": "Cookie settings"
+      "cookies": "Cookie policy",
+      "cookieSettings": "Cookie settings"
     }
   }
 }

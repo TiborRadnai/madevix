@@ -31,8 +31,11 @@
 
   <nav class="footer-legal">
     <a routerLink="/impressum" target="blank">{{ 'footer.legal.impressum' | translate }}</a>
-    <a routerLink="/privacy">{{ 'footer.legal.privacy' | translate }}</a>
-    <a routerLink="/cookies">{{ 'footer.legal.cookies' | translate }}</a>
+    <a routerLink="/privacy" target="blank">{{ 'footer.legal.privacy' | translate }}</a>
+    <a routerLink="/cookies" target="blank">{{ 'footer.legal.cookies' | translate }}</a>
+    <button class="cookie-settings-btn" (click)="openCookieSettings()">
+      {{ 'footer.legal.cookieSettings' | translate }}
+    </button>    
   </nav>  
   </div>
 </footer>

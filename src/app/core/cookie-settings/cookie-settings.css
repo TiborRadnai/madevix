@@ -1,0 +1,101 @@
+.cookie-settings {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translate(-50%, 20px); /* kezdő állapothoz igazítva */
+  z-index: 9999;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(6px);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px var(--neon-blue);
+  max-width: 640px;
+  width: 90vw;
+  font-family: inherit;
+  animation: fadeInUp 0.4s ease forwards;
+  overflow: hidden; 
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 20px); 
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+.cookie-settings::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  right: 6px;
+  bottom: 6px;
+  border: 1px solid var(--neon-blue); 
+  border-radius: 10px;
+  pointer-events: none;
+}
+
+.cookie-settings h4 {
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.cookie-settings p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.cookie-options label {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.cookie-options input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.cookie-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.cookie-actions button {
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.cookie-actions button.accept {
+  background-color: var(--hover-color);
+  color: white;
+}
+
+.cookie-actions button.accept:hover {
+  background-color: var(--blue-font-color);
+}
+
+.cookie-actions button.secondary {
+  background: transparent;
+  color: var(--blue-font-color);
+  border: 1px solid var(--blue-font-color);
+}
+
+.cookie-actions button.secondary:hover {
+  background: var(--blue-font-color);
+  color: white;
+}

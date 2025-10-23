@@ -1,0 +1,39 @@
+<div class="cookie-settings" *ngIf="show">
+  <!-- Alapértelmezett nézet -->
+  <div *ngIf="!customizing">
+    <h4>{{ 'legal.cookieBanner.title' | translate }}</h4>
+    <p>{{ 'legal.cookieBanner.description' | translate }}</p>
+
+    <div class="cookie-actions">
+      <button class="accept" (click)="acceptAll()">
+        {{ 'legal.cookieBanner.accept' | translate }}
+      </button>
+      <button class="secondary" (click)="customizing = true">
+        {{ 'legal.cookieBanner.settings' | translate }}
+      </button>
+    </div>
+  </div>
+
+  <!-- Testreszabás nézet -->
+  <div *ngIf="customizing">
+    <h4>{{ 'legal.cookieSettings.title' | translate }}</h4>
+    <p>{{ 'legal.cookieSettings.description' | translate }}</p>
+
+    <div class="cookie-options">
+      <label>
+        <input type="checkbox" [checked]="statisticsEnabled" (change)="toggle('statistics')" />
+        {{ 'legal.cookieSettings.statisticsLabel' | translate }}
+      </label>
+      <label>
+        <input type="checkbox" [checked]="marketingEnabled" (change)="toggle('marketing')" />
+        {{ 'legal.cookieSettings.marketingLabel' | translate }}
+      </label>
+    </div>
+
+    <div class="cookie-actions">
+      <button class="accept" (click)="saveSettings()">
+        {{ 'legal.cookieSettings.saveButton' | translate }}
+      </button>
+    </div>
+  </div>
+</div>

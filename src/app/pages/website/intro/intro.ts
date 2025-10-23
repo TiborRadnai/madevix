@@ -57,5 +57,18 @@ export class Intro implements OnInit, OnDestroy {
     this.langSub?.unsubscribe();
     clearInterval(this.typingInterval);
   }
+
+    onVideoReady(event: Event): void {
+    const video = event.target as HTMLVideoElement;
+    setTimeout(() => {
+      video.pause(); // 5 másodperc után megállítjuk
+    }, 5000);
+  }
+
+  onVideoEnded(event: Event): void {
+    // Ne csináljon semmit — így nem vált fullscreenre
+    event.preventDefault();
+  }
+
 }
 

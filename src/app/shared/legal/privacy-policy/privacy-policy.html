@@ -1,1 +1,40 @@
-<p>privacy-policy works!</p>
+<section class="legal-page">
+  <h1>{{ 'legal.privacy.title' | translate }}</h1>
+  <dl class="legal-list">
+    <div>
+      <dt>{{ 'legal.privacy.controllerLabel' | translate }}</dt>
+      <dd>{{ 'legal.privacy.controller' | translate }}</dd>
+    </div>
+    <div>
+      <dt>{{ 'legal.privacy.dataLabel' | translate }}</dt>
+      <dd>{{ 'legal.privacy.data' | translate }}</dd>
+    </div>
+    <div>
+      <dt>{{ 'legal.privacy.purposeLabel' | translate }}</dt>
+      <dd>{{ 'legal.privacy.purpose' | translate }}</dd>
+    </div>
+    <div>
+      <dt>{{ 'legal.privacy.legalBasisLabel' | translate }}</dt>
+      <dd>{{ 'legal.privacy.legalBasis' | translate }}</dd>
+    </div>
+    <div>
+      <dt>{{ 'legal.privacy.storageLabel' | translate }}</dt>
+      <dd>{{ 'legal.privacy.storage' | translate }}</dd>
+    </div>
+    <div>
+      <dt>{{ 'legal.privacy.rightsLabel' | translate }}</dt>
+      <dd>{{ 'legal.privacy.rights' | translate }}</dd>
+    </div>
+    <div>
+      <dt>{{ 'legal.privacy.cookiesLabel' | translate }}</dt>
+      <dd>{{ 'legal.privacy.cookies' | translate }}</dd>
+    </div>
+    <div>
+      <dt>{{ 'legal.privacy.contactLabel' | translate }}</dt>
+      <dd>{{ 'legal.privacy.contact' | translate }}</dd>
+    </div>
+  </dl>
+  <button class="legal-close" (click)="router.navigate(['/'])">
+    {{ 'legal.closeButton' | translate }}
+  </button>  
+</section>

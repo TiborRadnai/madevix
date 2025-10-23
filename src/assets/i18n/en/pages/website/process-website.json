@@ -1,5 +1,5 @@
 {
-  "process": {
+  "process-website": {
     "title": "Steps of website creation",
     "steps": {
       "1": {
@@ -11,8 +11,8 @@
         "description": "Based on your ideas, we create a visual sketch showing the site’s overall structure. You’ll receive a transparent quote and timeline. Note: delivery time may vary depending on later changes."
       },
       "3": {
-        "title": "3. Contract and content",
-        "description": "Once everything is agreed, we send the contract. Work begins only after we receive the signed contract and all required content (texts, images, features, preferences). This isn’t just technical — it’s the foundation of smooth collaboration. If delays are caused by the client, it’s considered a breach of contract (as stated in the agreement)."
+        "title": "3. Agreement and Content",
+        "description": "Once everything is aligned, we’ll send over the agreement. Work begins once the signed document and all required content (texts, images, functions, preferences) have been received. This isn’t just a technical prerequisite — it’s the foundation of a smooth and inspired collaboration. The more complete the start, the faster and more enjoyable the process."
       },
       "4": {
         "title": "4. Development and feedback",
@@ -24,7 +24,7 @@
       },
       "6": {
         "title": "6. Payment and final delivery",
-        "description": "Once approved, payment is due. Important: until full payment is received, access to the site is restricted. If payment isn’t made within the agreed timeframe, it’s considered a breach of contract. After payment, we deliver the full site — and continue maintenance if requested."
+        "description": "At the end of the project, once everything is in place, payment is due. After that, we’ll deliver the full website and, if requested, continue with maintenance. Access to the site is granted once the final payment has been received — ensuring every detail is in place and the project is truly complete."
       }
     }
   }

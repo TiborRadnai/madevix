@@ -1,9 +1,17 @@
 <section class="intro-section">
   <div class="video-overlay"></div>
 
-  <video autoplay muted class="background-video">
+  <video
+    autoplay
+    muted
+    playsinline
+    disablePictureInPicture
+    class="background-video"
+    (loadedmetadata)="onVideoReady($event)"
+    (ended)="onVideoEnded($event)">
     <source src="./assets/videos/Code-Rain2.mp4" type="video/mp4" />
   </video>
+
 
   <div class="intro-content">
     <h1 class="typewriter">{{ typedText() }}</h1>

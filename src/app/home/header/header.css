@@ -1,6 +1,5 @@
 .header {
   position: relative;
-  /* height: 100svh; - TESZTELÉS ALATT A STYLES.CSS-ben*/ 
   background-image: url("/assets/images/backgrounds/bg-image1.webp");
   background-size: cover;
   background-position: center;

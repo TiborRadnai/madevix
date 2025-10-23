@@ -3,11 +3,11 @@
     "impressum": {
       "title": "Impressum",
       "companyLabel": "Firmenname:",
-      "company": "MaDeVix UX & Identity – Radnai Tibor, Einzelunternehmer",
+      "company": "MaDeVix UX & Identity – Tibor Radnai, Einzelunternehmer",
       "addressLabel": "Geschäftsanschrift:",
       "address": "Am Schwedenkreuz 5, 87534 Oberstaufen, Deutschland",
       "contactLabel": "Verantwortlicher Ansprechpartner:",
-      "contact": "Radnai Tibor – Inhaber und leitender Designer",
+      "contact": "Tibor Radnai – Inhaber und leitender Designer",
       "phoneLabel": "Telefon:",
       "phone": "+49 176 22214043",
       "emailLabel": "E-Mail:",
@@ -16,6 +16,54 @@
       "tax": "DE123456789",
       "disclaimerLabel": "Haftungsausschluss:",
       "disclaimer": "Die auf dieser Website bereitgestellten Informationen stellen keine Rechtsberatung dar. Für die Richtigkeit der Inhalte und für externe Links übernehmen wir keine Haftung; für deren Inhalte sind ausschließlich die jeweiligen Anbieter verantwortlich."
-    }
+    },
+  "privacy": {
+      "title": "Datenschutzerklärung",
+      "controllerLabel": "Verantwortlicher:",
+      "controller": "Tibor Radnai – MaDeVix UX & Identity, Einzelunternehmer",
+      "dataLabel": "Erhobene Daten:",
+      "data": "Name, E-Mail-Adresse, IP-Adresse, Browserdaten, Kontaktanfragen",
+      "purposeLabel": "Zweck der Datenverarbeitung:",
+      "purpose": "Kommunikation, statistische Auswertung, Betrieb und Verbesserung der Website",
+      "legalBasisLabel": "Rechtsgrundlage:",
+      "legalBasis": "Die Verarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. a und f DSGVO",
+      "storageLabel": "Speicherdauer:",
+      "storage": "Die Daten werden bis zu 12 Monate nach Abschluss der Kommunikation gespeichert",
+      "rightsLabel": "Betroffenenrechte:",
+      "rights": "Sie haben das Recht auf Auskunft, Löschung, Berichtigung Ihrer Daten und Widerspruch gegen die Verarbeitung",
+      "cookiesLabel": "Cookies:",
+      "cookies": "Diese Website verwendet Cookies zur Verbesserung der Benutzererfahrung. Cookie-Einstellungen können jederzeit angepasst werden",
+      "contactLabel": "Kontakt für Datenschutzanfragen:",
+      "contact": "info@madevix.com – Antwortzeit: innerhalb von 5 Werktagen"
+    },
+    "cookies": {
+      "title": "Cookie-Richtlinie",
+      "usageLabel": "Verwendung von Cookies:",
+      "usage": "Diese Website verwendet Cookies zur Verbesserung der Benutzererfahrung, zur statistischen Auswertung und für Marketingzwecke. Einige Cookies sind für den technischen Betrieb der Website unerlässlich, andere werden nur mit Ihrer Zustimmung aktiviert.",
+      "typesLabel": "Cookie-Typen:",
+      "types": "• Notwendige Cookies: für den technischen Betrieb\n• Statistik-Cookies: zur Erfassung von Besucherdaten\n• Marketing-Cookies: zur Anzeige personalisierter Inhalte und Werbung",
+      "consentLabel": "Einwilligungsverwaltung:",
+      "consent": "Sie können Ihre Cookie-Einstellungen jederzeit über die Schaltfläche 'Cookie-Einstellungen' am unteren Rand der Website ändern. Nicht notwendige Cookies werden nur nach Ihrer ausdrücklichen Zustimmung verwendet.",
+      "thirdPartyLabel": "Drittanbieter:",
+      "thirdParty": "Diese Website kann externe Dienste (z. B. Google Analytics) nutzen, die eigene Cookies setzen. Für diese Anbieter gelten deren eigene Datenschutzrichtlinien.",
+      "contactLabel": "Kontakt bei Cookie-Anfragen:",
+      "contact": "info@madevix.com – Antwortzeit: innerhalb von 5 Werktagen",
+      "modifySettings": "Cookie-Einstellungen ändern"
+    },
+    "cookieBanner": {
+      "title": "Verwendung von Cookies",
+      "description": "Diese Website verwendet Cookies für ein besseres Nutzungserlebnis. Du entscheidest, welche erlaubt sind.",
+      "accept": "Alle akzeptieren",
+      "settings": "Individuelle Einstellungen"
+    },
+    "cookieSettings": {
+      "title": "Cookie-Einstellungen",
+      "description": "Wähle aus, welche Cookies du zulassen möchtest.",
+      "statisticsLabel": "Statistik-Cookies – helfen zu verstehen, wie die Website genutzt wird",
+      "marketingLabel": "Marketing-Cookies – für personalisierte Inhalte und Angebote",
+      "saveButton": "Einstellungen speichern",
+      "closeButton": "Schließen"
+    },
+    "closeButton": "Schließen"
   }
 }

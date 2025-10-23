@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
+import { CookieService } from '../../core/cookie-service';
 
 @Component({
   selector: 'app-footer',
@@ -10,6 +11,11 @@ import { TranslateModule } from '@ngx-translate/core';
   templateUrl: './footer.html',
   styleUrl: './footer.css'
 })
-export class Footer {
 
+export class Footer {
+  constructor(private cookieService: CookieService) {}
+
+  openCookieSettings() {
+    this.cookieService.openSettings();
+  }
 }

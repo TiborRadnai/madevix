@@ -1,4 +1,6 @@
-<app-navbar></app-navbar>
+<app-navbar *ngIf="showNavbar"></app-navbar>
+<div class="cookie-overlay" *ngIf="showCookieSettings" (click)="closeCookieSettings()"></div>
+<cookie-settings [show]="showCookieSettings" />
 <router-outlet></router-outlet>
 <app-footer></app-footer>
 
