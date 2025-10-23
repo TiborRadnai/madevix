@@ -1,46 +1,104 @@
-<section class="references-section">
+<!-- <section class="references-section">
   <h2 class="references-title">{{ 'references.title' | translate }}</h2>
-  <div class="references-carousel">
+
+  <div 
+    class="references-carousel"
+    (touchstart)="onTouchStart($event)"
+    (touchend)="onTouchEnd($event)"
+  >
     <div 
       class="references-track" 
       [ngClass]="{ 'no-transition': disableTransition }" 
       [style.transform]="transformStyle"
-      (transitionend)="onTransitionEnd()">
-          <div class="references-slide" *ngFor="let item of references">
-            <div class="mockup-frame">
-              <div class="mockup-topbar"></div>
-              <div class="mockup-screen">
-                <div class="iframe-wrapper">
-                  <iframe [src]="item.url" frameborder="0"></iframe>
-                </div>
-              </div>
-              <div class="mockup-bottom"></div>
+      (transitionend)="onTransitionEnd()"
+    >
+      <div class="references-slide" *ngFor="let item of references">
+        <div class="mockup-frame">
+          <div class="mockup-topbar"></div>
+          <div class="mockup-screen">
+            <div class="iframe-wrapper">
+              <iframe [src]="item.url" frameborder="0"></iframe>
             </div>
-            <p class="references-caption">
-              <ng-container *ngIf="item.type === 'live'; else plainText">
-              <a [href]="item.url" target="_blank" rel="noopener noreferrer" class="caption-link">
-                {{ item.caption }} ↗
-              </a>
-              </ng-container>
-              <ng-template #plainText>
-                {{ item.caption }}
-              </ng-template>
-            <span class="reference-badge" [ngClass]="item.type">
-              {{ item.type === 'live' ? ('references.badge.live' | translate) : ('references.badge.demo' | translate) }}
-            </span>
-            </p>
           </div>
+          <div class="mockup-bottom"></div>
         </div>
-        <div class="references-nav-wrapper">
-          <button class="references-nav prev" (click)="prevSlide()">&#10094;</button>
-          <button class="references-nav next" (click)="nextSlide()">&#10095;</button>
-        </div>
-        <div class="references-indicator">
-          <span 
-            class="references-dot" 
-            *ngFor="let item of referencesRaw; let i = index" 
-            [class.active]="getActiveDotIndex() === i">
+        <p class="references-caption">
+          <ng-container *ngIf="item.type === 'live'; else plainText">
+            <a [href]="item.url" target="_blank" rel="noopener noreferrer" class="caption-link">
+              {{ item.caption }} ↗
+            </a>
+          </ng-container>
+          <ng-template #plainText>
+            {{ item.caption }}
+          </ng-template>
+          <span class="reference-badge" [ngClass]="item.type">
+            {{ item.type === 'live' ? ('references.badge.live' | translate) : ('references.badge.demo' | translate) }}
+          </span>
+        </p>
+      </div>
+    </div>
+
+    <div class="references-nav-wrapper">
+      <button class="references-nav prev" (click)="prevSlide()">&#10094;</button>
+      <button class="references-nav next" (click)="nextSlide()">&#10095;</button>
+    </div>
+
+    <div class="references-indicator">
+      <span 
+        class="references-dot" 
+        *ngFor="let item of referencesRaw; let i = index" 
+        [class.active]="getActiveDotIndex() === i">
+      </span>
+    </div>
+  </div>
+</section> -->
+<section class="references-section">
+  <h2 class="references-title">{{ 'references.title' | translate }}</h2>
+
+  <div 
+    class="references-carousel" 
+    (touchstart)="onTouchStart($event)" 
+    (touchend)="onTouchEnd($event)"
+  >
+    <div 
+      class="references-track" 
+      [style.transform]="transformStyle" 
+      [class.no-transition]="disableTransition"
+      (transitionend)="onTransitionEnd()"
+    >
+    <div class="reference-slide" *ngFor="let item of references">
+      <a 
+        class="reference-frame" 
+        [href]="item.url" 
+        target="_blank" 
+        rel="noopener noreferrer"
+      >
+        <div class="reference-header">
+          <h3 class="reference-title">{{ item.name }}</h3>
+          <span class="reference-badge" [ngClass]="item.type">
+            {{ 'references.badge.' + item.type | translate }}
           </span>
         </div>
+
+        <img [src]="item.image" [alt]="item.caption" />
+        <p class="card-caption">{{ item.caption }}</p>
+      </a>
+    </div>
+
+
+    </div>
+
+    <button class="nav-button prev" (click)="prevSlide()">&#10094;</button>
+    <button class="nav-button next" (click)="nextSlide()">&#10095;</button>
+
+    <div class="indicator-dots">
+      <span 
+        class="dot" 
+        *ngFor="let item of referencesRaw; let i = index" 
+        [class.active]="getActiveDotIndex() === i"
+      ></span>
+    </div>
   </div>
 </section>
+
+

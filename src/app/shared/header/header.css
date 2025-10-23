@@ -23,42 +23,45 @@
 }
 
 .hero-text {
-  position: relative;
-  z-index: 2;
-  max-width: 90vw;
-  padding: 1rem;
-  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 5;
+  padding: clamp(1rem, 5vw, 2rem);
+  max-width: 95vw;
+  width: clamp(300px, 70vw, 1000px);
 }
 
 .hero-text::before {
   content: "";
   position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0, 0, 0, 0.2);
-  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+  top: -1rem;
+  left: -2rem;
+  right: -2rem;
+  bottom: -1rem;
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   z-index: -1;
+  border-radius: 12px;
 }
 
 .hero-text h1 {
-  font-size: clamp(1.5rem, 5vw + 1rem, 6rem);
-  color: #E6F0F6;
+  font-size: clamp(2.5rem, 4vw + 1.2rem, 5rem); /* rugalmas, de hatalmas */
+  color: var(--font-color-secondary);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 0.05em;
   line-height: 1.2;
-  margin-bottom: 1rem;
-  overflow-wrap: break-word;
-  hyphens: auto;
-  white-space: normal;
+  text-align: center;
+  margin: 0 aut
 }
 
 .hero-text h3 {
-  font-size: clamp(1rem, 2vw + 1rem, 2.5rem);
-  color: #E6F0F6;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-  letter-spacing: 0.05em;
-  line-height: 1.4;
-  overflow-wrap: break-word;
-  white-space: normal;
+    color: var(--font-color-secondary);
+    font-size: clamp(.8rem, 2vw + 1rem, 3rem); 
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4); 
+    letter-spacing: 0.05em;
+    line-height: 1.2;
 }

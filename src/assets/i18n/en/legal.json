@@ -3,11 +3,11 @@
     "impressum": {
       "title": "Legal Notice",
       "companyLabel": "Company Name:",
-      "company": "MaDeVix UX & Identity – Radnai Tibor, Sole Proprietor",
+      "company": "MaDeVix UX & Identity – Tibor Radnai, Sole Proprietor",
       "addressLabel": "Registered Address:",
       "address": "Am Schwedenkreuz 5, 87534 Oberstaufen, Germany",
       "contactLabel": "Responsible Contact:",
-      "contact": "Radnai Tibor – Owner and Lead Designer",
+      "contact": "Tibor Radnai – Owner and Lead Designer",
       "phoneLabel": "Phone:",
       "phone": "+49 176 22214043",
       "emailLabel": "Email:",
@@ -16,6 +16,54 @@
       "tax": "DE123456789",
       "disclaimerLabel": "Disclaimer:",
       "disclaimer": "The information provided on this website does not constitute legal advice. We do not assume liability for the accuracy of the content or for external links; the responsibility for linked content lies solely with the respective provider."
-    }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "controllerLabel": "Data Controller:",
+      "controller": "Tibor Radnai – MaDeVix UX & Identity, Sole Proprietor",
+      "dataLabel": "Data Collected:",
+      "data": "Name, email address, IP address, browsing data, contact messages",
+      "purposeLabel": "Purpose of Data Processing:",
+      "purpose": "Communication, statistical analysis, website operation and improvement",
+      "legalBasisLabel": "Legal Basis:",
+      "legalBasis": "Data processing is based on Article 6 (1) a) and f) of the EU GDPR",
+      "storageLabel": "Data Retention Period:",
+      "storage": "Data is stored for up to 12 months after the end of the communication",
+      "rightsLabel": "User Rights:",
+      "rights": "You have the right to access, delete, correct your data, and object to processing",
+      "cookiesLabel": "Cookies:",
+      "cookies": "This website uses cookies to enhance user experience. You can change your cookie settings at any time",
+      "contactLabel": "Contact for Privacy Matters:",
+      "contact": "info@madevix.com – response time: within 5 business days"
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "usageLabel": "Use of Cookies:",
+      "usage": "This website uses cookies to enhance user experience, perform statistical analysis, and support marketing activities. Some cookies are essential for the website to function, while others are activated only with your consent.",
+      "typesLabel": "Types of Cookies:",
+      "types": "• Essential cookies: required for technical operation\n• Statistical cookies: collect visitor data\n• Marketing cookies: deliver personalized content and ads",
+      "consentLabel": "Managing Consent:",
+      "consent": "You can change your cookie preferences at any time using the 'Cookie Settings' button at the bottom of the website. Non-essential cookies are only applied after your explicit consent.",
+      "thirdPartyLabel": "Third-Party Providers:",
+      "thirdParty": "This website may use external services (e.g., Google Analytics) that place their own cookies. These providers are subject to their own privacy policies.",
+      "contactLabel": "Contact for Cookie Matters:",
+      "contact": "info@madevix.com – response time: within 5 business days",
+      "modifySettings": "Change cookie settings"
+    },
+    "cookieBanner": {
+      "title": "Cookie Usage",
+      "description": "This website uses cookies to improve your experience. You decide which ones to allow.",
+      "accept": "Accept all",
+      "settings": "Customize"
+    },
+    "cookieSettings": {
+      "title": "Cookie Settings",
+      "description": "Choose which cookies you'd like to allow.",
+      "statisticsLabel": "Statistics cookies – help us understand how the site is used",
+      "marketingLabel": "Marketing cookies – for personalized content and offers",
+      "saveButton": "Save settings",
+      "closeButton": "Close"
+    },
+    "closeButton": "Close"    
   }
 }

@@ -1,5 +1,5 @@
 {
-  "process": {
+  "process-website": {
     "title": "Schritte zur Website-Erstellung",
     "steps": {
       "1": {
@@ -12,7 +12,7 @@
       },
       "3": {
         "title": "3. Vertrag und Inhalte",
-        "description": "Wenn alles passt, senden wir den Vertrag. Die Arbeit beginnt erst, wenn der unterschriebene Vertrag und alle nötigen Inhalte (Texte, Bilder, Funktionen, Wünsche) vorliegen. Das ist nicht nur technisch wichtig — es ist die Grundlage für eine reibungslose Zusammenarbeit. Verzögerungen durch den Auftraggeber gelten als Vertragsbruch (wie im Vertrag festgehalten)."
+        "description": "Sobald alles abgestimmt ist, senden wir den Vertrag. Die Arbeit beginnt, sobald das unterzeichnete Dokument und alle erforderlichen Inhalte (Texte, Bilder, Funktionen, Wünsche) bei uns eingetroffen sind. Das ist nicht nur eine technische Voraussetzung — es bildet die Grundlage für eine reibungslose und inspirierte Zusammenarbeit. Je vollständiger der Start, desto schneller und angenehmer der Prozess."
       },
       "4": {
         "title": "4. Entwicklung und Feedback",
@@ -24,7 +24,7 @@
       },
       "6": {
         "title": "6. Zahlung und finale Übergabe",
-        "description": "Wenn alles passt, erfolgt die Zahlung. Wichtig: Bis zur vollständigen Zahlung bleibt der Zugriff eingeschränkt. Erfolgt die Zahlung nicht fristgerecht, gilt das als Vertragsbruch. Nach Zahlung übergeben wir die komplette Website — und übernehmen bei Bedarf die Wartung."
+        "description": "Am Ende des Projekts, wenn alles passt, erfolgt die Zahlung. Danach übergeben wir die vollständige Website und setzen auf Wunsch die Wartung fort. Der Zugang zur Website wird nach Eingang der Schlusszahlung freigeschaltet — so stellen wir sicher, dass jedes Detail sitzt und das Projekt wirklich abgeschlossen ist."
       }
     }
   }

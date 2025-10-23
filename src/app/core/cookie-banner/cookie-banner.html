@@ -1,0 +1,18 @@
+<div class="cookie-banner" *ngIf="show">
+  <div class="cookie-content">
+    <h4>{{ 'legal.cookieBanner.title' | translate }}</h4>
+    <p>{{ 'legal.cookieBanner.description' | translate }}</p>
+
+    <div class="cookie-actions">
+      <button (click)="acceptAll()">
+        {{ 'legal.cookieBanner.accept' | translate }}
+      </button>
+      <button (click)="rejectAll()">
+        {{ 'legal.cookieBanner.reject' | translate }}
+      </button>
+      <button (click)="openSettings()">
+        {{ 'legal.cookieBanner.settings' | translate }}
+      </button>
+    </div>
+  </div>
+</div>

@@ -96,6 +96,19 @@
   color: var(--hover-color);
 }
 
+.cookie-settings-btn {
+  background: none;
+  border: none;
+  color: var(--hover-color);
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 1rem;
+}
+.cookie-settings-btn:hover {
+  color: var(--blue-font-color);
+}
+
 
 @media (max-width: 768px) {
   .footer-content {

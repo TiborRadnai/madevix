@@ -56,6 +56,24 @@
   font-weight: 500;
 }
 
+.legal-close {
+  display: block;
+  margin: 3rem auto 0;
+  padding: 0.8rem 1.6rem;
+  background-color: var(--hover-color);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.legal-close:hover {
+  background: var(--blue-font-color);  
+}
+
 @media (max-width: 768px) {
   .legal-page {
     padding: 2rem 1rem;

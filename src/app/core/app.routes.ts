@@ -7,6 +7,7 @@ import { Contact } from '../pages/contact/contact';
 import { Impressum } from '../shared/legal/impressum/impressum';
 import { PrivacyPolicy } from '../shared/legal/privacy-policy/privacy-policy';
 import { Cookies } from '../shared/legal/cookies/cookies';
+import { MinimalLayout } from '../core/minimal-layout/minimal-layout';
 
 export const routes: Routes = [
   { path: '', component: Home },
@@ -14,8 +15,14 @@ export const routes: Routes = [
   { path: 'pricing', component: Pricing },
   { path: 'portfolio', component: Portfolio },
   { path: 'contact', component: Contact },
-  { path: 'impressum', component: Impressum },
-  { path: 'privacy', component: PrivacyPolicy },
-  { path: 'cookies', component: Cookies },
+  {
+    path: '',
+    component: MinimalLayout,
+    children: [
+      { path: 'impressum', component: Impressum },
+      { path: 'privacy', component: PrivacyPolicy },
+      { path: 'cookies', component: Cookies }
+    ]
+  }
 ];
 

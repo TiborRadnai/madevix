@@ -16,6 +16,54 @@
       "tax": "DE123456789",
       "disclaimerLabel": "Felelősség kizárása:",
       "disclaimer": "A weboldalon található információk nem minősülnek jogi tanácsadásnak. A tartalom pontosságáért és a külső hivatkozásokért nem vállalunk felelősséget; azok tartalmáért kizárólag az adott szolgáltató felelős."
-    }
+    },
+    "privacy": {
+      "title": "Adatvédelmi tájékoztató",
+      "controllerLabel": "Adatkezelő:",
+      "controller": "Radnai Tibor – MaDeVix UX & Identity, egyéni vállalkozó",
+      "dataLabel": "Kezelt adatok:",
+      "data": "Név, e-mail cím, IP-cím, böngészési adatok, kapcsolatfelvételi üzenetek",
+      "purposeLabel": "Adatkezelés célja:",
+      "purpose": "Kapcsolattartás, statisztikai elemzés, weboldal működtetése és fejlesztése",
+      "legalBasisLabel": "Jogalap:",
+      "legalBasis": "Az adatkezelés az EU GDPR 6. cikk (1) bekezdésének a) és f) pontja alapján történik",
+      "storageLabel": "Adattárolás időtartama:",
+      "storage": "Az adatokat a kapcsolat lezárásától számított legfeljebb 12 hónapig tároljuk",
+      "rightsLabel": "Felhasználói jogok:",
+      "rights": "Ön jogosult az adataihoz hozzáférni, kérheti azok törlését, helyesbítését, illetve tiltakozhat az adatkezelés ellen",
+      "cookiesLabel": "Cookie-k:",
+      "cookies": "A weboldal cookie-kat használ a felhasználói élmény javítása érdekében. A cookie-beállításokat bármikor módosíthatja",
+      "contactLabel": "Kapcsolat adatvédelmi ügyekben:",
+      "contact": "info@madevix.com – válaszidő: 5 munkanapon belül"
+    },
+    "cookies": {
+      "title": "Cookie tájékoztató",
+      "usageLabel": "Cookie-k használata:",
+      "usage": "A weboldal cookie-kat használ a felhasználói élmény javítása, statisztikai elemzés és marketing célok érdekében. A cookie-k egy része elengedhetetlen a weboldal működéséhez, míg mások csak az Ön beleegyezésével aktiválódnak.",
+      "typesLabel": "Cookie típusok:",
+      "types": "• Szükséges cookie-k: a weboldal technikai működéséhez\n• Statisztikai cookie-k: látogatottsági adatok gyűjtése\n• Marketing cookie-k: személyre szabott tartalmak és hirdetések megjelenítése",
+      "consentLabel": "Beleegyezés kezelése:",
+      "consent": "A cookie-beállításokat bármikor módosíthatja a weboldal alján található 'Cookie beállítások' gomb segítségével. A nem szükséges cookie-k csak az Ön aktív hozzájárulása után kerülnek alkalmazásra.",
+      "thirdPartyLabel": "Harmadik fél szolgáltatók:",
+      "thirdParty": "A weboldal külső szolgáltatókat is használhat (pl. Google Analytics), akik saját cookie-kat helyezhetnek el. Ezekre a szolgáltatók saját adatvédelmi szabályzatai vonatkoznak.",
+      "contactLabel": "Kapcsolat cookie-ügyekben:",
+      "contact": "info@madevix.com – válaszidő: 5 munkanapon belül",
+      "modifySettings": "Cookie-beállítások módosítása"
+    },
+    "cookieBanner": {
+      "title": "Sütik használata",
+      "description": "Ez az oldal sütiket használ a jobb élményért. Te döntöd el, melyeket engedélyezed.",
+      "accept": "Mindent elfogadok",
+      "settings": "Testreszabás"
+    },
+    "cookieSettings": {
+      "title": "Cookie-beállítások",
+      "description": "Válaszd ki, mely sütiket szeretnéd engedélyezni.",
+      "statisticsLabel": "Statisztikai sütik – segítenek megérteni, hogyan használják az oldalt",
+      "marketingLabel": "Marketing sütik – személyre szabott tartalmakhoz",
+      "saveButton": "Beállítások mentése",
+      "closeButton": "Bezárás"
+    },
+    "closeButton": "Bezárás"
   }
 }

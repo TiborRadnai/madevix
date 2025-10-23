@@ -17,7 +17,8 @@
     "legal": {
       "impressum": "Impresszum",
       "privacy": "Adatvédelem",
-      "cookies": "Cookie beállítások"
+      "cookies": "Cookie tájékoztató",
+      "cookieSettings": "Cookie beállítások"
     }
   }
 }
