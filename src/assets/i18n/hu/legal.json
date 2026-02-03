@@ -12,8 +12,8 @@
       "phone": "+49 176 22214043",
       "emailLabel": "E-mail:",
       "email": "info@madevix.com",
-      "taxLabel": "Adószám:",
-      "tax": "DE123456789",
+      "taxLabel": "Adóazonosító / Gazdasági azonosító (W‑IdNr.):",
+      "tax": "DE459609225",
       "disclaimerLabel": "Felelősség kizárása:",
       "disclaimer": "A weboldalon található információk nem minősülnek jogi tanácsadásnak. A tartalom pontosságáért és a külső hivatkozásokért nem vállalunk felelősséget; azok tartalmáért kizárólag az adott szolgáltató felelős."
     },
@@ -47,7 +47,7 @@
       "thirdPartyLabel": "Harmadik fél szolgáltatók:",
       "thirdParty": "A weboldal külső szolgáltatókat is használhat (pl. Google Analytics), akik saját cookie-kat helyezhetnek el. Ezekre a szolgáltatók saját adatvédelmi szabályzatai vonatkoznak.",
       "contactLabel": "Kapcsolat cookie-ügyekben:",
-      "contact": "info@madevix.com – válaszidő: 5 munkanapon belül",
+      "contact": "info@madevix.com – válaszidő: általában 5 munkanapon belül",
       "modifySettings": "Cookie-beállítások módosítása"
     },
     "cookieBanner": {

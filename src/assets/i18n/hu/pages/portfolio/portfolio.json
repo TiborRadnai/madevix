@@ -7,7 +7,7 @@
     "title": "Referenciák",
     "items": {
       "mymadeira": {
-        "title": "myMadeira",
+        "title": "Madeirise",
         "subtitle": "Madeira – Az örök tavasz szigete",
         "description1": "Ez az oldal egy vizuálisan gazdag utazási portál, amely Madeira szigetét mutatja be túrázóknak, felfedezőknek és természetrajongóknak. Látványos slider képek, galéria, túrainformációk és helyi tippek segítik az utazót, miközben a dizájn letisztult és érzelmileg vonzó.",
         "description2": "Ideális példa arra, hogyan lehet egy desztinációt élménnyé formálni",
@@ -49,5 +49,11 @@
         "link": "Megtekintés"
       }
     }
+  },
+  "meta": {
+    "title": "Madevix – Referenciák és portfólió",
+    "description": "Tekintsd meg korábbi munkáinkat: weboldalak, márkák és vizuális élmények, amelyeket ügyfeleink számára készítettünk. Inspiráció és minőség egy helyen.",
+    "ogImage": "https://madevix.com/assets/og/madevix-portfolio-hu.webp",
+    "canonical": "https://madevix.com/hu/portfolio"
   }
 }

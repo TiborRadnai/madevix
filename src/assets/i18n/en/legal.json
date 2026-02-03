@@ -12,8 +12,8 @@
       "phone": "+49 176 22214043",
       "emailLabel": "Email:",
       "email": "info@madevix.com",
-      "taxLabel": "VAT ID:",
-      "tax": "DE123456789",
+      "taxLabel": "Business Identification Number (W‑IdNr.):",
+      "tax": "DE459609225",
       "disclaimerLabel": "Disclaimer:",
       "disclaimer": "The information provided on this website does not constitute legal advice. We do not assume liability for the accuracy of the content or for external links; the responsibility for linked content lies solely with the respective provider."
     },
@@ -34,7 +34,7 @@
       "cookiesLabel": "Cookies:",
       "cookies": "This website uses cookies to enhance user experience. You can change your cookie settings at any time",
       "contactLabel": "Contact for Privacy Matters:",
-      "contact": "info@madevix.com – response time: within 5 business days"
+      "contact": "info@madevix.com – response time: typically within 5 business days"
     },
     "cookies": {
       "title": "Cookie Policy",

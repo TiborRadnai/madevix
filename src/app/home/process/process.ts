@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
+import { SeoService } from '../../core/seo.service'; 
+import { OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-process',
@@ -9,7 +11,11 @@ import { TranslateModule } from '@ngx-translate/core';
   templateUrl: './process.html',
   styleUrls: ['./process.css']
 })
-export class Process {
+export class Process implements OnInit{
+   constructor(private seo: SeoService) {} 
+   ngOnInit(): void {
+     this.seo.updateMeta('home/process-home'); 
+    }
   steps = [
     {
       icon: 'fa-solid fa-lightbulb',

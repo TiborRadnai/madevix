@@ -1,6 +1,5 @@
 export const environment = {
   production: false,
-  analyticsId: 'G-TEST1234',
-  analyticsLegacyId: 'UA-TEST1234',
-  facebookPixelId: 'FB-TEST1234'
+  analyticsId: 'G-PK8V25NHKF',
+  analyticsLegacyId: 'G-PK8V25NHKF'
 };

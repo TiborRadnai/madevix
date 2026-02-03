@@ -13,9 +13,12 @@ import { CookieService } from '../../core/cookie-service';
 })
 
 export class Footer {
+  currentYear = new Date().getFullYear();
+
   constructor(private cookieService: CookieService) {}
 
   openCookieSettings() {
     this.cookieService.openSettings();
   }
 }
+

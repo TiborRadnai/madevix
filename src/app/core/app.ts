@@ -64,6 +64,10 @@ export class App implements OnInit {
 
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
+        window.gtag?.('config', environment.analyticsId, {
+          page_path: event.urlAfterRedirects
+        });
+        
         const url = event.urlAfterRedirects;
         const isLegalPage = ['/cookies', '/privacy', '/impressum'].includes(url);
         const consent = this.cookieService.getConsent();

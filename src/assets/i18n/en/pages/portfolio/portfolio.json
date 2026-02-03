@@ -7,7 +7,7 @@
     "title": "Portfolio",
     "items": {
       "mymadeira": {
-        "title": "myMadeira",
+        "title": "Madeirise",
         "subtitle": "Madeira – The island of eternal spring",
         "description1": "A visually rich travel portal showcasing Madeira for hikers, explorers, and nature lovers. Stunning sliders, galleries, hiking info, and local tips guide the visitor, while the design remains clean and emotionally engaging.",
         "description2": "A perfect example of turning a destination into an experience",
@@ -49,5 +49,11 @@
         "link": "View project"
       }
     }
+  },
+  "meta": {
+    "title": "Madevix – Portfolio and references",
+    "description": "Explore our previous work: websites, brands and visual experiences crafted for our clients. Inspiration and quality in one place.",
+    "ogImage": "https://madevix.com/assets/og/madevix-portfolio-en.webp",
+    "canonical": "https://madevix.com/en/portfolio"
   }
 }

@@ -4,5 +4,11 @@
       "title": "KONTAKT",
       "subtitle": "Melde dich gerne bei uns!"
     }
+  },
+  "meta": {
+    "title": "Madevix – Kontakt",
+    "description": "Nimm einfach Kontakt mit uns auf: Nachricht senden, Angebot anfragen oder Fragen stellen. Schnelle Antworten und zuverlässige Unterstützung.",
+    "ogImage": "https://madevix.com/assets/og/madevix-contact-de.webp",
+    "canonical": "https://madevix.com/de/contact"
   }
 }
