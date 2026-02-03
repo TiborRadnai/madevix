@@ -5,5 +5,11 @@
     "live": "Live site",
     "demo": "Demo project"
   }
-}
+},
+ "meta": { 
+  "title": "Madevix – References and completed projects", 
+  "description": "Live websites and demo projects: Madeirise, Alakformálás Pilisvörösvár, Hairflair, Nimbus‑X, PortuPlay, Woodman. Real work, real results.", 
+  "ogImage": "https://madevix.com/assets/og/madevix-references-en.webp", 
+  "canonical": "https://madevix.com/en" 
+  }
 }

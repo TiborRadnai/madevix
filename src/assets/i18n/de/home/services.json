@@ -39,5 +39,11 @@
         "description": "HTTPS, Datenschutz, DSGVO-Konformität — alles, was du für Sicherheit und Ruhe brauchst."
       }
     }
+  },
+   "meta": { 
+    "title": "Madevix – Webentwicklungs-Dienstleistungen", 
+    "description": "Individuelle Webentwicklung, mobile Optimierung, SEO, Domain-Service, Bildbearbeitung und Performance-Analyse — alles für einen professionellen Online-Auftritt.", 
+    "ogImage": "https://madevix.com/assets/og/madevix-services-de.webp", 
+    "canonical": "https://madevix.com/de" 
   }
 }

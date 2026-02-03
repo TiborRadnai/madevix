@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FadeOnScrollDirective } from './fade-on-scroll.directive';
 import { TranslateModule } from '@ngx-translate/core';
+import { SeoService } from '../../core/seo.service'; 
+import { OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-services',
@@ -10,7 +12,13 @@ import { TranslateModule } from '@ngx-translate/core';
   templateUrl: './services.html',
   styleUrl: './services.css'
 })
-export class Services {
+export class Services implements OnInit {
+   constructor(private seo: SeoService) {} 
+
+   ngOnInit(): void { 
+    this.seo.updateMeta('home/services');
+   }
+   
   services = [
     {
       icon: 'fa-solid fa-laptop-code',

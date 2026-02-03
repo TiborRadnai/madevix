@@ -5,6 +5,8 @@ import { Cta } from './cta/cta';
 import { Closing } from './closing/closing';
 import { Header } from '../../shared/header/header';
 import { TranslateModule } from '@ngx-translate/core';
+import { SeoService } from '../../core/seo.service'; 
+import { OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-pricing',
@@ -13,7 +15,14 @@ import { TranslateModule } from '@ngx-translate/core';
   templateUrl: './pricing.html',
   styleUrls: ['./pricing.css']
 })
-export class Pricing {
+export class Pricing implements OnInit {
+
+ constructor(private seo: SeoService) {}
+ 
+  ngOnInit(): void { 
+    this.seo.updateMeta('pricing'); 
+  }
+
   coreFeatures = [
     { key: 'responsiveDesign', label: 'pricing.features.responsiveDesign', tooltip: 'pricing.tooltips.responsiveDesign' },
     { key: 'contactForm', label: 'pricing.features.contactForm', tooltip: 'pricing.tooltips.contactForm' },

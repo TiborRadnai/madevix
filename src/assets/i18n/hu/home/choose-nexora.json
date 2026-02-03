@@ -27,5 +27,11 @@
       "description": "Mesterséges intelligenciával segítünk gyorsabban és okosabban dönteni – már az első lépésektől."
     }
   }
-}
+},
+ "meta": { 
+  "title": "Madevix – Miért válassz minket?", 
+  "description": "Rugalmas árképzés, modern technológia, AI‑támogatott tervezés, professzionális dizájn és mérhető eredmények. Madevix: webfejlesztés új dimenzióban.", 
+  "ogImage": "https://madevix.com/assets/og/madevix-choose-hu.webp", 
+  "canonical": "https://madevix.com/hu" 
+  }
 }

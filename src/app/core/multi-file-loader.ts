@@ -20,6 +20,7 @@ export class MultiFileTranslateLoader implements TranslateLoader {
       'home/process-home.json',
       'home/references.json',
       'home/services.json',
+      'pages/website/website.json',
       'pages/website/intro.json',
       'pages/website/extras.json',
       'pages/website/inspiration.json',

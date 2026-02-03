@@ -2,6 +2,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslateModule, TranslateService, LangChangeEvent } from '@ngx-translate/core';
 import { Subscription } from 'rxjs';
+import { SeoService } from '../../core/seo.service';
 
 @Component({
   selector: 'app-choose-nexora',
@@ -14,9 +15,10 @@ export class ChooseNexora implements OnInit, OnDestroy {
   cards: { icon: string; title: string; description: string }[] = [];
   langSub!: Subscription;
 
-  constructor(private translate: TranslateService) {}
+  constructor(private translate: TranslateService, private seo: SeoService) {}
 
   ngOnInit(): void {
+    this.seo.updateMeta('home/choose-nexora');
     this.loadCards();
 
     this.langSub = this.translate.onLangChange.subscribe(() => {

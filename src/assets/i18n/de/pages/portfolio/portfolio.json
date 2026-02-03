@@ -7,7 +7,7 @@
     "title": "Referenzen",
     "items": {
       "mymadeira": {
-        "title": "myMadeira",
+        "title": "Madeirise",
         "subtitle": "Madeira – Die Insel des ewigen Frühlings",
         "description1": "Ein visuell reiches Reiseportal für Wanderer, Entdecker und Naturliebhaber. Beeindruckende Slider, Galerien, Wandertipps und lokale Empfehlungen begleiten den Besucher – das Design bleibt klar und emotional ansprechend.",
         "description2": "Ein perfektes Beispiel dafür, wie man ein Reiseziel zum Erlebnis macht",
@@ -49,5 +49,11 @@
         "link": "Projekt ansehen"
       }
     }
+  },
+  "meta": {
+    "title": "Madevix – Referenzen und Portfolio",
+    "description": "Entdecke unsere bisherigen Arbeiten: Websites, Marken und visuelle Erlebnisse, die wir für unsere Kunden gestaltet haben.",
+    "ogImage": "https://madevix.com/assets/og/madevix-portfolio-de.webp",
+    "canonical": "https://madevix.com/de/portfolio"
   }
 }
