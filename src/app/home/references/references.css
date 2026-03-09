@@ -1,49 +1,8 @@
-
 a {
   text-decoration: none;
 }
 
-.reference-header,
-.card-caption {
-  flex-shrink: 0;
-}
-
-.reference-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.2rem 1.5rem 0.5rem;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.reference-title {
-  font-size: clamp(1.8rem, 5vw, 2.8rem);
-  font-weight: 600;
-  color: var(--font-color-primary);
-  margin: 0;
-  text-align: left;
-}
-
-.reference-badge {
-  padding: 0.4rem 0.8rem;
-  font-size: 0.75rem;
-  font-weight: 600;
-  border-radius: 6px;
-  background-color: rgba(0,0,0,0.05);
-  color: var(--hover-color);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  white-space: nowrap;
-}
-
-.reference-badge.live {
-  background-color: rgba(5, 151, 5, 0.2);
-}
-
-.reference-badge.demo {
-  background-color: rgba(255, 255, 0, 0.2);
-}
+/* --- SZEKCIÓ --- */
 
 .references-section {
   min-height: 100svh;
@@ -75,6 +34,9 @@ a {
   background-color: var(--hover-color);
   border-radius: 2px;
 }
+
+/* --- CAROUSEL --- */
+
 .references-carousel {
   flex: 1;
   display: flex;
@@ -104,63 +66,102 @@ a {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  height: auto;
 }
 
+/* --- KÁRTYA / FRAME --- */
+
 .reference-frame {
+  position: relative;
   width: 90%;
   max-width: 900px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
-  background: rgba(255, 255, 255, 4);
-  border-radius: 16px;
+  height: clamp(400px, 65vh, 800px);
+  border-radius: 8px;
+  overflow: hidden;
+  display: block;
+  border: 2px solid rgba(0, 224, 255, .9);
   box-shadow:
     0 0 8px rgba(0, 224, 255, 0.6),
     0 0 16px rgba(0, 224, 255, 0.4),
     0 0 24px rgba(0, 224, 255, 0.2);
-  border: 2px solid rgba(0, 224, 255, .9); 
-  overflow: auto;
-  transition: transform 0.3s ease;
-  aspect-ratio: 16 / 10;
-  height: clamp(400px, 65vh, 800px);
-  max-height: 100%;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;}
 
+.reference-frame:hover {
+  transform: scale(1.01);
+  box-shadow:
+    0 0 12px rgba(0, 224, 255, 0.7),
+    0 0 24px rgba(0, 224, 255, 0.5);
 }
 
-.reference-frame::before {
-  content: "";
+/* --- SCROLL PREVIEW (A TELJES PNG) --- */
+
+.scroll-preview {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scroll-preview img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* --- OVERLAY TOP (CÍM + BADGE) --- */
+
+.overlay-top {
   position: absolute;
-  inset: 0;
-  border-radius: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6), transparent);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
   pointer-events: none;
 }
 
-.reference-frame:hover {
-  transform: translateY(-6px);
+.overlay-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0;
 }
 
-.reference-frame img {
-  width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  flex-shrink: 1;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+.overlay-badge {
+  padding: 0.3rem 0.7rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  pointer-events: none;
 }
 
-.card-caption {
-    flex-shrink: 1;
-  min-height: 2.5rem;
-  overflow-wrap: break-word;
-  padding: 1rem;
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--font-color-primary);
-  text-align: center;
+.overlay-badge.live {
+  background-color: rgba(5, 151, 5, 0.6);
 }
+
+.overlay-badge.demo {
+  background-color: rgba(255, 255, 0, 0.6);
+}
+
+/* --- OVERLAY BOTTOM (DOMAIN / CAPTION) --- */
+
+.overlay-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0.6rem 1rem;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-size: 0.9rem;
+  border-top-left-radius: 8px;
+  pointer-events: none;
+}
+
+/* --- NAVIGÁCIÓ --- */
 
 .nav-button {
   position: absolute;
@@ -183,6 +184,8 @@ a {
   right: 1rem;
 }
 
+/* --- DOTS --- */
+
 .indicator-dots {
   margin-top: 1rem;
   text-align: center;
@@ -202,46 +205,33 @@ a {
   background-color: var(--hover-color);
 }
 
-/* Mobil optimalizálás */
+/* --- MOBIL --- */
+
 @media (max-width: 768px) {
-  .reference-header {
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 1rem;
-  }
-
-  .reference-title {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-
-  .reference-badge {
-    font-size: 0.7rem;
-  }  
-
   .references-title {
     font-size: 2rem;
-    margin-bottom: 2rem !important;  
+    margin-bottom: 2rem !important;
   }
 
   .references-title::after {
     width: 120px;
     height: 3px;
-  }   
+  }
 
   .nav-button {
     display: none;
   }
 
   .reference-frame {
-    max-width: 90%;
-    box-shadow: 0 6px 24px rgba(0,0,0,0.1);
+    height: clamp(300px, 50vh, 600px);
   }
 
-  .card-caption {
-    font-size: 1rem;
-    padding: 1rem;
+  .overlay-title {
+    font-size: 1.1rem;
+  }
+
+  .overlay-bottom {
+    font-size: 0.8rem;
   }
 
   .dot {
@@ -249,26 +239,3 @@ a {
     width: 10px;
   }
 }
-
-@media (max-width: 1439px) {
-  .reference-frame {
-    height: clamp(400px, 60vh, 800px);
-  }
-}
-
-@media (max-width: 1023px) {
-  .reference-frame {
-    height: clamp(400px, 35vh, 800px);
-  }
-}
-
-@media (max-width: 767px) {
-  .reference-frame {
-    height: clamp(300px, 25vh, 600px);
-  }
-}
-
-
-
-
-
