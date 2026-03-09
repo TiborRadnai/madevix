@@ -50,16 +50,25 @@
   background: #f9f9f9;
 }
 
-.portfolio-item img {
+.portfolio-image-wrapper {
   width: 100%;
   max-width: 600px;
+  height: 350px; /* fix ablak */
+  overflow: hidden;
   border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
+  position: relative;
 }
 
-.portfolio-item img:hover {
-  transform: scale(1.03);
+.portfolio-image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 15s linear; /* lassú, elegáns scroll */
+  transform: translateY(0);
+}
+
+.portfolio-image-wrapper:hover img {
+  transform: translateY(calc(-100% + 350px));
 }
 
 .portfolio-content {

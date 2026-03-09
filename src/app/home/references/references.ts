@@ -18,45 +18,38 @@ export class References implements OnInit {
     {
       name: 'Madeirise',
       url: 'https://www.madeirise.com',
-      image: '/assets/images/references/madeirise.webp',
+      image: '/assets/images/references/madeirise.png',
       caption: 'www.madeirise.com',
       type: 'live'
     },
     {
       name: 'Alakformálás Pilisvörösvár',
       url: 'https://alakformalaspilisvorosvar.hu/',
-      image: '/assets/images/references/alakformalas.webp',
+      image: '/assets/images/references/alakformalas.png',
       caption: 'www.alakformalaspilisvorosvar.hu',
       type: 'live'
     },
     {
       name: 'Hairflair',
       url: 'https://tibchiripp.hu/hairflair/',
-      image: '/assets/images/references/hairflair.webp',
+      image: '/assets/images/references/hairflair.png',
       caption: 'www.hairflair.de',
       type: 'demo'
     },
     {
       name: 'Nimbus-X',
       url: 'https://tibchiripp.hu/nimbusx/',
-      image: '/assets/images/references/nimbusx.webp',
+      image: '/assets/images/references/nimbusx.png',
       caption: 'www.nimbus-x.com',
       type: 'demo'
     },
     {
       name: 'PortuPlay',
       url: 'https://tibchiripp.hu/PortuPlay/',
-      image: '/assets/images/references/portuplay.webp',
+      image: '/assets/images/references/portuplay.png',
       caption: 'www.portuplay.hu',
       type: 'demo'
     },
-    {
-      name: 'Woodman',
-      url: 'https://tibchiripp.hu/woodman/',
-      image: '/assets/images/references/woodman.webp',
-      caption: 'www.woodman.com',
-      type: 'demo'
-    }
   ];
 
   references = [...this.referencesRaw, ...this.referencesRaw, ...this.referencesRaw];
