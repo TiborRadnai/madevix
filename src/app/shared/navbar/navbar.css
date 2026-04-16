@@ -1,36 +1,72 @@
-.menu-bar {
-  position: absolute;
-  top: 1rem;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 1rem;
-  z-index: 20;
-}
+/* --- LOGO + LANGUAGE BLOCK --- */
 
-.logo-link {
-  position: fixed;
-  top: 1rem;
-  left: 1rem;
-  z-index: 50;
+.logo-block {
+  z-index: 100;
 }
 
 .logo-image {
   height: 50px;
   opacity: 0;
   animation: fadeInLogo 0.6s ease forwards;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   border-radius: 4px;
-  mix-blend-mode: multiply;  
+  mix-blend-mode: multiply;
 }
+
+/* --- LANGUAGE SWITCHER (prémium, légies) --- */
+
+.language-inline span {
+  font-size: 1.15rem;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  cursor: pointer;
+  color: var(--font-color-primary);
+  position: relative;
+  padding-bottom: 3px;
+  transition: color 0.25s ease, opacity 0.25s ease;
+  opacity: 0.85;
+}
+
+.language-inline span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  height: 2px;
+  background-color: var(--hover-color);
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: center;
+  transition: transform 0.35s ease;
+}
+
+.language-inline span:hover {
+  color: var(--hover-color);
+  opacity: 1;
+}
+
+.language-inline span:hover::after {
+  transform: translateX(-50%) scaleX(1);
+}
+
+.language-inline span.active {
+  color: var(--hover-color);
+  opacity: 1;
+}
+
+.language-inline span.active::after {
+  transform: translateX(-50%) scaleX(1);
+}
+
+
+/* --- HAMBURGER --- */
 
 .hamburger {
   position: fixed;
   top: 1rem;
   right: 1rem;
-  z-index: 100; 
+  z-index: 200;
   background-color: rgba(255,255,255,0.8);
   box-shadow: 0 0 10px rgba(0,0,0,0.9);
   border-radius: 3px;
@@ -39,6 +75,9 @@
   font-size: 1.5rem;
   cursor: pointer;
 }
+
+
+/* --- MENU DROPDOWN --- */
 
 .menu-container {
   position: fixed;
@@ -50,48 +89,35 @@
   max-height: 0;
   opacity: 0;
   transition: max-height 0.4s ease, opacity 0.4s ease;
-  z-index: 10;
   padding: 0 2rem;
   text-align: center;
-  z-index: 50;
+  z-index: 150;
 }
 
 .menu-container.show {
   max-height: 400px;
   opacity: 1;
   padding: 1rem 2rem;
-  z-index: 30;
 }
 
-.logo h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: clamp(1.8rem, 2vw + 1rem, 4rem);
-  font-weight: 700;
+.close-menu {
   color: var(--hover-color);
-  text-shadow: 0 0 5px rgba(31, 81, 255, 0.6);
-  letter-spacing: 0.05em;
-  margin-bottom: 0;
-  text-align: center;
-  opacity: 0;
-  transform: translateY(-10px);
-  animation: fadeInLogo 0.6s ease forwards;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
-@keyframes fadeInLogo {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.close-menu:hover {
+  color: var(--font-color-primary);
+  text-shadow: 0 0 10px var(--hover-color);
 }
 
-.logo .slogan {
-  font-size: 0.75rem;
-  font-weight: 300;
-  color: var(--hover-color);
-  text-align: center;
-  margin-top: 0;
-  letter-spacing: 0.02em;
-}
+
+/* --- MENU LINKS --- */
 
 .menu-container ul li a {
   font-size: clamp(1.2rem, 1.5vw + 0.5rem, 1.7rem);
@@ -125,82 +151,52 @@
 
 .menu-container ul li a:hover {
   color: var(--hover-color);
-    text-shadow: 0 0 1px var(--hover-color);
+  text-shadow: 0 0 1px var(--hover-color);
 }
 
-.close-menu {
+
+/* --- LOGO IN MENU --- */
+
+.logo h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: clamp(1.8rem, 2vw + 1rem, 4rem);
+  font-weight: 700;
   color: var(--hover-color);
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  cursor: pointer;
+  text-shadow: 0 0 5px rgba(31, 81, 255, 0.6);
+  letter-spacing: 0.05em;
+  margin-bottom: 0;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: fadeInLogo 0.6s ease forwards;
 }
 
-.close-menu:hover {
-  color: var(--font-color-primary);
-  text-shadow: 0 0 10px var(--hover-color);
-}
-
-.language-switcher {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.language-switcher button {
-  background: transparent;
-  border: 1px solid var(--hover-color);
+.logo .slogan {
+  font-size: 0.75rem;
+  font-weight: 300;
   color: var(--hover-color);
-  font-weight: 600;
-  padding: 0.4rem 0.8rem;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background 0.3s ease, color 0.3s ease;
+  text-align: center;
+  margin-top: 0;
+  letter-spacing: 0.02em;
 }
 
-.language-switcher button:hover {
-  background: var(--hover-color);
-  color: #fff;
+@keyframes fadeInLogo {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.language-switcher button.active {
-  background: var(--hover-color);
-  color: #fff;
-  box-shadow: 0 0 6px rgba(0,0,0,0.2);
-}
 
-/*MEDIA QUERRIES*/
+/* --- MOBILE --- */
+
 @media (max-width: 768px) {
-  .menu-container .logo h1,
-  .menu-container .logo .slogan {
-    display: none;
-  }
-  .menu-container.show {
-    padding-top: 5rem;
-  }
-
-  .menu-bar {
-    justify-content: center;
-  }
-
-  .hamburger {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-  }
-
-  .logo-link {
-    position: relative;
-    left: auto;
-    margin: 0 auto;
-  }
-
   .logo-image {
     height: 40px;
+  }
+
+  .menu-container.show {
+    padding-top: 5rem;
   }
 }
 
@@ -209,6 +205,7 @@
   color: inherit;
   display: inline-block;
 }
+
 .clickable-logo:hover {
-  opacity: 0.9; /* vagy valami finom hover effekt */
+  opacity: 0.9;
 }
