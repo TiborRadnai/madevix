@@ -97,11 +97,5 @@
       "newsletterCampaign": "Newsletter sending and campaign management via Mailchimp or Brevo.",
       "cookieLegal": "Cookie handling and legal module for privacy compliance."
     }
-  },
-  "meta": {
-    "title": "Madevix – Website pricing and packages",
-    "description": "Clear website pricing in three packages: Spark, Flow and Peak. Modern technology, premium features and optional add‑ons.",
-    "ogImage": "https://madevix.com/assets/og/madevix-pricing-en.webp",
-    "canonical": "https://madevix.com/en/pricing"
   }
 }

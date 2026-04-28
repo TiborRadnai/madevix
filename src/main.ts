@@ -1,4 +1,4 @@
-import { bootstrapApplication } from '@angular/platform-browser';
+import { bootstrapApplication, provideClientHydration, withEventReplay } from '@angular/platform-browser';
 import { appConfig } from './app/core/app.config';
 import { App } from './app/core/app';
 import { provideHttpClient, HttpClient } from '@angular/common/http';
@@ -24,7 +24,7 @@ bootstrapApplication(App, {
         }
       })
     ),
-    ...appConfig.providers
+    ...appConfig.providers, provideClientHydration(withEventReplay())
   ]
 })
 .catch((err) => console.error(err));

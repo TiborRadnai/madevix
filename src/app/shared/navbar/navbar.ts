@@ -1,8 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
+import { isPlatformBrowser } from '@angular/common';
 
 @Component({
   selector: 'app-navbar',
@@ -15,12 +16,16 @@ export class Navbar {
   isMenuOpen = false;
   currentLang = 'de';
   availableLangs = ['de', 'en', 'hu'];
+  isBrowser = false;
 
-  constructor(private translate: TranslateService) {
-    const isBrowser = typeof window !== 'undefined';
+  constructor(
+    private translate: TranslateService,
+    @Inject(PLATFORM_ID) private platformId: Object
+  ) {
+    this.isBrowser = isPlatformBrowser(this.platformId);
 
-    if (isBrowser) {
-      const savedLang = localStorage.getItem('nexora-lang');
+    if (this.isBrowser) {
+      const savedLang = window.localStorage.getItem('nexora-lang');
       this.currentLang = savedLang || 'de';
       this.translate.use(this.currentLang);
     } else {
@@ -36,8 +41,8 @@ export class Navbar {
     this.currentLang = lang;
     this.translate.use(lang);
 
-    if (typeof window !== 'undefined') {
-      localStorage.setItem('nexora-lang', lang);
+    if (this.isBrowser) {
+      window.localStorage.setItem('nexora-lang', lang);
     }
   }
 }

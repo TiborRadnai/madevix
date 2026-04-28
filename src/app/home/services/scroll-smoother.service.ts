@@ -5,40 +5,14 @@ import { isPlatformBrowser } from '@angular/common';
 export class ScrollSmootherService {
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
 
-  initGlobalSmoothScroll() {
-    if (isPlatformBrowser(this.platformId)) {
-    window.addEventListener('wheel', (e) => {
-    const target = e.target as HTMLElement;
-
-    // Ellenőrizzük, hogy van-e scrollozható szülőelem
-    let scrollableParent = target;
-    let allowNativeScroll = false;
-
-    while (scrollableParent && scrollableParent !== document.body) {
-        const style = getComputedStyle(scrollableParent);
-        const overflowY = style.overflowY;
-
-        const canScroll = (
-        (overflowY === 'auto' || overflowY === 'scroll') &&
-        scrollableParent.scrollHeight > scrollableParent.clientHeight
-        );
-
-        if (canScroll) {
-        allowNativeScroll = true;
-        break;
-        }
-
-        scrollableParent = scrollableParent.parentElement!;
+  async initGlobalSmoothScroll() {
+    // SSR alatt semmi DOM, semmi window, semmi event listener
+    if (!isPlatformBrowser(this.platformId)) {
+      return;
     }
 
-    if (!allowNativeScroll) {
-        e.preventDefault();
-        window.scrollBy({
-        top: e.deltaY * 1.5,
-        behavior: 'smooth'
-        });
-    }
-    }, { passive: false });
-    }
+    // DOM-os kódot csak böngészőben, lazy importtal húzzuk be
+    const module = await import('./smooth-scroll-impl');
+    module.initSmoothScroll();
   }
 }

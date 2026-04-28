@@ -27,11 +27,5 @@
       "description": "Ha minden rendben, jön a fizetés, és megkapod a kész weboldalt a saját domaineden."
     }
   }
-},
- "meta": { 
-  "title": "Madevix – A weboldalkészítés folyamata", 
-  "description": "A weboldalkészítés 6 átlátható lépésben: elképzelés, tervezés, árajánlat, fejlesztés, tesztelés és átadás. Modern, gyors és megbízható folyamat a Madevixtől.", 
-  "ogImage": "https://madevix.com/assets/og/madevix-process-hu.webp", 
-  "canonical": "https://madevix.com/hu" 
 }
 }

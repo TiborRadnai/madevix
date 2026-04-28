@@ -1,9 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject, PLATFORM_ID } from '@angular/core';
 import { RouterOutlet, NavigationEnd, Router } from '@angular/router';
 import { Navbar } from '../shared/navbar/navbar';
 import { Footer } from '../shared/footer/footer';
 import { TranslateModule, TranslateService } from '@ngx-translate/core'; 
-import { NgIf } from '@angular/common'; 
+import { NgIf, isPlatformBrowser } from '@angular/common'; 
 import { CookieService } from './cookie-service'; 
 import { CookieSettings } from './cookie-settings/cookie-settings';
 import { environment } from '../../environments/environment';
@@ -34,40 +34,57 @@ declare global {
 export class App implements OnInit {
   showNavbar = true;
   showCookieSettings = false;
-  private isBrowser = typeof window !== 'undefined';
+  isBrowser = false;
 
   constructor(
     private router: Router,
     private translate: TranslateService,
-    private cookieService: CookieService
+    private cookieService: CookieService,
+    @Inject(PLATFORM_ID) private platformId: Object
   ) {
-    const savedLang = this.isBrowser ? localStorage.getItem('nexora-lang') : null;
-    const lang = savedLang || 'de';
+    this.isBrowser = isPlatformBrowser(this.platformId);
 
-    translate.setDefaultLang('de');
-    translate.use(lang);
-
-    this.cookieService.settingsChanged$.subscribe(show => {
-      this.showCookieSettings = show;
-    });
-
-  this.translate.onLangChange.subscribe(() => {
-    const consent = this.cookieService.getConsent();
-    const hasConsent = Object.keys(consent).length > 0;
-    const currentUrl = this.router.url;
-    const isLegalPage = ['/cookies', '/privacy', '/impressum'].includes(currentUrl);
-
-    if (!hasConsent && !isLegalPage) {
-      this.cookieService.openSettings();
+    // Language
+    if (this.isBrowser) {
+      const savedLang = window.localStorage.getItem('nexora-lang');
+      this.translate.setDefaultLang('de');
+      this.translate.use(savedLang || 'de');
+    } else {
+      this.translate.setDefaultLang('de');
+      this.translate.use('de');
     }
-  });
 
-    this.router.events.subscribe(event => {
-      if (event instanceof NavigationEnd) {
+    // Cookie settings visibility
+    if (this.isBrowser) {
+      this.cookieService.settingsChanged$.subscribe(show => {
+        this.showCookieSettings = show;
+      });
+    }
+
+    // Language change → cookie check
+    if (this.isBrowser) {
+      this.translate.onLangChange.subscribe(() => {
+        const consent = this.cookieService.getConsent();
+        const hasConsent = Object.keys(consent).length > 0;
+        const currentUrl = this.router.url;
+        const isLegalPage = ['/cookies', '/privacy', '/impressum'].includes(currentUrl);
+
+        if (!hasConsent && !isLegalPage) {
+          this.cookieService.openSettings();
+        }
+      });
+    }
+
+    // Router events
+    if (this.isBrowser) {
+      this.router.events.subscribe(event => {
+        if (!(event instanceof NavigationEnd)) return;
+
+        // Analytics
         window.gtag?.('config', environment.analyticsId, {
           page_path: event.urlAfterRedirects
         });
-        
+
         const url = event.urlAfterRedirects;
         const isLegalPage = ['/cookies', '/privacy', '/impressum'].includes(url);
         const consent = this.cookieService.getConsent();
@@ -79,30 +96,33 @@ export class App implements OnInit {
 
         this.showNavbar = !isLegalPage;
 
+        // Fragment scroll
         const fragment = this.router.parseUrl(url).fragment;
-        if (fragment && this.isBrowser) {
+        if (fragment) {
           setTimeout(() => {
             const element = document.getElementById(fragment);
             if (element) {
               element.scrollIntoView({ behavior: 'smooth' });
             }
           }, 100);
-        } else if (this.isBrowser) {
+        } else {
           window.scrollTo({ top: 0, behavior: 'smooth' });
         }
-      }
-    });
+      });
+    }
   }
 
   ngOnInit(): void {
     if (!this.isBrowser) return;
 
+    // ESC close
     window.addEventListener('keydown', (event) => {
       if (event.key === 'Escape') {
         this.cookieService.closeSettings();
       }
     });
 
+    // Consent handling
     this.handleConsent(this.cookieService.getConsent());
 
     this.cookieService.consentChanged$.subscribe(consent => {
@@ -113,6 +133,7 @@ export class App implements OnInit {
   private handleConsent(consent: CookieConsent): void {
     if (!this.isBrowser) return;
 
+    // Google Analytics
     if (consent.statistics) {
       this.loadScript(`https://www.googletagmanager.com/gtag/js?id=${environment.analyticsId}`);
       window.dataLayer = window.dataLayer || [];
@@ -123,15 +144,16 @@ export class App implements OnInit {
       window.gtag('config', environment.analyticsLegacyId);
     } else {
       this.removeScript('googletagmanager.com');
-      if ('gtag' in window) delete window.gtag;
-      if ('dataLayer' in window) delete window.dataLayer;
+      delete window.gtag;
+      delete window.dataLayer;
     }
 
+    // Facebook Pixel
     if (consent.marketing) {
       this.loadScript('https://connect.facebook.net/en_US/fbevents.js');
     } else {
       this.removeScript('facebook.net');
-      if ('fbq' in window) delete window.fbq;
+      delete window.fbq;
     }
   }
 

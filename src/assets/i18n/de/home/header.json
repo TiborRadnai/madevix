@@ -1,11 +1,4 @@
 {
   "hero-title": "MaDeVix",
-  "hero-subtitle": "Webentwicklung in einer neuen Dimension",
-
-  "meta": {
-    "title": "Madevix – Webentwicklung in einer neuen Dimension",
-    "description": "Klar strukturierte, schnelle und zuverlässige Websites auf Basis von Modular Architecture. Deutscher Markt, internationale Perspektive.",
-    "ogImage": "https://madevix.com/assets/og/madevix-home.webp",
-    "canonical": "https://madevix.com/de"
-  }
+  "hero-subtitle": "Webentwicklung in einer neuen Dimension"
 }

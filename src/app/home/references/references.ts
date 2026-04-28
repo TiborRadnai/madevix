@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
-import { TranslateModule } from '@ngx-translate/core';
+import { Component, OnInit, Inject, PLATFORM_ID } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
 import { SeoService } from '../../core/seo.service';
+import { isPlatformBrowser } from '@angular/common';
 
 @Component({
   selector: 'app-references',
@@ -12,7 +13,14 @@ import { SeoService } from '../../core/seo.service';
 })
 export class References implements OnInit {
 
-  constructor(private seo: SeoService) {}
+  isBrowser = false;
+
+  constructor(
+    private seo: SeoService,
+    @Inject(PLATFORM_ID) private platformId: Object
+  ) {
+    this.isBrowser = isPlatformBrowser(this.platformId);
+  }
 
   referencesRaw = [
     {
@@ -64,13 +72,18 @@ export class References implements OnInit {
 
   ngOnInit(): void {
     this.seo.updateMeta('home/references');
+
+    // SSR alatt semmi slider logika nem fusson
+    if (!this.isBrowser) return;
   }
 
   get transformStyle(): string {
+    if (!this.isBrowser) return '';
     return `translateX(-${this.currentIndex * 100}%)`;
   }
 
   nextSlide() {
+    if (!this.isBrowser) return;
     this.currentIndex++;
     if (this.currentIndex === this.totalSlides * 2) {
       this.resetPending = true;
@@ -79,6 +92,7 @@ export class References implements OnInit {
   }
 
   prevSlide() {
+    if (!this.isBrowser) return;
     this.currentIndex--;
     if (this.currentIndex === this.totalSlides - 1) {
       this.resetPending = true;
@@ -87,6 +101,8 @@ export class References implements OnInit {
   }
 
   onTransitionEnd() {
+    if (!this.isBrowser) return;
+
     if (this.resetPending) {
       this.disableTransition = true;
       this.currentIndex =
@@ -103,14 +119,17 @@ export class References implements OnInit {
   }
 
   getActiveDotIndex(): number {
+    if (!this.isBrowser) return 0;
     return this.currentIndex % this.totalSlides;
   }
 
   onTouchStart(event: TouchEvent) {
+    if (!this.isBrowser) return;
     this.touchStartX = event.changedTouches[0].screenX;
   }
 
   onTouchEnd(event: TouchEvent) {
+    if (!this.isBrowser) return;
     this.touchEndX = event.changedTouches[0].screenX;
     const delta = this.touchEndX - this.touchStartX;
     if (Math.abs(delta) > 50) {

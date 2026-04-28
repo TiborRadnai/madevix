@@ -12,18 +12,26 @@ export class FadeOnScrollDirective implements OnInit {
   ) {}
 
   ngOnInit() {
-    if (isPlatformBrowser(this.platformId)) {
-      if ('IntersectionObserver' in window) {
-        const observer = new IntersectionObserver(([entry]) => {
-          if (entry.isIntersecting) {
-            this.renderer.addClass(this.el.nativeElement, 'fade-up');
-            observer.unobserve(this.el.nativeElement);
-          }
-        }, { threshold: 0.1 });
-
-        observer.observe(this.el.nativeElement);
-      }
+    // SSR alatt semmi ne fusson
+    if (!isPlatformBrowser(this.platformId)) {
+      return;
     }
+
+    // Biztonságos window referencia
+    const win = typeof window !== 'undefined' ? window : null;
+    if (!win) return;
+
+    // IntersectionObserver ellenőrzése SSR-biztos módon
+    const hasObserver = typeof win.IntersectionObserver !== 'undefined';
+    if (!hasObserver) return;
+
+    const observer = new win.IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        this.renderer.addClass(this.el.nativeElement, 'fade-up');
+        observer.unobserve(this.el.nativeElement);
+      }
+    }, { threshold: 0.1 });
+
+    observer.observe(this.el.nativeElement);
   }
 }
-
