@@ -39,11 +39,5 @@
         "description": "HTTPS, adatvédelem, GDPR-kompatibilitás — minden, ami a biztonságodhoz és a nyugalomhoz kell."
       }
     }
-  },
- "meta": { 
-  "title": "Madevix – Webfejlesztési szolgáltatások", 
-  "description": "Egyedi weboldal fejlesztés, mobiloptimalizálás, SEO, domain ügyintézés, képszerkesztés és teljesítménymérés — minden, ami egy professzionális online jelenléthez kell.", 
-  "ogImage": "https://madevix.com/assets/og/madevix-services-hu.webp", 
-  "canonical": "https://madevix.com/hu" 
-}  
+  }
 }

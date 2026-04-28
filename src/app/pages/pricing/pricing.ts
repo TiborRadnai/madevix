@@ -1,12 +1,13 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, OnInit, Inject, PLATFORM_ID } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { Cta } from './cta/cta';
 import { Closing } from './closing/closing';
 import { Header } from '../../shared/header/header';
 import { TranslateModule } from '@ngx-translate/core';
-import { SeoService } from '../../core/seo.service'; 
-import { OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { SsrMetaResolver } from '../../core/ssr-meta-resolver';
+import { BrowserMetaService } from '../../core/browser-meta.service';
 
 @Component({
   selector: 'app-pricing',
@@ -17,10 +18,21 @@ import { OnInit } from '@angular/core';
 })
 export class Pricing implements OnInit {
 
- constructor(private seo: SeoService) {}
- 
-  ngOnInit(): void { 
-    this.seo.updateMeta('pricing'); 
+  constructor(
+    private route: ActivatedRoute,
+    private ssrMeta: SsrMetaResolver,
+    private browserMeta: BrowserMetaService,
+    @Inject(PLATFORM_ID) private platformId: Object
+  ) {}
+
+  ngOnInit(): void {
+    const lang = this.route.snapshot.url[0]?.path || 'de';
+
+    // SSR meta beégetése
+    this.ssrMeta.apply(this.route, lang);
+
+    // Browser meta frissítése hydration után
+    this.browserMeta.apply(this.route, lang);
   }
 
   coreFeatures = [
@@ -138,5 +150,3 @@ export class Pricing implements OnInit {
     return source.includes(featureKey) ? 'icon-check' : 'icon-cross';
   }
 }
-
-

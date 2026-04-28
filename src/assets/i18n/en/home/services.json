@@ -39,11 +39,5 @@
         "description": "HTTPS, data protection, GDPR compliance — everything you need for peace of mind."
       }
     }
-  },
-   "meta": { 
-    "title": "Madevix – Web Development Services", 
-    "description": "Custom website development, mobile optimization, SEO, domain management, image editing and performance analytics — everything you need for a professional online presence.", 
-    "ogImage": "https://madevix.com/assets/og/madevix-services-en.webp", 
-    "canonical": "https://madevix.com/en" 
   }
 }

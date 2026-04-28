@@ -1,11 +1,4 @@
 {
   "hero-title": "MaDeVix",
-  "hero-subtitle": "Web development in a new dimension",
-
-  "meta": {
-    "title": "Madevix – Web development in a new dimension",
-    "description": "Clean, fast and reliable websites built on Modular Architecture. German‑based operation with an international mindset.",
-    "ogImage": "https://madevix.com/assets/og/madevix-home.webp",
-    "canonical": "https://madevix.com/en"
-  }
+  "hero-subtitle": "Web development in a new dimension"
 }
