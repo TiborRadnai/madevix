@@ -34,11 +34,11 @@
         "description2": "Ez nem csak utazás — ez élménydizájn a levegőben",
         "link": "Megtekintés"
       },
-      "woodman": {
-        "title": "Woodman (demo)",
-        "subtitle": "Woodman – Letisztult, mégis rejtélyes",
-        "description1": "Az oldal jelenleg minimális tartalommal bír, de a név és a struktúra alapján egy prémium faipari vagy designmárka előképének tűnik.",
-        "description2": "Alap, amiből vizuális identitást lehet építeni",
+      "fitnessworld": {
+        "title": "Fitnessworld (demo)",
+        "subtitle": "Modern fitneszplatform és webshop egyben",
+        "description1": "A Fitnessworld egy Angular alapú fitnesz‑webshop, ahol a felhasználók személyi edzéseket, csoportos órákat és termékeket foglalhatnak vagy vásárolhatnak egyetlen felületen. A kosár, a Stripe fizetés és a rendeléskezelés gyors, biztonságos és intuitív.",
+        "description2": "A háttérben egy letisztult admin oldal működik, ahol az edzők, órák és termékek kezelése egyszerű és átlátható. A Fitnessworld bemutatja, hogyan válhat egy fitneszbrand digitális élménnyé.",
         "link": "Megtekintés"
       },
       "portuplay": {

@@ -34,11 +34,11 @@
         "description2": "Das ist nicht nur Reisen – das ist Erlebnisdesign in der Luft",
         "link": "Projekt ansehen"
       },
-      "woodman": {
-        "title": "Woodman (Demo)",
-        "subtitle": "Woodman – Minimalistisch und geheimnisvoll",
-        "description1": "Derzeit mit minimalem Inhalt, aber Name und Struktur deuten auf eine hochwertige Holz- oder Designmarke hin.",
-        "description2": "Eine Basis, aus der visuelle Identität entstehen kann",
+      "fitnessworld": {
+        "title": "Fitnessworld (Demo)",
+        "subtitle": "Moderne Fitnessplattform und Webshop in einem",
+        "description1": "Fitnessworld ist ein auf Angular basierender Fitness‑Webshop, in dem Nutzer Personal Trainings, Gruppenkurse und Produkte auf einer einzigen Oberfläche buchen oder kaufen können. Warenkorb, Stripe‑Zahlung und Bestellverwaltung sind schnell, sicher und intuitiv.",
+        "description2": "Im Hintergrund sorgt ein übersichtliches Admin‑Dashboard dafür, dass Trainer, Kurse und Produkte einfach und transparent verwaltet werden können. Fitnessworld zeigt, wie eine Fitnessmarke zu einem digitalen Erlebnis werden kann.",
         "link": "Projekt ansehen"
       },
       "portuplay": {
