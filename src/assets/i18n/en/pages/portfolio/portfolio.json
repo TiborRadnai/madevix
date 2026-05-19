@@ -34,11 +34,11 @@
         "description2": "This isn’t just travel — it’s airborne experience design",
         "link": "View project"
       },
-      "woodman": {
-        "title": "Woodman (demo)",
-        "subtitle": "Woodman – Minimal yet mysterious",
-        "description1": "Currently minimal in content, but the name and structure suggest a premium woodworking or design brand in the making.",
-        "description2": "A foundation from which visual identity can grow",
+      "fitnessworld": {
+        "title": "Fitnessworld (demo)",
+        "subtitle": "Modern fitness platform and webshop in one",
+        "description1": "Fitnessworld is an Angular-based fitness webshop where users can book personal training sessions, group classes, and purchase products — all in one place. The cart, Stripe payments, and order management are fast, secure, and intuitive.",
+        "description2": "Behind the scenes, a clean admin dashboard makes managing trainers, classes, and products simple and transparent. Fitnessworld shows how a fitness brand can become a true digital experience.",
         "link": "View project"
       },
       "portuplay": {

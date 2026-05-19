@@ -45,6 +45,13 @@ export class References implements OnInit {
       type: 'demo'
     },
     {
+      name: 'Fitnessworld',
+      url: 'https://tibchiripp.hu/fitnessworld/',
+      image: '/assets/images/references/fitnessworld.png',
+      caption: 'www.fitnessworld.com',
+      type: 'demo'
+    },
+    {
       name: 'Nimbus-X',
       url: 'https://tibchiripp.hu/nimbusx/',
       image: '/assets/images/references/nimbusx.png',
